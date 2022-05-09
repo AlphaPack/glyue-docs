@@ -1,2 +1,2 @@
 # glyue-docs
-Documentation for the world's best integration builder
+Documentation for the universe's best integration builder
