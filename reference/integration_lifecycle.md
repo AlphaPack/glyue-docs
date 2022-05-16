@@ -1,3 +1,3 @@
 # Integration Life-Cycle
 
-![integration_life](../media/Integration%20Life%20Cycle.svg)
+![integration_life](../media/integration_life_cycle.svg)

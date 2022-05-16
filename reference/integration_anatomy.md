@@ -21,9 +21,9 @@ Inputs can be mutated in the `before_hook` to perform validation, apply Value Ma
 
 Integration outputs can be mutated throughout the life of the integration.
 
-> Integration output
+> Integration outputs are often overwritten within calls to the service request. The `on_success_hook`, `on_failure_hook`, and the `finally_hook` are the most appropriate places to update the output.
 
-Integration outputs are useful for error handling as well as returning specific
+Integration outputs are useful for error handling as well as returning specific payloads or status to calling systems.
 
 ## Service Requests
 
