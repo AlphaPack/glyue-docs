@@ -8,19 +8,19 @@ the exposed endpoint for the integration. Integrations are called from `{host}/e
 
 ### description
 
-a documentation field providing an overview of the integrations functions.
+Documentation field providing an overview of the integrations functions.
 
 ### run_async
 
-a boolean flag on whether to run the integration synchronously. Ideal for longer running tasks.
+Boolean flag on whether to run the integration synchronously. Ideal for longer running tasks or in combintaion with `callint` to spawn additional processes.
 
 ### before_hook
 
-a block of code that executes prior to the initializaion of the integration.
+A block of code that executes prior to the initializaion of the integration.
 
 ### finally_hook
 
-a block of code that executes prior to the completion of an integration. This block will always run regardless of integration status.
+A block of code that executes prior to the completion of an integration. This block will always run regardless of integration status.
 
 ### on_failure_hook
 
@@ -32,4 +32,4 @@ a block of code that executes prior to the completion of an integration. This bl
 
 ### http_api
 
-a boolean flag for whether this integration should be exposed as an api endpoint. This allows for integrations to be called from `{glyue_host}/execute/{path_name}`
+A boolean flag for whether this integration should be exposed as an api endpoint. This allows for integrations to be called from `{glyue_host}/integrations/execute/{path_name}`

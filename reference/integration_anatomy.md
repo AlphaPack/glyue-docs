@@ -84,7 +84,7 @@ Example
 
 ## Validation Rules
 
-Validation Rules provide checks for input and response data. If a response or requested input payload does not match specifitaions, this provides a clear way to have error handling.
+Validation Rules provide checks for input and response data. If a response or requested input payload does not match specifications, the integration can be put into a failure state.
 
 ## Masks
 

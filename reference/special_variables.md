@@ -58,3 +58,37 @@ parameters:
 
 - payload: `Any`
 Input payloads are derived from the http request body or can explicitly set in hooks. Usage with callint has the user provide a payload to use for the integration.
+
+## Iterables within integrations: {xx}item and {xx}idx
+
+Each of the components below exposes a field to provide pass an iterable to the component. See the examples for each.
+
+<table>
+<thead>
+<tr>
+<td>Builder Component
+<td>Field
+<td>Item
+<td>Index
+<tbody>
+<tr>
+<td>Service Request
+<td>[call_for_each](../reference/integration_components/servicerequest.md#callforeach-code)
+<td>sritem
+<td>sridx
+<tr>
+<td>Field Mapping
+<td>[include_for_each](../reference/integration_components/fieldmapping.md#includeforeach-code)
+<td>fitem
+<td>fidx
+<tr>
+<td>Validation Rule
+<td>[apply_to_each](../reference/integration_components/validationrule.md#applyif-code---boolean)
+<td>vritem
+<td>vridx
+<tr>
+<td>Mask
+<td>[apply_to_each](../reference/integration_components/mask.md#applytoeach-code)
+<td>mitem
+<td>midx
+</table>
