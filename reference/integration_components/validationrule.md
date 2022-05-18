@@ -26,8 +26,6 @@ Will only apply the validation rule if these resolves to True.
 
 ## apply_to_each (code) -> iterable
 
-
-
 ## pass_hook
 
 ## fail_hook

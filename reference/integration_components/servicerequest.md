@@ -18,9 +18,11 @@ Adapter to call. Adapter names are specified within adapter documentation.
 
 ## service_name (string)
 
-Service name to be used
+Service name to be used with associated request. Usage is determined by the adapter being called.
 
 ## formula_variable (string)
+
+Variable assigned to the service request. Each service request is created within the namespace using this formula variable. If the `call_for_each` field is specified then this value is a list.
 
 ## call_if (code)
 

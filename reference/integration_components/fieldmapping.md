@@ -4,6 +4,8 @@
 
 ## sequence (integer)
 
+Order in which the field mappings will be processed for the associated service request.
+
 ## field (code)
 
 ## value (code)

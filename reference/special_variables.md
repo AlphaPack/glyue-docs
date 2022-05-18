@@ -66,29 +66,45 @@ Each of the components below exposes a field to provide pass an iterable to the 
 <table>
 <thead>
 <tr>
-<td>Builder Component
-<td>Field
-<td>Item
-<td>Index
+<th>Builder Component
+<th>Field
+<th>Item
+<th>Index
 <tbody>
 <tr>
 <td>Service Request
-<td>[call_for_each](../reference/integration_components/servicerequest.md#callforeach-code)
+<td>
+
+[call_for_each](../reference/integration_components/servicerequest.md#callforeach-code)
+
+</td>
 <td>sritem
 <td>sridx
 <tr>
 <td>Field Mapping
-<td>[include_for_each](../reference/integration_components/fieldmapping.md#includeforeach-code)
+<td>
+
+[include_for_each](../reference/integration_components/fieldmapping.md#includeforeach-code)
+
+</td>
 <td>fitem
 <td>fidx
 <tr>
 <td>Validation Rule
-<td>[apply_to_each](../reference/integration_components/validationrule.md#applyif-code---boolean)
+<td>
+
+[apply_to_each](../reference/integration_components/validationrule.md#applyif-code---boolean)
+
+</td>
 <td>vritem
 <td>vridx
 <tr>
 <td>Mask
-<td>[apply_to_each](../reference/integration_components/mask.md#applytoeach-code)
+<td>
+
+[apply_to_each](../reference/integration_components/mask.md#applytoeach-code)
+
+</td>
 <td>mitem
 <td>midx
 </table>
