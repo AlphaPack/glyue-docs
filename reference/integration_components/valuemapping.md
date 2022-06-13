@@ -1,19 +1,28 @@
 # Value Mapping
 
-An easy way to handle cases for transformation for field mappings from one value into another.
+An easy way to handle cases for transformations of field mappings from one value into another. Takes the computed field mapping value and applies then applies the transformation.
 
-## valuemappingset (relationship)
+### valuemappingset
+
+<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
 
 Value Mapping Set that the Value Mapping belongs to.
 
-## from_value (string | bool)
+### from\_value
 
-A string or boolean value. Values passed as inputs to field mappings will undergo be matched against the from_value.
+<mark style="color:yellow;">`string | bool`</mark> - <mark style="color:red;">`required`</mark>
 
-## to_value (string | bool)
+A string or boolean value. Values passed as inputs to field mappings will undergo be matched against the from\_value.
 
-An output string or boolean value. The output of the matching `from_value`.
+### to\_value&#x20;
 
-## notes
+<mark style="color:yellow;">`string | bool`</mark> - <mark style="color:red;">`required`</mark>
+
+An output string or boolean value. The output of the matching `from_value`. This field takes an explicit string and transforms it
+
+### notes
 
 Documentation field
+
+### Examples
+
