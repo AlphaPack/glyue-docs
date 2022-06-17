@@ -18,11 +18,16 @@ The filter feature highlights matched Builder Rows based on the entered values. 
 
 This performs the back-half of a SQL filter for the table. This allows users to search with higher specificity than the traditional text based filter.
 
+Example Filters
+
+```
+FROM * SELECT
+```
+
 ### Comments
 
 Comments are the main source of communication when jointly working within the Integration Builder. Comments can be created by anyone who has read-access to the integration.
 
 ### Tags
 
-Each section of the Integration Builder has the ability to add a `tag` to Builder rows. This is a clean way to identify specific pieces of an integration and how they relate.
-Example: img tag goes here: ``
+Each section of the Integration Builder has the ability to add a `tag` to Builder rows. This is a clean way to identify specific pieces of an integration and how they relate.&#x20;

@@ -4,55 +4,75 @@
 
 ### integration
 
+<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
+
 The integration that the service request is realted to.
 
-### parent_servicerequest
+### parent\_servicerequest
 
-If speicified, the service request will run underneath the parent.
+<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
 
-### sequence (integer)
+If specified, the service request will be attached to another service request.&#x20;
+
+### sequence
+
+<mark style="color:yellow;">`integer`</mark> - <mark style="color:red;">`required`</mark>
 
 Order in which the service requests associated with the integration will execute.
 
-### system (string)
+### system
+
+<mark style="color:yellow;">`string`</mark> - <mark style="color:red;">`required`</mark>
 
 Adapter to call. Adapter names are specified within adapter documentation.
 
-### service_name (string)
+### service\_name
+
+<mark style="color:yellow;">`string`</mark> - <mark style="color:red;">`required`</mark>
 
 Service name to be used with associated request. Usage is determined by the adapter being called.
 
-### formula_variable (string)
+### formula\_variable
+
+<mark style="color:yellow;">`string`</mark> - <mark style="color:red;">`required`</mark>
 
 Variable assigned to the service request. Each service request is created within the namespace using this formula variable. If the `call_for_each` field is specified then this value is a list.
 
-### call_if (code)
+### call\_if
+
+<mark style="color:yellow;">`boolean`</mark> - <mark style="color:orange;">`optional`</mark>
 
 Code block to return a boolean value.
 
-### call_for_each (code)
+### call\_for\_each (code)
 
-Specifies an iterable. Service will run for each item within the iterable. Resolves before the call_if block.
+<mark style="color:yellow;">`iterable`</mark> - <mark style="color:orange;">`optional`</mark>
 
-### service request hooks
+Specifies an iterable. Service will run for each item within the iterable. Resolves before the call\_if block.
 
-These are code blocks that are run during processes of the service request. See the [Integration Life Cycle Diagram](../../media/integration_life_cycle.svg) for timing of the hooks.
+### message\_substitution\_name
 
-- before_prepare_request_hook
-- after_prepare_request_success_hook
-- after_prepare_request_failure_hook
-- before_execute_request_hook
-- after_execute_request_success_hook
-- after_execute_request_failure_hook
-- abort_after_execute_request_failure
-- skip_execute_if_no_sub_requests
-- after_overall_success_hook
-- after_overall_failure_hook
-
-### message_substitution_name (string)
+<mark style="color:yellow;">`string`</mark> - <mark style="color:orange;">`optional`</mark>
 
 Replaces the sritem with specified string.
 
 ### notes
 
 Documentation field
+
+### Service Request Hooks
+
+These are code blocks that are run during processes of the service request. See the [Integration Life Cycle Diagram](../../media/integration\_life\_cycle.svg) for timing of the hooks.
+
+* before\_prepare\_request\_hook
+* after\_prepare\_request\_success\_hook
+* after\_prepare\_request\_failure\_hook
+* before\_execute\_request\_hook
+* after\_execute\_request\_success\_hook
+* after\_execute\_request\_failure\_hook
+* abort\_after\_execute\_request\_failure
+* skip\_execute\_if\_no\_sub\_requests
+* after\_overall\_success\_hook
+* after\_overall\_failure\_hook
+
+###
