@@ -4,15 +4,15 @@
 
 ### integration
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:red;">`required`</mark>
 
 The integration that the service request is realted to.
 
 ### parent\_servicerequest
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:red;">`required`</mark>
 
-If specified, the service request will be attached to another service request.&#x20;
+If specified, the service request will be attached to another service request.
 
 ### sequence
 
@@ -75,4 +75,6 @@ These are code blocks that are run during processes of the service request. See 
 * after\_overall\_success\_hook
 * after\_overall\_failure\_hook
 
-###
+### Attributes
+
+Refer to the [#service-requests](../integration\_anatomy.md#service-requests "mention") for the attributes assigned to a service request upon creation&#x20;

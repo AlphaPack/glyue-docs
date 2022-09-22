@@ -4,13 +4,13 @@
 
 ### integration
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:red;">`required`</mark>
 
 Integration to apply the mask to.
 
 ### servicerequest
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:orange;">`optional`</mark>&#x20;
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:orange;">`optional`</mark>
 
 Service request to apply the mask to. Only used for types of `Response`.
 
@@ -61,8 +61,6 @@ Documentation field.
 
 Masked Parameters hide the incoming response data or input data to prevent sensitive information from being displayed within internal processes.
 
-Example SSN:
-
-|                          |
+| SSN Masking              |
 | ------------------------ |
 | 123-45-6789 -> XXXXXXXXX |
