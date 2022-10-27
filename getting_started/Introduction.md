@@ -6,6 +6,6 @@ Many integrations can start with a minimal approach, but Glyue was built to hand
 
 ## First Look
 
-To get up and running using Glyue, look at the [Quick Start Integration Guide](quickstart\_integration.md).
+To get up and running using Glyue, look at the [5-minute-example-integration.md](5-minute-example-integration.md "mention")
 
 ## Core Concepts

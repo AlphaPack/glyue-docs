@@ -70,7 +70,7 @@ create_file_lock('my_file')
 
 `open_vault(vault_name) -> Vault`
 
-Attempts to open a vault for a given name. See the Vault guide for more information on how to use Vaults within integrations. &#x20;
+Attempts to open a vault for a given name. See the Vault guide for more information on how to use Vaults within integrations.
 
 ## map\_value
 
@@ -105,9 +105,7 @@ import_helper("ncino")
 ncino.autobooking.fire_callback()
 ```
 
-## resurrect
 
-Forcibly sets an integration into an `alive` state.&#x20;
 
 ## humanize
 

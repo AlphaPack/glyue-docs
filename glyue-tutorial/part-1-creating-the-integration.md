@@ -1,22 +1,14 @@
 # Part 1: Creating the Integration
 
-This is a walk-through for a basic integration connecting salesforce and twilio to send a notification regarding the status of client. Pieces of the
+This is a walk-through for a basic integration that will expand upon the Quick Start Integration.
 
 ## Assumptions
 
 * Basic knowledge of reading and understanding json
 * Basic knowledge of python
-* You have an instance of Glyue accessible with correct credentials.
+* You have access to Glyue with valid credentials.
 
 ## Setup
-
-### Salesforce
-
-First we will need to setup a salesforce environment for us to use. Create a new trailhead environment using the following [sign-up](https://trailhead.salesforce.com/en/c/start\_here). Follow the account creation process for salesforce then go to your newly created account's [orgs](https://trailhead.salesforce.com/users/profiles/orgs). It will take some time for the environment to setup.
-
-Once the environment has been created, go to the environment and setup a `connected app` within salesforce.
-
-### Twilio
 
 ### Echo
 
@@ -51,7 +43,7 @@ Save and move on to the next step!
 
 ### Field Mapping
 
-Navigate to the Field Mapping Builder. Create four new field mappings that we will be linked to the created service requests.&#x20;
+Navigate to the Field Mapping Builder. Create four new field mappings that we will be linked to the created service requests.
 
 | Service Request  | Sequence | Field         | Value                                        | Value Type | Nullable |
 | ---------------- | -------- | ------------- | -------------------------------------------- | ---------- | -------- |

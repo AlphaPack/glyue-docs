@@ -3,7 +3,7 @@
 * [Glyue Documentation](README.md)
 * [Getting Started](getting\_started/README.md)
   * [Introduction](getting\_started/Introduction.md)
-  * [5-Minute Example Integration](getting\_started/5-minute-example-integration.md)
+  * [Quick Start Integration](getting\_started/5-minute-example-integration.md)
   * [Integration Best Practices](getting\_started/integration\_best\_practices.md)
   * [Integration Builder Page](getting\_started/ui\_walkthrough.md)
 * [Reference](reference/README.md)
