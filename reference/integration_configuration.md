@@ -9,7 +9,9 @@ The base configuration for Glyue.
 
 ### Integration Configs
 
-Provides integration control for emails, storing payload for use with the run history page.
+Provides control for emails, storing payload for use with the run history page.
+
+Email fields should be comma separated
 
 ### Integration Permissions
 
@@ -25,4 +27,4 @@ The relationship between the integration and adapter configuration. Integrations
 
 ### Webservice Endpoints
 
-Integrations can be triggered from their HTTP POST method for the integration path\_name. This endpoint exposes integrations to be called using all available HTTP verbs.
+Integrations can be triggered from their HTTP POST method for the integration `path_name`. This endpoint exposes integrations to be called using all available HTTP verbs.

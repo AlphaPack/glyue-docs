@@ -6,13 +6,13 @@ Special variable indicating the specified return value from a formula block.
 
 Examples:
 
-```py
+```python
 apply_exchange_rate_adjustments(sf_collateral.response.payload.collateral)
 apply_inflation_adjustments(sf_collateral.response.payload.collateral)
 retvalue = sum(c.Amount__c for c in sf_collateral.response.payload.collateral)
 ```
 
-```
+```python
 if input.payload == "test value":
     retvalue = input.payload
 ```
@@ -64,3 +64,14 @@ Each of the components below exposes a field to provide pass an iterable to the 
 | Field Mapping     | [include\_for\_each](integration\_components/fieldmapping.md#includeforeach-code)   | fitem  | fidx  |
 | Validation Rule   | [apply\_to\_each](integration\_components/validationrule.md#applyif-code---boolean) | vritem | vridx |
 | Mask              | [apply\_to\_each](integration\_components/mask.md#applytoeach-code)                 | mitem  | midx  |
+
+### parentint
+
+Gives access to the parent integration's namespace from a child integration during a [#callint](special\_functions.md#callint "mention") synchronous integration run. Asynchronous integrations have no reference to their parent integrations.
+
+```python
+# will return the parent integration's Integration Run History Item
+parentint.run_history_id 
+# access to the parent's input
+parentint.input.payload
+```

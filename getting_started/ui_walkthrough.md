@@ -2,7 +2,9 @@
 
 ## Main Toolbar
 
-Buttons on the Integration Builer Toolbar enables users to add, duplicate and clear changes within the Builder. The special tool, `deep clone` creates a full copy of the entire Builder Row selected, and all of the children associated with it.
+Buttons on the Integration Builder Toolbar enables users to add, duplicate and clear changes within the Builder. The special tool, `deep clone` creates a full copy of the entire Builder Row selected, and all of the children associated with it.
+
+<figure><img src="../.gitbook/assets/glyue_toolbar_20221024.png" alt=""><figcaption></figcaption></figure>
 
 ## Filters
 
@@ -30,4 +32,4 @@ Comments are the main source of communication when jointly working within the In
 
 ### Tags
 
-Each section of the Integration Builder has the ability to add a `tag` to Builder rows. This is a clean way to identify specific pieces of an integration and how they relate.&#x20;
+Each section of the Integration Builder has the ability to add a `tag` to Builder rows. This provides a way to identify specific pieces of an integration and how they relate. It is particularly helpful when used in combination with Bookmarks.
