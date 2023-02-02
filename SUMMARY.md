@@ -23,4 +23,3 @@
   * [Part 1: Creating the Integration](glyue-tutorial/part-1-creating-the-integration.md)
   * [Part 2: Validating Inputs](glyue-tutorial/part-2-validating-inputs.md)
   * [Part 3: Adding Error Handling to the integration](glyue-tutorial/part-3-adding-error-handling-to-the-integration.md)
-  * [Part 4: Let's get crazy](glyue-tutorial/part-4-lets-get-crazy.md)

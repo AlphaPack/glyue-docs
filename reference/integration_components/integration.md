@@ -42,7 +42,7 @@ A Boolean flag for whether this integration should be exposed. This allows for i
 
 ### Swagger
 
-Glyue has an integrated swagger page to allow for easy endpoint execution from within Glyue. The swagger request and response fields allow for the specification of swagger request bodies and sample responses. These must be formatted in line with the [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0). Swagger&#x20;
+Glyue has an integrated swagger page to allow for easy endpoint execution from within Glyue. The swagger request and response fields allow for the specification of swagger request bodies and sample responses. These must be formatted in line with the [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0). Swagger
 
 #### swagger\_request
 
@@ -58,7 +58,6 @@ Glyue has an integrated swagger page to allow for easy endpoint execution from w
         } 
     } 
 }
-
 ```
 
 #### swagger\_response
