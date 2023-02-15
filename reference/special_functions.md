@@ -53,7 +53,7 @@ try:
     a={"item": True}
     a.item
 except KeyError as e:
-    end(payload=e, status="KeyError")
+    end(payload=e, status=500)
 ```
 
 ## create\_file\_lock
@@ -104,8 +104,6 @@ imports the specified helper function. Please see the Helper Functions for furth
 import_helper("ncino")
 ncino.autobooking.fire_callback()
 ```
-
-
 
 ## humanize
 
