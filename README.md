@@ -9,6 +9,6 @@ Documentation for the universe's best integration builder
 
 ### Glyue Usage Reference
 
-* [integration\_lifecycle.md](reference/integration\_lifecycle.md "mention")
+* [integration-life-cycle.md](reference/integration-life-cycle.md "mention")
 * [special\_functions.md](reference/special\_functions.md "mention")
 * [special\_variables.md](reference/special\_variables.md "mention")
