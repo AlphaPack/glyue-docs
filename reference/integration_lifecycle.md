@@ -1,12 +1,14 @@
 # Integration Life-Cycle
 
-<figure><img src="https://lucid.app/publicSegments/view/23d1c801-dc73-4a48-b05d-72cd0ebe95b7/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lucid.app/publicSegments/view/e19d786f-9bd6-4767-bed1-edad72bc275d/image.png" alt=""><figcaption><p>Overview of how the layers of the Build table flow into one another</p></figcaption></figure>
 
-<figure><img src="https://lucid.app/publicSegments/view/2fd4559a-e358-4415-a695-a19d53626ac2/image.png" alt=""><figcaption><p><a data-mention href="integration_components/">integration_components</a></p></figcaption></figure>
+<figure><img src="https://lucid.app/publicSegments/view/645904be-6d3f-4f85-b19e-419efaf1d684/image.png" alt=""><figcaption><p>Integration process diagram</p></figcaption></figure>
 
-<figure><img src="https://lucid.app/publicSegments/view/cb609b9c-a199-4adc-8521-0abecdc4aa3b/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lucid.app/publicSegments/view/fb8f616a-bb81-4532-b689-5031576c22dc/image.png" alt=""><figcaption><p>Service Request process diagram</p></figcaption></figure>
 
-<figure><img src="https://lucid.app/publicSegments/view/ff90e49c-d8d8-43bd-b3a9-ad0c14a7e23c/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://lucid.app/publicSegments/view/a71af81d-7449-4299-b90f-6af82a7f27b5/image.png" alt=""><figcaption><p>Service Call process diagram</p></figcaption></figure>
+
+<figure><img src="https://lucid.app/publicSegments/view/700e0d55-76f7-4e3c-958a-00fbd10b0940/image.png" alt=""><figcaption><p>Field Mappings process diagram</p></figcaption></figure>
 
 ## **How an Integration is called:**
 
@@ -18,4 +20,3 @@ An integration can be called from an exposed API path, as defined within the web
 
 * Within the lifecycle of another integration with the [#callint](special\_functions.md#callint "mention") special function.
 * Based on a scheduled `cron` job, given admin permissions.
-
