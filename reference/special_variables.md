@@ -67,7 +67,7 @@ Each of the components below exposes a field to provide pass an iterable to the 
 
 ### parentint
 
-Gives access to the parent integration's namespace from a child integration during a [#callint](special\_functions.md#callint "mention") synchronous integration run. Asynchronous integrations have no reference to their parent integrations.
+Gives access to the parent integration's namespace from a child integration during a [#callint](special\_functions/#callint "mention") synchronous integration run. Asynchronous integrations have no reference to their parent integrations.
 
 ```python
 # will return the parent integration's Integration Run History Item

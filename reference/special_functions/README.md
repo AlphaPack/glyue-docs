@@ -117,3 +117,22 @@ k = humanize("sample.value")
 debug(k)
 # will output 'Sample'
 ```
+
+## open\_glyuefile
+
+See [#open\_glyuefile](./#open\_glyuefile "mention") for more information.
+
+## list\_files
+
+`list_files() -> List[str]`
+
+returns a `list` of `str` GlyueFile names for the currently running [integration.md](../integration\_components/integration.md "mention").&#x20;
+
+<pre class="language-python"><code class="lang-python">filenames = list_files()
+debug(filenames, "available files")
+<strong>
+</strong><strong># can write to GlyueFiles
+</strong><strong>for name in filenames:
+</strong>    with open_glyuefile(name, "a") as file:
+        file.write("new line\n")
+</code></pre>

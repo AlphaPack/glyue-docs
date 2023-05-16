@@ -26,7 +26,7 @@ Asynchronous integrations are a unique case and return an output immediately mar
 
 #### State
 
-Integrations have a success / failure state. The control of this state is flexible and can be triggered at will throughout the life of the integration using the special function [end](special\_functions.md#end). Both service requests and validation rules contain the ability to set the integration into a failure state.
+Integrations have a success / failure state. The control of this state is flexible and can be triggered at will throughout the life of the integration using the special function [end](special\_functions/#end). Both service requests and validation rules contain the ability to set the integration into a failure state.
 
 ## Service Requests
 
@@ -37,7 +37,7 @@ The building blocks of an integration. Service requests are fired off in order t
 * `Adapter Success` the state of the adapter service call.
 * `Adapter Messages` Optional message component of the adapter. This field is generally used for return adapter specific error messages.
 
-Service Requests have the ability to be fired off as a list of service requests to the same system using the `call_for_each` field. Given an iterable, the `call_for_each` will generate&#x20;
+Service Requests have the ability to be fired off as a list of service requests to the same system using the `call_for_each` field. Given an iterable, the `call_for_each` will generate
 
 * sridx: index of the service request iterable
 * sritem: value of the service request iterable
@@ -92,7 +92,7 @@ payload: {
 
 ## Value Mapping Sets
 
-Value Mapping Sets define a collection of Value Mappings. These are tied to an integration and can be accessed anywhere within the integration via the [`map_value`](special\_functions.md#mapvalue) special function.
+Value Mapping Sets define a collection of Value Mappings. These are tied to an integration and can be accessed anywhere within the integration via the [`map_value`](special\_functions/#mapvalue) special function.
 
 ## Value Mappings
 
