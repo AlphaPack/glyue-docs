@@ -4,7 +4,7 @@ description: The best integration builder for banking!
 
 # Glyue Overview
 
-Glyue is a low-code [iPaaS](https://en.wikipedia.org/wiki/Cloud-based\_integration) for building and running banking integrations.  Banks, credit unions, fintechs, and system integrators use the platform to quickly connect their software.  The platform is designed to create web service APIs, batch ETL jobs, file/document transfer workflows, and event-triggered pub/sub integrations.
+Glyue is a low-code [iPaaS](https://en.wikipedia.org/wiki/Cloud-based\_integration) for building and running banking integrations.  Banks, credit unions, fintechs, and system integrators use the platform to quickly connect their software.  The platform is designed to create web service APIs, batch ETL jobs, file/document transfer workflows, and event-triggered pub/sub integrations (e.g. web hooks, Kafka streaming data pipelines).
 
 Glyue provides several key banking-specific advantages over generic integration platforms:
 
