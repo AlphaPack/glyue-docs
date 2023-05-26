@@ -2,7 +2,7 @@
 description: Welcome to the best integration builder for banking!
 ---
 
-# Glyue User Documentation
+# Glyue User Documentation Overview
 
 Glyue is a low-code [iPaaS](https://en.wikipedia.org/wiki/Cloud-based\_integration) for building and running banking integrations.  Banks, credit unions, fintechs, and system integrators use the platform to quickly connect bank and credit union software.
 
@@ -17,7 +17,7 @@ Glyue offers several advantages over generic integration platforms:
 
 While the platform offers the speed and convenience of low-code mapping, the full power of [Python](https://www.python.org/) and its ecosystem is available within Glyue!  Consequently, developers can always deliver any integration functionality.
 
-**Our team at Sandbox Banking is always trying to improve the experience of our customers and users!**  If you're an existing customer, we welcome you to provide feedback or suggestions via your Glyue Help Center.
+**Our team at Sandbox Banking is always trying to improve our documentation!**  If you're an existing customer, we welcome you to provide feedback or suggestions via your [Glyue Help Center](https://alphapack.atlassian.net/servicedesk/customer/portals).  If you're a prospective user or customer, feel free to send us an email at [sales@sandboxbanking.com](mailto:sales@sandboxbanking.com) with suggestions, questions, or concerns.
 
 
 
