@@ -1,8 +1,8 @@
 ---
-description: Welcome to the documentation for the best integration builder for banking!
+description: Welcome to the best integration builder for banking!
 ---
 
-# Glyue Overview
+# Glyue User Documentation
 
 Glyue is a low-code [iPaaS](https://en.wikipedia.org/wiki/Cloud-based\_integration) for building and running banking integrations.  Banks, credit unions, fintechs, and system integrators use the platform to quickly connect bank and credit union software.
 
