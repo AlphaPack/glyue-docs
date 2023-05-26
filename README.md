@@ -15,7 +15,7 @@ Glyue offers several advantages over generic integration platforms:
 * Convenient UI for specifying integration logic like outbound service requests, field mappings, validation rules, etc.  Its UX/DX is familiar to those experienced with Excel.
 * Security, compliance, and reporting features specific to the banking and credit union industries.
 
-While the platform aspires to be low-code, the full power of [Python](https://www.python.org/) and its ecosystem is available within Glyue!  Consequently, developers always have a way to deliver necessary functionality.
+While the platform aspires to be low-code, the full power of [Python](https://www.python.org/) and its ecosystem is available within Glyue!  Consequently, developers can always deliver necessary functionality.
 
 **Whether you're a Glyue newcomer or veteran, this documentation intends to provide all the information you need to make the most of the platform!**
 
