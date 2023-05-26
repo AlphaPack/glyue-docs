@@ -1,5 +1,5 @@
 ---
-description: The best integration builder for banking!
+description: Welcome to the documentation for the best integration builder for banking!
 ---
 
 # Glyue Overview
