@@ -17,7 +17,7 @@ Glyue offers several advantages over generic integration platforms:
 
 While the platform offers the speed and convenience of low-code mapping, the full power of [Python](https://www.python.org/) and its ecosystem is available within Glyue!  Consequently, developers can always deliver any integration functionality.
 
-**Our team at Sandbox Banking is always trying to improve our documentation!**  If you're an existing customer, we welcome you to provide feedback or suggestions via your [Glyue Help Center](https://alphapack.atlassian.net/servicedesk/customer/portals).  If you're a prospective user or customer, feel free to send us an email at [sales@sandboxbanking.com](mailto:sales@sandboxbanking.com) with suggestions, questions, or concerns.
+**Our team at Sandbox Banking is always trying to improve our documentation!**  If you're an existing customer, we welcome you to provide feedback or suggestions via your [Glyue Help Center](https://alphapack.atlassian.net/servicedesk/customer/portals).  If you're a prospective user or customer, please feel free to send us an email at [sales@sandboxbanking.com](mailto:sales@sandboxbanking.com) with suggestions, questions, or concerns.
 
 
 
