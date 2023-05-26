@@ -12,7 +12,8 @@ Glyue provides several banking-specific advantages over generic integration plat
 * Extensive catalog of starter templates (i.e. pre-built integrations) for common integration use-cases like loan booking, deposit origination,  IVR/IVA interaction, banking as a service (BaaS) APIs, bulk CRM loading, bulk data mart loading, customer 360 APIs, loan renewals/mods, core processor customer/account maintenance, etc.  Once imported, these can be customized or extended for a specific institution as necessary.
 * Convenient UI for specifying integration logic like field mappings, validation rules, etc.  Its UX/DX is familiar to those experienced with Excel.
 * Security, compliance, and reporting features specific to the banking and credit union industries.
-* The full power of [Python](https://www.python.org/) is available so developers can always find a way deliver!
+
+While the platform aspires to be low-code, the full power of [Python](https://www.python.org/) and its ecosystem is available – consequently, developers can always find a way deliver!
 
 
 
