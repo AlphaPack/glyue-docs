@@ -13,7 +13,11 @@ Glyue provides several banking-specific advantages over generic integration plat
 * Convenient UI for specifying integration logic like field mappings, validation rules, etc.  Its UX/DX is familiar to those experienced with Excel.
 * Security, compliance, and reporting features specific to the banking and credit union industries.
 
-While the platform aspires to be low-code, the full power of [Python](https://www.python.org/) and its ecosystem is available – consequently, developers can always find a way deliver!
+While the platform aspires to be low-code, the full power of [Python](https://www.python.org/) and its ecosystem is available within Glyue!  Consequently, developers always have a way to deliver necessary functionality.
+
+**Whether you're a Glyue newcomer or veteran, this documentation intends to provide all the information you need to make the most of the platform!**
+
+Our team at Sandbox Banking is always trying to improve the experience of our customers and users!  If you're an existing customer, we welcome you to provide feedback or suggestions via your Glyue Help Center.
 
 
 
