@@ -11,7 +11,7 @@ The platform is frequently used to build/host web service APIs, batch ETL jobs, 
 Glyue offers several advantages over generic integration platforms:
 
 * Numerous built-in adapters for banking-specific systems like core processors, loan origination systems, deposit application systems, CRMs, KYC/AML providers, etc.
-* Extensive catalog of starter templates (i.e. pre-built integrations) for common integration use-cases like loan booking, deposit origination,  IVR/IVA interaction, banking as a service (BaaS) APIs, bulk CRM loading, bulk data mart loading, customer 360 APIs, loan renewals/mods, core processor customer/account maintenance, etc.  Once imported, these can be customized or extended for a specific institution as necessary.
+* Extensive catalog of starter templates (i.e. pre-built integrations) for common integration use-cases like loan booking, deposit origination,  IVR/IVA interaction, banking as a service (BaaS) APIs, bulk CRM loading, bulk data mart loading, customer 360 APIs, loan renewals/mods, core processor customer/account maintenance, etc.  Once imported, these integrations can be customized or extended to fit a specific institution's needs.
 * Convenient UI for specifying integration logic like field mappings, validation rules, etc.  Its UX/DX is familiar to those experienced with Excel.
 * Security, compliance, and reporting features specific to the banking and credit union industries.
 
