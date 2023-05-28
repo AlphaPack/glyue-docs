@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Glyue User Documentation Overview](README.md)
+* [Introduction](README.md)
 * [Getting Started](getting\_started/README.md)
   * [Quick Start Integration](getting\_started/5-minute-example-integration.md)
   * [Integration Builder Page](getting\_started/ui\_walkthrough.md)
