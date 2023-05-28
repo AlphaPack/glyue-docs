@@ -1,5 +1,5 @@
 ---
-description: Welcome to the documentation for best integration builder for banking!
+description: Welcome to the documentation for the best integration builder for banking!
 ---
 
 # Introduction
