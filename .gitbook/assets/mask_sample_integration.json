@@ -1,0 +1,63 @@
+{
+  "integration": {
+    "rows": {
+      "2": {
+        "id": 2,
+        "path_name": "mask_example",
+        "description": "Example for masking data from inputs in an integration",
+        "run_async": false,
+        "http_api": true,
+        "before_hook": null,
+        "on_success_hook": null,
+        "on_failure_hook": null,
+        "finally_hook": null,
+        "swagger_response": null,
+        "swagger_request": null,
+        "tags": []
+      }
+    }
+  },
+  "mask": {
+    "rows": {
+      "1": {
+        "id": 1,
+        "integration": 2,
+        "servicerequest": null,
+        "sequence": 10,
+        "type": "INPUT",
+        "field": "[\"top:level:colon\"]",
+        "apply_if": null,
+        "apply_to_each": null,
+        "abort_if_not_applied_x_times": "1",
+        "notes": null,
+        "tags": []
+      },
+      "2": {
+        "id": 2,
+        "integration": 2,
+        "servicerequest": null,
+        "sequence": 20,
+        "type": "INPUT",
+        "field": "private_info",
+        "apply_if": null,
+        "apply_to_each": "people",
+        "abort_if_not_applied_x_times": "2",
+        "notes": null,
+        "tags": []
+      },
+      "3": {
+        "id": 3,
+        "integration": 2,
+        "servicerequest": null,
+        "sequence": 30,
+        "type": "INPUT",
+        "field": "[\"key:12\"].special",
+        "apply_if": "[\"key:12\"]",
+        "apply_to_each": "people",
+        "abort_if_not_applied_x_times": "1",
+        "notes": null,
+        "tags": []
+      }
+    }
+  }
+}
