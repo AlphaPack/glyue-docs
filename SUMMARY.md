@@ -23,9 +23,12 @@
   * [Part 1: Creating the Integration](glyue-tutorial/part-1-creating-the-integration.md)
   * [Part 2: Validating Inputs](glyue-tutorial/part-2-validating-inputs.md)
   * [Part 3: Adding Error Handling to the integration](glyue-tutorial/part-3-adding-error-handling-to-the-integration.md)
-* [Configure SAML-Based SSO](configure-saml-based-sso/README.md)
-  * [Glyue Setup](configure-saml-based-sso/glyue-setup.md)
-  * [JumpCloud Setup](configure-saml-based-sso/jumpcloud-setup.md)
-  * [Azure Setup](configure-saml-based-sso/azure-setup.md)
-  * [Okta Setup](configure-saml-based-sso/okta-setup.md)
-  * [SAML Config Reference](configure-saml-based-sso/saml-config-reference.md)
+
+## how-to guides
+
+* [Configure SAML-Based SSO](how-to-guides/configure-saml-based-sso/README.md)
+  * [Glyue Setup](how-to-guides/configure-saml-based-sso/glyue-setup.md)
+  * [JumpCloud Setup](how-to-guides/configure-saml-based-sso/jumpcloud-setup.md)
+  * [Azure Setup](how-to-guides/configure-saml-based-sso/azure-setup.md)
+  * [Okta Setup](how-to-guides/configure-saml-based-sso/okta-setup.md)
+  * [SAML Config Reference](how-to-guides/configure-saml-based-sso/saml-config-reference.md)
