@@ -28,7 +28,7 @@ See [SAML Config Reference](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1fl
 
 Note that on the resulting page, there is now a URL and a download link for Glyue’s SAML metadata:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 This URL (or the downloaded file) will need to be provided to the admin on the IdP side.
 
@@ -63,11 +63,11 @@ Log out of Glyue and go to the main page. The login dialog should have a new sec
 Clicking the button should redirect the user to the IdP login page. After successful authentication, the user should be redirected back to Glyue, bypassing the login screen and going right to the requested page.
 
 {% hint style="danger" %}
-If the user encounters a **403 Access Denied** error, this means Glyue was unable to locate a user based on the information provided by the IdP. This is most likely due to one of the following issues:
+If the user encounters a **403 Access Denied** error after authenticating, this means Glyue was unable to locate a user based on the information provided by the IdP. This is most likely due to one of the following issues:
 
-1. The user does not exist in Glyue yet and must be created.
+1. The user in Glyue is not active or doesn't exist.
 2. The user’s email address in Glyue does not match exactly to the email address at the IdP.
-3. The IdP has not been configured to send the user email address as part of its assertion.
-4. The name of the email address user attribute is different between Glyue and the IdP. This can be solved by adding an attribute mapping on the SAML Config page.\
+3. The IdP has not been properly configured to include the user email address in the information it submits to Glyue for SSO.
+4. The name of the email address user attribute is different between Glyue and the IdP. This can be solved by adding an attribute mapping on the SAML Config page.  Some IdPs also have this optionality on their end.\
    See [SAML Config Reference](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/\~/changes/60/configure-saml-based-sso/saml-config-reference).
 {% endhint %}
