@@ -30,7 +30,7 @@ Glyue always serves its metadata at `https://`\[domain]`/sso/saml2/metadata/`. I
 
 Click the **Upload Metadata** button and upload the metadata provided by Glyue.
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 Provide a custom **IdP Entity ID**. Any unique value will do.
 
@@ -50,7 +50,7 @@ Click **Activate** at the bottom of the screen.
 
 Back in **Configured Applications**, select the new SSO App and click **Export Metadata.**
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 An XML file should be downloaded. This file will be needed on the Glyue side in order to add JumpCloud as an IdP, which is the last step. If not a Glyue admin, please provide this file to a Sandbox Banking employee.
 

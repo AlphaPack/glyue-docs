@@ -4,6 +4,8 @@
 [glyue-setup.md](glyue-setup.md)
 {% endcontent-ref %}
 
+### Identity Provider How-to Guides
+
 {% content-ref url="jumpcloud-setup.md" %}
 [jumpcloud-setup.md](jumpcloud-setup.md)
 {% endcontent-ref %}
@@ -16,6 +18,8 @@
 [okta-setup.md](okta-setup.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+### Reference
+
+{% content-ref url="saml-config-reference.md" %}
+[saml-config-reference.md](saml-config-reference.md)
 {% endcontent-ref %}
