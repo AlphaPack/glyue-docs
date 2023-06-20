@@ -28,7 +28,7 @@ See [SAML Config Reference](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1fl
 
 Note that on the resulting page, there is now a URL and a download link for Glyue’s SAML metadata:
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 This URL (or the downloaded file) will need to be provided to the admin on the IdP side.
 
