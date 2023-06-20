@@ -31,4 +31,3 @@
   * [JumpCloud Setup](how-to-guides/configure-saml-based-sso/jumpcloud-setup.md)
   * [Azure Setup](how-to-guides/configure-saml-based-sso/azure-setup.md)
   * [Okta Setup](how-to-guides/configure-saml-based-sso/okta-setup.md)
-  * [SAML Config Reference](how-to-guides/configure-saml-based-sso/saml-config-reference.md)

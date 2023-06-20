@@ -16,6 +16,6 @@
 [okta-setup.md](okta-setup.md)
 {% endcontent-ref %}
 
-{% content-ref url="saml-config-reference.md" %}
-[saml-config-reference.md](saml-config-reference.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

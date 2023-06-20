@@ -20,7 +20,7 @@ Click the **Create App Integration** button.
 
 Select **SAML 2.0** and click **Next**
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 Give the app a name. We suggest something like **Glyue DEV**, **Glyue PROD** etc. Click **Next**.
 
@@ -50,7 +50,7 @@ In the XML document, locate the first element `EntityDescriptor` and grab the va
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -68,7 +68,7 @@ From the **Applications** screen, click the newly created application and go to 
 
 Under **Settings** > **Sign on methods** > **SAML 2.0** > **Metadata details**, grab the **Metadata URL**.
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 This will be needed on the Glyue side, when adding this Okta environment as an IdP. If this user is not a Glyue admin, please provide the URL to a Sandbox Banking employee.
 
