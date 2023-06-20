@@ -1,10 +1,12 @@
 # Configure SAML-Based SSO
 
+### Glyue
+
 {% content-ref url="glyue-setup.md" %}
 [glyue-setup.md](glyue-setup.md)
 {% endcontent-ref %}
 
-### Identity Provider How-to Guides
+### Identity Providers
 
 {% content-ref url="jumpcloud-setup.md" %}
 [jumpcloud-setup.md](jumpcloud-setup.md)
