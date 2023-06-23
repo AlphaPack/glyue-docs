@@ -3,6 +3,10 @@
 * [What is Glyue?](README.md)
 * [Getting Started](getting\_started/README.md)
   * [Quick Start Integration](getting\_started/5-minute-example-integration.md)
+  * [Tutorial: Basic Integration Build](getting\_started/glyue-tutorial/README.md)
+    * [Part 1: Creating the Integration](getting\_started/glyue-tutorial/part-1-creating-the-integration.md)
+    * [Part 2: Validating Inputs](getting\_started/glyue-tutorial/part-2-validating-inputs.md)
+    * [Part 3: Adding Error Handling to the integration](getting\_started/glyue-tutorial/part-3-adding-error-handling-to-the-integration.md)
   * [Integration Builder Page](getting\_started/ui\_walkthrough.md)
 * [Reference](reference/README.md)
   * [Integration Anatomy](reference/integration\_anatomy.md)
@@ -19,10 +23,6 @@
     * [Value Mapping Set](reference/integration\_components/valuemappingset.md)
     * [Value Mapping](reference/integration\_components/valuemapping.md)
     * [Mask](reference/integration\_components/mask.md)
-* [Tutorial: Basic Integration Build](glyue-tutorial/README.md)
-  * [Part 1: Creating the Integration](glyue-tutorial/part-1-creating-the-integration.md)
-  * [Part 2: Validating Inputs](glyue-tutorial/part-2-validating-inputs.md)
-  * [Part 3: Adding Error Handling to the integration](glyue-tutorial/part-3-adding-error-handling-to-the-integration.md)
 
 ## how-to guides
 

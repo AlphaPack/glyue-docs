@@ -24,7 +24,7 @@ We hope you love your Glyue integration journey!
 ### New to Glyue?
 
 * Build your first integration - [5-minute-example-integration.md](getting\_started/5-minute-example-integration.md "mention")
-* Full Tutorial - [glyue-tutorial](glyue-tutorial/ "mention")
+* Full Tutorial - [glyue-tutorial](getting\_started/glyue-tutorial/ "mention")
 
 ### Glyue Usage Reference
 

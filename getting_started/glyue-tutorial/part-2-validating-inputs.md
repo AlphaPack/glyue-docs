@@ -20,8 +20,6 @@ debug(echo_msg.response.payload, label="echo_msg Response Payload")
 
 To test the newly added logic, run the integration again with a string as an input. On the run history page, there should be a single service request for the `echo_msg` and three service requests for the `msg_twice_echo` service request.
 
-
-
 ## Masking
 
 Sensitive information may be used within the integration. Masking provides a way to hide sensitive information away from users, while still enabling its use.
@@ -52,6 +50,6 @@ The code to check for the text:
 | --------------- | -------- | ----- | ----- | ------------ | -------- | ---------------- |
 | echo\_send\_msg | 10       | INPUT | data  | "text" in \_ |          |                  |
 
-Refer to [validationrule.md](../reference/integration\_components/validationrule.md "mention") for the importance of \_ and the scope that validation rules run within.
+Refer to [validationrule.md](../../reference/integration\_components/validationrule.md "mention") for the importance of \_ and the scope that validation rules run within.
 
 Now when we run the integration with a input that does not contain the string "text" the integration will be put into a failure state. The next section will cover how to handle these types of errors.
