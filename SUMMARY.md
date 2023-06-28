@@ -23,12 +23,12 @@
     * [Value Mapping Set](reference/integration\_components/valuemappingset.md)
     * [Value Mapping](reference/integration\_components/valuemapping.md)
     * [Mask](reference/integration\_components/mask.md)
-
-## how-to guides
-
-* [Configure SAML-Based SSO](how-to-guides/configure-saml-based-sso/README.md)
-  * [Glyue Setup](how-to-guides/configure-saml-based-sso/glyue-setup.md)
-  * [JumpCloud Setup](how-to-guides/configure-saml-based-sso/jumpcloud-setup.md)
-  * [Azure Setup](how-to-guides/configure-saml-based-sso/azure-setup.md)
-  * [Okta Setup](how-to-guides/configure-saml-based-sso/okta-setup.md)
-  * [SAML Config Reference](how-to-guides/configure-saml-based-sso/saml-config-reference.md)
+* [Glyue Single Sign-On (SSO)](glyue-single-sign-on-sso/README.md)
+  * [Glyue SSO: Explanation](glyue-single-sign-on-sso/glyue-sso-explanation.md)
+  * [Glyue SSO: How-To Articles](glyue-single-sign-on-sso/glyue-sso-how-to-articles/README.md)
+    * [How To: Setup Glyue as SSO Service Provider](glyue-single-sign-on-sso/glyue-sso-how-to-articles/how-to-setup-glyue-as-sso-service-provider.md)
+    * [How To: Setup JumpCloud as Identity Provider](glyue-single-sign-on-sso/glyue-sso-how-to-articles/how-to-setup-jumpcloud-as-identity-provider.md)
+    * [How To: Setup Microsoft Azure AD as Identity Provider](glyue-single-sign-on-sso/glyue-sso-how-to-articles/how-to-setup-microsoft-azure-ad-as-identity-provider.md)
+    * [How To: Setup Okta as Identity Provider](glyue-single-sign-on-sso/glyue-sso-how-to-articles/how-to-setup-okta-as-identity-provider.md)
+  * [Glyue SSO: Reference Articles](glyue-single-sign-on-sso/glyue-sso-reference-articles/README.md)
+    * [Glyue SAML Configuration](glyue-single-sign-on-sso/glyue-sso-reference-articles/glyue-saml-configuration.md)

@@ -1,4 +1,4 @@
-# Azure Setup
+# How To: Setup Microsoft Azure AD as Identity Provider
 
 {% hint style="warning" %}
 Before continuing, this user should be an Azure AD admin for the organization, and a SAML Config must be created in the Glyue Environment.
@@ -12,7 +12,7 @@ From the Azure Active Directory overview page, select **Enterprise applications*
 
 Click **New Application** at the top.
 
-<figure><img src="../../.gitbook/assets/795213846.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/795213846 (1).png" alt=""><figcaption></figcaption></figure>
 
 Click **Create your own application** at the top.
 
@@ -60,7 +60,7 @@ Click **Add new claim** at the top.
 
 Enter `email` in the **Name** field. For **Source Attribute** select `user.mail`. Click **Save** in the top-left.
 
-<figure><img src="../../.gitbook/assets/795148338.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/795148338 (1).png" alt=""><figcaption></figcaption></figure>
 
 Depending on the organization’s Azure configuration, the user email field name may differ.
 
