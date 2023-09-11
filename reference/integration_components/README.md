@@ -1,2 +1,0 @@
-# integration\_components
-

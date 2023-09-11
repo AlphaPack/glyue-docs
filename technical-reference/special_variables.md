@@ -58,16 +58,16 @@ parameters:
 
 Each of the components below exposes a field to provide pass an iterable to the component. See the examples for each.
 
-| Builder Component | Field                                                                               | Item   | Index |
-| ----------------- | ----------------------------------------------------------------------------------- | ------ | ----- |
-| Service Request   | [call\_for\_each](integration\_components/servicerequest.md#callforeach-code)       | sritem | sridx |
-| Field Mapping     | [include\_for\_each](integration\_components/fieldmapping.md#includeforeach-code)   | fitem  | fidx  |
-| Validation Rule   | [apply\_to\_each](integration\_components/validationrule.md#applyif-code---boolean) | vritem | vridx |
-| Mask              | [apply\_to\_each](integration\_components/mask.md#applytoeach-code)                 | mitem  | midx  |
+| Builder Component | Field                                                                                          | Item   | Index |
+| ----------------- | ---------------------------------------------------------------------------------------------- | ------ | ----- |
+| Service Request   | [call\_for\_each](broken-reference)                                                            | sritem | sridx |
+| Field Mapping     | [include\_for\_each](../reference/integration\_components/fieldmapping.md#includeforeach-code) | fitem  | fidx  |
+| Validation Rule   | [apply\_to\_each](broken-reference)                                                            | vritem | vridx |
+| Mask              | [apply\_to\_each](broken-reference)                                                            | mitem  | midx  |
 
 ### parentint
 
-Gives access to the parent integration's namespace from a child integration during a [#callint](special\_functions/#callint "mention") synchronous integration run. Asynchronous integrations have no reference to their parent integrations.
+Gives access to the parent integration's namespace from a child integration during a [Broken link](broken-reference "mention") synchronous integration run. Asynchronous integrations have no reference to their parent integrations.
 
 ```python
 # will return the parent integration's Integration Run History Item

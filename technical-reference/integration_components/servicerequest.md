@@ -77,4 +77,4 @@ These are code blocks that are run during processes of the service request. See 
 
 ### Attributes
 
-Refer to the [#service-requests](../integration\_anatomy.md#service-requests "mention") for the attributes assigned to a service request upon creation&#x20;
+Refer to the [Broken link](broken-reference "mention") for the attributes assigned to a service request upon creation

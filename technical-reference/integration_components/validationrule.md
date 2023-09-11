@@ -4,11 +4,11 @@
 
 ### integration
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:red;">`required`</mark>
 
 ### servicerequest
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:red;">`required`</mark>
 
 ### sequence
 
@@ -48,7 +48,7 @@
 
 ### valuemappingset
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:orange;">`optional`</mark>
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:orange;">`optional`</mark>
 
 ### valuemappingset\_side
 
@@ -64,4 +64,3 @@ These are code blocks that are run during processes of the validation rule. See 
 
 * pass\_hook
 * fail\_hook
-

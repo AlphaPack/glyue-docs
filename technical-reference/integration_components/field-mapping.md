@@ -69,8 +69,6 @@ Replaces the sritem with specified string.
 * `source_record_type`
 * `source_field_name`
 
-
-
 ## Additional Information:
 
 ### value\_type:

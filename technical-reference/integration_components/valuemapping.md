@@ -4,7 +4,7 @@ An easy way to handle cases for transformations of field mappings from one value
 
 ### valuemappingset
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:red;">`required`</mark>
 
 Value Mapping Set that the Value Mapping belongs to.
 
@@ -14,7 +14,7 @@ Value Mapping Set that the Value Mapping belongs to.
 
 A string or boolean value. Values passed as inputs to field mappings will undergo be matched against the from\_value.
 
-### to\_value&#x20;
+### to\_value
 
 <mark style="color:yellow;">`string | bool`</mark> - <mark style="color:red;">`required`</mark>
 
@@ -25,4 +25,3 @@ An output string or boolean value. The output of the matching `from_value`. This
 Documentation field
 
 ### Examples
-

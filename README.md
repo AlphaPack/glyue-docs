@@ -23,11 +23,11 @@ We hope you love your Glyue integration journey!
 
 ### New to Glyue?
 
-* Build your first integration - [5-minute-example-integration.md](getting\_started/5-minute-example-integration.md "mention")
-* Full Tutorial - [glyue-tutorial](getting\_started/glyue-tutorial/ "mention")
+* Build your first integration - [Broken link](broken-reference "mention")
+* Full Tutorial - [Broken link](broken-reference "mention")
 
 ### Glyue Usage Reference
 
-* [integration-life-cycle.md](reference/integration-life-cycle.md "mention")
-* [special\_functions](reference/special\_functions/ "mention")
-* [special\_variables.md](reference/special\_variables.md "mention")
+* [Broken link](broken-reference "mention")
+* [Broken link](broken-reference "mention")
+* [Broken link](broken-reference "mention")

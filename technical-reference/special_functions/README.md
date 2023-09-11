@@ -126,7 +126,7 @@ See [#open\_glyuefile](./#open\_glyuefile "mention") for more information.
 
 `list_files() -> List[str]`
 
-returns a `list` of `str` GlyueFile names for the currently running [integration.md](../integration\_components/integration.md "mention").&#x20;
+returns a `list` of `str` GlyueFile names for the currently running [Broken link](broken-reference "mention").&#x20;
 
 <pre class="language-python"><code class="lang-python">filenames = list_files()
 debug(filenames, "available files")

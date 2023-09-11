@@ -26,7 +26,7 @@ Asynchronous integrations are a unique case and return an output immediately mar
 
 #### State
 
-Integrations have a success / failure state. The control of this state is flexible and can be triggered at will throughout the life of the integration using the special function [end](special\_functions/#end). Both service requests and validation rules contain the ability to set the integration into a failure state.
+Integrations have a success / failure state. The control of this state is flexible and can be triggered at will throughout the life of the integration using the special function [end](broken-reference). Both service requests and validation rules contain the ability to set the integration into a failure state.
 
 ## Service Requests
 
@@ -92,7 +92,7 @@ payload: {
 
 ## Value Mapping Sets
 
-Value Mapping Sets define a collection of Value Mappings. These are tied to an integration and can be accessed anywhere within the integration via the [`map_value`](special\_functions/#mapvalue) special function.
+Value Mapping Sets define a collection of Value Mappings. These are tied to an integration and can be accessed anywhere within the integration via the [`map_value`](broken-reference) special function.
 
 ## Value Mappings
 

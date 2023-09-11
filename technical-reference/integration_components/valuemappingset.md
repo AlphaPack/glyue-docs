@@ -4,7 +4,7 @@
 
 ### integration
 
-<mark style="color:blue;">`relationship`</mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:red;">`required`</mark>
 
 Integration value mapping set is applied to.
 
@@ -30,7 +30,7 @@ If `True` will respect string case, else all passed values will be converted to 
 
 <mark style="color:yellow;">`boolean`</mark> - <mark style="color:red;">`required`</mark>
 
-Flag for if a default value should be used if no value mappings match the [field mapping value](fieldmapping.md#value-code). If set to False and no value mappings match, then the value will not be transformed.
+Flag for if a default value should be used if no value mappings match the [field mapping value](../../reference/integration\_components/fieldmapping.md#value-code). If set to False and no value mappings match, then the value will not be transformed.
 
 ### default\_to\_value (boolean | string)
 

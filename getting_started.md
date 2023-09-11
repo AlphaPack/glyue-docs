@@ -8,4 +8,4 @@ Many integrations can start with a minimal approach, but Glyue was built to hand
 
 ## First Look
 
-To get up and running using Glyue, look at the [5-minute-example-integration.md](5-minute-example-integration.md "mention")
+To get up and running using Glyue, look at the [Broken link](broken-reference "mention")

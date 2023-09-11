@@ -23,7 +23,7 @@ Adapter configurations securely store credentials for use with service requests.
 
 ### Adapter Configuration Bindings
 
-The relationship between the integration and adapter configuration. Integrations will use the provided adapter config to make any associated service request calls. This configuration can be overridden within integrations with special variable [**adapter\_config**](special\_variables.md#adapterconfig)**.**
+The relationship between the integration and adapter configuration. Integrations will use the provided adapter config to make any associated service request calls. This configuration can be overridden within integrations with special variable [**adapter\_config**](broken-reference)**.**
 
 ### Webservice Endpoints
 
