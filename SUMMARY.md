@@ -1,17 +1,17 @@
 # Table of contents
 
 * [What is Glyue?](README.md)
-* [Getting Started](getting\_started.md)
+* [Getting Started](getting\_started/README.md)
 
 ## how-to guides
 
 * [Onboard New Users](how-to-guides/onboard-new-users.md)
 * [Single Sign On (SSO)](how-to-guides/single-sign-on-sso/README.md)
-  * [Glyue Setup](how-to-guides/single-sign-on-sso/glyue-setup.md)
-  * [JumpCloud Setup](how-to-guides/single-sign-on-sso/jumpcloud-setup.md)
-  * [Azure Setup](how-to-guides/single-sign-on-sso/azure-setup.md)
-  * [Okta Setup](how-to-guides/single-sign-on-sso/okta-setup.md)
-  * [SAML Config Reference](how-to-guides/single-sign-on-sso/saml-config-reference.md)
+  * [Glyue Setup](how-to-guides/configure-saml-based-sso/glyue-setup.md)
+  * [JumpCloud Setup](how-to-guides/configure-saml-based-sso/jumpcloud-setup.md)
+  * [Azure Setup](how-to-guides/configure-saml-based-sso/azure-setup.md)
+  * [Okta Setup](how-to-guides/configure-saml-based-sso/okta-setup.md)
+  * [SAML Config Reference](how-to-guides/configure-saml-based-sso/saml-config-reference.md)
 
 ## Tutorials
 
@@ -46,3 +46,12 @@
 * [Adapters](technical-reference/adapters/README.md)
   * [Generic HTTP Adapter](technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](technical-reference/adapters/email-smtp-adapter.md)
+
+***
+
+* [Build a RESTful CRUD Web Service using Vault](build-a-restful-crud-web-service-using-vault/README.md)
+  * [Integration Setup](build-a-restful-crud-web-service-using-vault/integration-setup.md)
+  * [Vault Setup](build-a-restful-crud-web-service-using-vault/vault-setup.md)
+  * [Create Web Service Endpoints](build-a-restful-crud-web-service-using-vault/create-web-service-endpoints.md)
+  * [Execute Web Service Endpoints with Vault Methods](build-a-restful-crud-web-service-using-vault/execute-web-service-endpoints-with-vault-methods.md)
+  * [Code Examples and Explanation](build-a-restful-crud-web-service-using-vault/code-examples-and-explanation.md)

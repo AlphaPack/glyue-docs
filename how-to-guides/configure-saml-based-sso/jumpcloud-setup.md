@@ -12,11 +12,11 @@ From the JumpCloud dashboard, select **SSO** from the left-hand navbar and click
 
 At the bottom of the page, click the **Custom SAML App** button.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (46).png" alt=""><figcaption></figcaption></figure>
 
 Provide a **Display Label**. We recommend something like **Glyue DEV, Glyue PROD**, etc. Provide a **Description** if desired.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Provide Glyue’s SAML Metadata to JumpCloud <a href="#jumpcloudsso-basicsetuphowto-provideglyuessamlmetadatatojumpcloud" id="jumpcloudsso-basicsetuphowto-provideglyuessamlmetadatatojumpcloud"></a>
 
@@ -30,11 +30,11 @@ Glyue always serves its metadata at `https://`\[domain]`/sso/saml2/metadata/`. I
 
 Click the **Upload Metadata** button and upload the metadata provided by Glyue.
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Provide a custom **IdP Entity ID**. Any unique value will do.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Add Users <a href="#jumpcloudsso-basicsetuphowto-addusers" id="jumpcloudsso-basicsetuphowto-addusers"></a>
 
@@ -50,7 +50,7 @@ Click **Activate** at the bottom of the screen.
 
 Back in **Configured Applications**, select the new SSO App and click **Export Metadata.**
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 An XML file should be downloaded. This file will be needed on the Glyue side in order to add JumpCloud as an IdP, which is the last step. If not a Glyue admin, please provide this file to a Sandbox Banking employee.
 
