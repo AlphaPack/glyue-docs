@@ -47,7 +47,7 @@ a.n
 
 `code` field that requires a boolean output.
 
-### apply\_to\_each (code)
+### apply\_to\_each
 
 <mark style="color:yellow;">`iterable`</mark> - <mark style="color:orange;">`optional`</mark>
 

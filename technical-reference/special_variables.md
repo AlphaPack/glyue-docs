@@ -58,12 +58,12 @@ parameters:
 
 Each of the components below exposes a field to provide pass an iterable to the component. See the examples for each.
 
-| Builder Component | Field                                                                                          | Item   | Index |
-| ----------------- | ---------------------------------------------------------------------------------------------- | ------ | ----- |
-| Service Request   | [call\_for\_each](broken-reference)                                                            | sritem | sridx |
-| Field Mapping     | [include\_for\_each](../reference/integration\_components/fieldmapping.md#includeforeach-code) | fitem  | fidx  |
-| Validation Rule   | [apply\_to\_each](broken-reference)                                                            | vritem | vridx |
-| Mask              | [apply\_to\_each](broken-reference)                                                            | mitem  | midx  |
+| Builder Component | Field                                                                                                  | Item   | Index |
+| ----------------- | ------------------------------------------------------------------------------------------------------ | ------ | ----- |
+| Service Request   | [#service-requests](integration\_anatomy.md#service-requests "mention")                                | sritem | sridx |
+| Field Mapping     | [#include\_for\_each-code](integration\_components/field-mapping.md#include\_for\_each-code "mention") | fitem  | fidx  |
+| Validation Rule   | [#apply\_to\_each](integration\_components/validationrule.md#apply\_to\_each "mention")                | vritem | vridx |
+| Mask              | [#apply\_to\_each-code](integration\_components/mask.md#apply\_to\_each-code "mention")                | mitem  | midx  |
 
 ### parentint
 

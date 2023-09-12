@@ -44,7 +44,7 @@ Typecast to perform on non-null values
 
 Code block to return a boolean value.
 
-### include\_for\_each (Code)
+### include\_for\_each
 
 <mark style="color:yellow;">`iterable`</mark> - <mark style="color:orange;">`optional`</mark>
 
