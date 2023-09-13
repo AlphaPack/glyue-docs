@@ -21,13 +21,13 @@ On the **Add Web service endpoint** page, fill in the fields with the following 
 * **Description** - This endpoint will retrieve all customers from the data vault.
 * **Response content type** - application/json
 
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
 Click on the **Save** button below.
 
 You should now see the web service endpoint on the **Swagger** page.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
 The web service endpoint to retrieve a specific customer requires a path parameter for the Id number. In the path field of a web service endpoint, parameters are enclosed with curly braces (e.g. `path/{parameter}`).&#x20;
 
@@ -40,7 +40,7 @@ To create the web service endpoint to retrieve a specific customer by Id, add an
 * **Description** - This endpoint will retrieve a specific customer from the data vault using their Id.
 * **Response content type** - application/json
 
-<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
 Follow the same steps above and view the image below to create the remaining web service endpoints.&#x20;
 
@@ -48,6 +48,6 @@ Follow the same steps above and view the image below to create the remaining web
 The path name for the update customer and delete customer web service endpoints also have an Id parameter.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>

@@ -19,11 +19,11 @@ This integration will retrieve all customers from the **data** vault. Fill in th
 
 Click on the **Save** button below.&#x20;
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
 
 Create an integration for the remaining services as shown in the image below.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Add Integration Config
 
@@ -39,6 +39,6 @@ On the **Add** **Integration Config** page, select the integration `get_all_cust
 
 Click on the **Save** button below**.**
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
 Add an integration config for each integration we had created.

@@ -12,6 +12,12 @@
   * [Azure Setup](how-to-guides/configure-saml-based-sso/azure-setup.md)
   * [Okta Setup](how-to-guides/configure-saml-based-sso/okta-setup.md)
   * [SAML Config Reference](how-to-guides/configure-saml-based-sso/saml-config-reference.md)
+* [Build a RESTful CRUD Web Service](how-to-guides/build-a-restful-crud-web-service/README.md)
+  * [Integration Setup](how-to-guides/build-a-restful-crud-web-service/integration-setup.md)
+  * [Vault Setup](how-to-guides/build-a-restful-crud-web-service/vault-setup.md)
+  * [Create Web Service Endpoints](how-to-guides/build-a-restful-crud-web-service/create-web-service-endpoints.md)
+  * [Execute Web Service Endpoints with Vault Methods](how-to-guides/build-a-restful-crud-web-service/execute-web-service-endpoints-with-vault-methods.md)
+  * [Code Examples and Explanation](how-to-guides/build-a-restful-crud-web-service/code-examples-and-explanation.md)
 
 ## Tutorials
 
@@ -46,12 +52,3 @@
 * [Adapters](technical-reference/adapters/README.md)
   * [Generic HTTP Adapter](technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](technical-reference/adapters/email-smtp-adapter.md)
-
-***
-
-* [Build a RESTful CRUD Web Service using Vault](build-a-restful-crud-web-service-using-vault/README.md)
-  * [Integration Setup](build-a-restful-crud-web-service-using-vault/integration-setup.md)
-  * [Vault Setup](build-a-restful-crud-web-service-using-vault/vault-setup.md)
-  * [Create Web Service Endpoints](build-a-restful-crud-web-service-using-vault/create-web-service-endpoints.md)
-  * [Execute Web Service Endpoints with Vault Methods](build-a-restful-crud-web-service-using-vault/execute-web-service-endpoints-with-vault-methods.md)
-  * [Code Examples and Explanation](build-a-restful-crud-web-service-using-vault/code-examples-and-explanation.md)

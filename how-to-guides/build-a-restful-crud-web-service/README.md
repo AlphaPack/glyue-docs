@@ -1,9 +1,11 @@
-# Build a RESTful CRUD Web Service using Vault
+# Build a RESTful CRUD Web Service
+
+In this guide, we will use Glyue to create custom web service endpoints and its vault functionality as an underlying data store for retrieving, adding, updating, and deleting data when these endpoints are executed.&#x20;
 
 {% hint style="info" %}
 To help you follow this guide, you can download the JSON export of the integrations that are setup here and import the file into your own Glyue environment.
 
-{% file src="../.gitbook/assets/buildExport.json" %}
+{% file src="../../.gitbook/assets/buildExport.json" %}
 {% endhint %}
 
 ### Integration

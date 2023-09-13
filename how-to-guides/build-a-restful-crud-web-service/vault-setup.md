@@ -10,15 +10,15 @@ In this step, we will make use of Glyue's vault feature as a data store for our 
 
 Log into Glyue and navigate to the **Vault** page.
 
-<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 Click on the **Create Vault** button, name the vault **data**, and save by clicking on the button again or pressing enter on your keyboard**.**&#x20;
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 You should see the newly created vault on the **Vault** page.
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 ### Create Vault Item
 
@@ -32,11 +32,11 @@ To create a vault item, click on the **data** vault to highlight it and click on
 
 Save the vault item.&#x20;
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 The **data** vault should now have a vault item named **customers.**
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 ### **Add Vault Permissions**
 
@@ -52,8 +52,8 @@ On the **Add** **Vault Permissions** page, select **data** from the **Vault** dr
 
 Click on the **Save** button below**.**
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Add a vault permission for each integration we had created.
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
