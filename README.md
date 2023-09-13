@@ -21,13 +21,16 @@ While the platform offers the speed and convenience of low-code mapping, the ful
 
 We hope you love your Glyue integration journey!
 
-### New to Glyue?
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-* Build your first integration - [Broken link](broken-reference "mention")
-* Full Tutorial - [Broken link](broken-reference "mention")
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-### Glyue Usage Reference
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-* [Broken link](broken-reference "mention")
-* [Broken link](broken-reference "mention")
-* [Broken link](broken-reference "mention")
+***

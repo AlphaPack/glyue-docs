@@ -28,7 +28,7 @@ Default SAML settings are considered secure and should suffice for most use case
 
 Note that on the resulting page, there is now a URL and a download link for Glyue’s SAML metadata:
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Provide the URL or metadata file to the IdP admin, who now must add Glyue on their end as an external SSO application (aka Service Provider) and supply their IdP SAML metadata.
 
