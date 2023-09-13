@@ -68,7 +68,7 @@ Depending on the organization’s Azure configuration, the user email field name
 
 On the application **SAML-based Sign-on** page, in section **3** under **SAML Certificates** download the **Federation Metadata XML**.
 
-<figure><img src="../../.gitbook/assets/794492954.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/spaces_1flQ2To8tQpCQWl2Ty9U_uploads_FoW4QsSTMlRCR5eIsRRT_794492954.png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, grab the **App Federation Metadata Url** instead of downloading the file.
 

@@ -6,12 +6,12 @@
 ## how-to guides
 
 * [Onboard New Users](how-to-guides/onboard-new-users.md)
-* [Single Sign On (SSO)](how-to-guides/single-sign-on-sso/README.md)
+* [Single Sign On (SSO)](how-to-guides/configure-saml-based-sso/README.md)
   * [Glyue Setup](how-to-guides/configure-saml-based-sso/glyue-setup.md)
   * [JumpCloud Setup](how-to-guides/configure-saml-based-sso/jumpcloud-setup.md)
   * [Azure Setup](how-to-guides/configure-saml-based-sso/azure-setup.md)
   * [Okta Setup](how-to-guides/configure-saml-based-sso/okta-setup.md)
-  * [SAML Config Reference](how-to-guides/configure-saml-based-sso/saml-config-reference.md)
+  * [Glyue SAML Config Reference](how-to-guides/single-sign-on-sso/glyue-saml-config-reference.md)
 * [Build a RESTful CRUD Web Service](how-to-guides/build-a-restful-crud-web-service/README.md)
   * [Integration Setup](how-to-guides/build-a-restful-crud-web-service/integration-setup.md)
   * [Vault Setup](how-to-guides/build-a-restful-crud-web-service/vault-setup.md)
