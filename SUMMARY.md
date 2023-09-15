@@ -23,13 +23,20 @@
   * [JumpCloud Setup](how-to-guides/configure-saml-based-sso/jumpcloud-setup.md)
   * [Azure Setup](how-to-guides/configure-saml-based-sso/azure-setup.md)
   * [Okta Setup](how-to-guides/configure-saml-based-sso/okta-setup.md)
-  * [Glyue SAML Config Reference](how-to-guides/single-sign-on-sso/glyue-saml-config-reference.md)
+  * [Glyue SAML Config Reference](how-to-guides/configure-saml-based-sso/saml-config-reference.md)
 * [Build a RESTful CRUD Web Service](how-to-guides/build-a-restful-crud-web-service/README.md)
   * [Integration Setup](how-to-guides/build-a-restful-crud-web-service/integration-setup.md)
   * [Vault Setup](how-to-guides/build-a-restful-crud-web-service/vault-setup.md)
   * [Create Web Service Endpoints](how-to-guides/build-a-restful-crud-web-service/create-web-service-endpoints.md)
   * [Execute Web Service Endpoints with Vault Methods](how-to-guides/build-a-restful-crud-web-service/execute-web-service-endpoints-with-vault-methods.md)
   * [Code Examples and Explanation](how-to-guides/build-a-restful-crud-web-service/code-examples-and-explanation.md)
+* [Build a Customer360 Retrieval API against FIS CodeConnect](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/README.md)
+  * [Integration Setup](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/integration-setup.md)
+  * [Service Request Setup](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/service-request-setup.md)
+  * [Field Mapping Setup](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/field-mapping-setup.md)
+  * [Integration and Service Request Hook Setup](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/integration-and-service-request-hook-setup.md)
+  * [Testing the Integration](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/testing-the-integration.md)
+  * [Common Errors](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/common-errors.md)
 
 ## Glyue Technical Reference
 

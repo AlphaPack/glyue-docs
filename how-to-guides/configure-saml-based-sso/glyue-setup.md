@@ -22,8 +22,8 @@ On the web form that displays, scroll to the bottom (without changing any values
 
 Default SAML settings are considered secure and should suffice for most use cases.  If SSO customization is desired, please see this article:
 
-{% content-ref url="../single-sign-on-sso/glyue-saml-config-reference.md" %}
-[glyue-saml-config-reference.md](../single-sign-on-sso/glyue-saml-config-reference.md)
+{% content-ref url="saml-config-reference.md" %}
+[saml-config-reference.md](saml-config-reference.md)
 {% endcontent-ref %}
 
 Note that on the resulting page, there is now a URL and a download link for Glyue’s SAML metadata:
@@ -50,7 +50,7 @@ By default, a user's email address is used to identify the correct user for logi
 
 In this case, the IdP user email address attribute name needs to be mapped to Glyue's.  Glyue supports user attribute mapping on its end, and most IdPs do as well.
 
-See [glyue-saml-config-reference.md](../single-sign-on-sso/glyue-saml-config-reference.md "mention") for more information.
+See [saml-config-reference.md](saml-config-reference.md "mention") for more information.
 {% endhint %}
 
 5. Save/activate/enable the new SSO application.
@@ -98,5 +98,5 @@ If the user encounters a **403 Access Denied** error after authenticating, this 
 3. The IdP has not been properly configured to include the user email address in the information it submits to Glyue for SSO.
 4. The name of the email address user attribute is different between Glyue and the IdP. This can be solved by adding an attribute mapping on the SAML Config page.  Some IdPs also have this optionality on their end.\
    \
-   See [glyue-saml-config-reference.md](../single-sign-on-sso/glyue-saml-config-reference.md "mention")
+   See [saml-config-reference.md](saml-config-reference.md "mention")
 {% endhint %}

@@ -1,4 +1,4 @@
-# SAML Config Reference
+# Glyue SAML Config Reference
 
 While the default SAML config settings will suffice for most use cases, changes may be necessary depending on the IdP and/or customer’s requirements.
 

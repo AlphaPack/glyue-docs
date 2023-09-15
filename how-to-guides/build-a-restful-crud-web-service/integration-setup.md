@@ -23,7 +23,7 @@ Click on the **Save** button below.&#x20;
 
 Create an integration for the remaining services as shown in the image below.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Add Integration Config
 
