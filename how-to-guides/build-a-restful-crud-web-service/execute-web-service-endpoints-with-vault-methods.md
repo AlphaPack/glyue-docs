@@ -66,7 +66,7 @@ The value of the id field contains code that generates a random UUID number.
 
 Add the remaining field mapping rows for the first name, last name, birth date and social security as shown in the image below.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 We are mapping the first name, last name, birth date, and social security number from `input.payload`. The `input.payload` contains information submitted in the body of a request.
@@ -94,13 +94,13 @@ Navigate back to the **Swagger** page and execute the web service endpoint `/res
 
 Insert another customer as shown in the image below and execute the web service endpoint `/rest/add_customer`.
 
-<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Afterwards, execute the web service endpoint `/rest/get_all_customers`. You should see both customers in the body of the response.
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
@@ -120,7 +120,7 @@ Navigate back to the **Swagger** page and select the web service endpoint `/rest
 
 Click on the **Execute** button. _Y_ou should receive the customer's information in the form of a JSON object in the response body.
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Update Customer
 
@@ -135,17 +135,17 @@ Create the following service request for the `update_customer` integration.
 
 Click on the **Save** button below.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, create the following field mapping rows for the service request `modify_customer`.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the field mapping table, we are using the **Call If** column to omit or include a field and value in `response.payload` based on the existence of the field in `input.payload`.&#x20;
 
 Navigate back to the `modify_customer` service request and add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/\~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#update-customer) in the **After Execute Request Success Hook**.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 Navigate back to the **Swagger** page. Select the web service endpoint `/rest/update_customer` and click on the **Try it out** button. Add a valid id path parameter and a new first name and last name in the body of the request as shown in the image below.&#x20;
 
@@ -167,4 +167,4 @@ Navigate back to the **Swagger** page and select the web service endpoint `/rest
 
 You should receive a confirmation message that the customer was deleted.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>

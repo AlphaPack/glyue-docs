@@ -7,7 +7,7 @@ The first step to building a Customer360 retrieval API would be to create a new 
 \
 Navigate to the Build page and change the current component to the **Integration** option.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 Once there, press the "Add Row" button to create the integration. You'll need to provide a **Path Name** as well as a **description** in order to save the added integration using the save button on the bottom of the screen.\
@@ -27,6 +27,6 @@ _`If you are building an integration to a different CodeConnect core, choose the
 \
 Fill in the corresponding credentials on the configuration page. You'll need to reference your CodeConnect portal or reach out to your FIS account representative for access to some of this information.
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once completed, scroll down the left pane until you find the configuration item labelled "Adapter Config Bindings" and add a new item. Choose the corresponding integration that you just created and the Adapter Config you just created and click save. This step essentially assigns the **Integration** to use the adapter configuration information we just provided when interacting with the core.

@@ -10,7 +10,7 @@ Navigate to the Swagger API page on the left. Here, you should see a list of **I
 
 Click on the integration and to open the dropdown menu:
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 From here, click on the "Try it out" button in the top left of the menu. This allows us to change the **Input Payload** that we send through the integration. During the [Integration and Service Request Hook Setup](integration-and-service-request-hook-setup.md), if you chose to set the `customerNumber` variable to something within the input payload like this:
 
@@ -27,8 +27,8 @@ Then copy and paste this JSON payload into the Swagger Page:
 }
 ```
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on the "Execute" button to run the integration. After executing, navigate to the Run History Page to see the results of your test. If successful, the output record in run history should look something like this:
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>

@@ -24,4 +24,4 @@ Under formula variable, we recommend entering a formula name that corresponds to
 \
 Click the Save button at the bottom of the screen.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
