@@ -7,7 +7,7 @@ description: >-
 
 # Arbitrary Input Support
 
-Integration execution endpoint request bodies that aren't single JSON or XML documents are converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing. &#x20;
+Requests to integration execution endpoints with body content that isn't a single JSON or XML document are supported.  In such scenarios, body content is converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing. &#x20;
 
 These "file ingestion" requests are subject to the following API restrictions:
 
