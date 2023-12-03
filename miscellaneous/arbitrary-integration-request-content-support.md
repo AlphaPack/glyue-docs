@@ -7,9 +7,11 @@ description: >-
 
 # Arbitrary Integration Request Content Support
 
-Integration execution endpoints can be passed body content that isn't a single JSON or XML payload. When this occurs, the request's body is converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing.&#x20;
+Integration execution endpoints can be passed body content that isn't a single JSON or XML payload. When this occurs, the request's body is converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing.
 
-This page will henceforth use the term "file upload integration" to refer to integrations accepting arbitrary input data.
+{% hint style="info" %}
+This page will henceforth uses the term "file upload integration" to refer to integrations accepting input data that isn't represented as JSON or XML.
+{% endhint %}
 
 Execution requests to file upload integrations are subject to the following rules:
 
