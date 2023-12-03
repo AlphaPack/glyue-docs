@@ -38,7 +38,7 @@ Glyue always serves its metadata at `https://` (custom domain) `/sso/saml2/metad
 
 In the XML document, locate an element named `AssertionConsumerService` and grab the URL from its `Location` attribute (do not include the `"`).
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In most cases this will be `https://`\[domain]`/sso/saml2/acs/`
 

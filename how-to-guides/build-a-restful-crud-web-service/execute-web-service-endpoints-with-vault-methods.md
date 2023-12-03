@@ -139,7 +139,7 @@ Click on the **Save** button below.&#x20;
 
 Next, create the following field mapping rows for the service request `modify_customer`.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the field mapping table, we are using the **Call If** column to omit or include a field and value in `response.payload` based on the existence of the field in `input.payload`.&#x20;
 

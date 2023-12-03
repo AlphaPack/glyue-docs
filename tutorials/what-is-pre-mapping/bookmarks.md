@@ -10,7 +10,7 @@ Each Integration template will have a set of Bookmarks for the integration and n
 
 1. Log into Glyue
 2. From the first page, hover over the menu icons to expand it and find Bookmarks\
-   ![](../../.gitbook/assets/image.png)![](<../../.gitbook/assets/image (1).png>)
+   ![](<../../.gitbook/assets/image (1).png>)![](<../../.gitbook/assets/image (1) (1).png>)
 3.  Click on Bookmarks to navigate to its page which will look something like this (NOTE: the specific sections for your integration may vary) This page lists the Bookmark Sections; a Section is a specific collection of bookmarks grouped together by a common category: \
 
 
