@@ -6,9 +6,9 @@ description: >-
 
 # Integration Endpoint File Ingestion
 
-Any HTTP request received at an integration endpoint that is not composed of JSON or XML is handled by Glyue as described below.
+To support all potential web service integration use cases, Glyue has been designed to accept HTTP(s) body content of any potential type.  Integration execution endpoint request bodies that aren't single JSON or XML documents are converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing. &#x20;
 
-### HTTP Methods
+These "file ingestion" requests are subject to the following API restrictions:
 
 <table><thead><tr><th width="157">HTTP Method</th><th width="258">HTTP Request with Single File</th><th>HTTP Request with Multiple Files</th></tr></thead><tbody><tr><td>POST</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:green;">supported</mark></td></tr><tr><td>PUT</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:red;">rejected (415 unsupported media type)</mark></td></tr><tr><td>PATCH</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:red;">rejected (415 unsupported media type)</mark></td></tr><tr><td>GET</td><td><mark style="color:yellow;">accepted but body is ignored</mark></td><td><mark style="color:yellow;">accepted but body is ignored</mark></td></tr><tr><td>DELETE</td><td><mark style="color:yellow;">accepted but body is ignored</mark></td><td><mark style="color:yellow;">accepted but body is ignored</mark></td></tr></tbody></table>
 
