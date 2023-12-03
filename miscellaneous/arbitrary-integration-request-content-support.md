@@ -1,7 +1,7 @@
 ---
 description: >-
-  Glyue supports building and running integration web service APIs that receive
-  any arbitrary binary content (e.g. documents, bulk CSV data files, audio/video
+  Glyue supports building integration web service APIs that receive any
+  arbitrary binary content (e.g. documents, bulk CSV data files, audio/video
   streams, archives)
 ---
 
