@@ -50,7 +50,8 @@
 
 * [Integration Builder Page](glyue-technical-reference/ui\_walkthrough.md)
 * [Integration Anatomy](glyue-technical-reference/integration\_anatomy.md)
-* [Admin Components](glyue-technical-reference/integration\_configuration.md)
+* [Admin Components](reference/integration\_configuration/README.md)
+  * [Web Service Endpoint](reference/integration\_configuration/web-service-endpoint.md)
 * [Integration Life-Cycle](glyue-technical-reference/integration-life-cycle.md)
 * [Special Functions](glyue-technical-reference/special\_functions/README.md)
   * [open\_glyuefile](glyue-technical-reference/special\_functions/open\_glyuefile.md)
