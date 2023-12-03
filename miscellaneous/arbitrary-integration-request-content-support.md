@@ -7,9 +7,7 @@ description: >-
 
 # Arbitrary Integration Request Content Support
 
-Integration execution endpoints can be passed body content that isn't a single JSON or XML payload.  In such scenarios, the body content is converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing. &#x20;
-
-The following input processing rules are enforced:
+Integration execution endpoints can be passed body content that isn't a single JSON or XML payload.  When this occurs, the request's body is converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing.   The following input processing rules are enforced in these scenarios:
 
 <table><thead><tr><th width="157">HTTP Method</th><th width="258">HTTP Request with Single File</th><th>HTTP Request with Multiple Files</th></tr></thead><tbody><tr><td>POST</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:green;">supported</mark></td></tr><tr><td>PUT</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:red;">rejected (415 unsupported media type)</mark></td></tr><tr><td>PATCH</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:red;">rejected (415 unsupported media type)</mark></td></tr><tr><td>GET</td><td><mark style="color:yellow;">accepted but body is ignored</mark></td><td><mark style="color:yellow;">accepted but body is ignored</mark></td></tr><tr><td>DELETE</td><td><mark style="color:yellow;">accepted but body is ignored</mark></td><td><mark style="color:yellow;">accepted but body is ignored</mark></td></tr></tbody></table>
 
