@@ -70,4 +70,4 @@
 
 ## Miscellaneous
 
-* [Arbitrary Input Content Support](miscellaneous/arbitrary-input-content-support.md)
+* [Arbitrary Input Support](miscellaneous/arbitrary-input-support.md)
