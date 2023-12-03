@@ -19,7 +19,7 @@ By default, integration endpoints only accept POST requests.  Web Service Endpoi
 
 ## Content-Type Handling
 
-Glyue parses integration web service HTTP(S) bodies in accordance with  the request's `Content-Type` header value as follows:
+Glyue parses integration web service HTTP(S) bodies in accordance with the request's `Content-Type` header value.  The following behavior is ensured:
 
 <table><thead><tr><th width="294">HTTP Request Content-Type(s)</th><th>Body Parsing Behavior</th></tr></thead><tbody><tr><td><code>application/json</code></td><td>Parsed as JSON into Pythonic data structure</td></tr><tr><td><code>application/xml</code> or <code>text/xml</code></td><td>Parsed as XML into Pythonic data structure</td></tr><tr><td><code>multipart/form-data</code></td><td>Parsed into one or more <code>GlyueFileHandle</code> objects in accordance to <code>multipart/form-data</code> standards</td></tr><tr><td><code>*/*</code> or any other value</td><td>Parsed into one <code>GlyueFileHandle</code> object</td></tr></tbody></table>
 
