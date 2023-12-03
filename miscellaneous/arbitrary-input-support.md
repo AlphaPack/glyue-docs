@@ -14,9 +14,7 @@ These "file ingestion" requests are subject to the following API restrictions:
 <table><thead><tr><th width="157">HTTP Method</th><th width="258">HTTP Request with Single File</th><th>HTTP Request with Multiple Files</th></tr></thead><tbody><tr><td>POST</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:green;">supported</mark></td></tr><tr><td>PUT</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:red;">rejected (415 unsupported media type)</mark></td></tr><tr><td>PATCH</td><td><mark style="color:green;">supported</mark></td><td><mark style="color:red;">rejected (415 unsupported media type)</mark></td></tr><tr><td>GET</td><td><mark style="color:yellow;">accepted but body is ignored</mark></td><td><mark style="color:yellow;">accepted but body is ignored</mark></td></tr><tr><td>DELETE</td><td><mark style="color:yellow;">accepted but body is ignored</mark></td><td><mark style="color:yellow;">accepted but body is ignored</mark></td></tr></tbody></table>
 
 {% hint style="warning" %}
-By default, integration endpoints only accept POST requests.
-
-To allow an integration to accept requests of other methods, a Web Service Endpoint must be created.  The new Web Service Endpoint URI will differ from the default POST URI for the integration.
+By default, integration endpoints only accept POST requests.  Web Service Endpoints must be created to enable integration execution via other HTTP methods as documented in the [build-a-restful-crud-web-service](../how-to-guides/build-a-restful-crud-web-service/ "mention") how-to guide and the [web-service-endpoint.md](../reference/integration\_configuration/web-service-endpoint.md "mention") admin component reference page.
 {% endhint %}
 
 ## Content-Type Handling
