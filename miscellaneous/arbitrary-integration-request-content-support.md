@@ -7,7 +7,7 @@ description: >-
 
 # Arbitrary Integration Request Content Support
 
-Requests to integration execution endpoints with body content that isn't a single JSON or XML document are supported.  In such scenarios, body content is converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing. &#x20;
+Integration execution endpoints can be passed body content that isn't a single JSON or XML payload.  In such scenarios, the body content is converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing. &#x20;
 
 The following input processing rules are enforced:
 
