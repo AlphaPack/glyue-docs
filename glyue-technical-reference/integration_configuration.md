@@ -25,6 +25,6 @@ Adapter configurations securely store credentials for use with service requests.
 
 The relationship between the integration and adapter configuration. Integrations will use the provided adapter config to make any associated service request calls. This configuration can be overridden within integrations with special variable [**adapter\_config**](broken-reference)**.**
 
-### Webservice Endpoints
+### Web Service Endpoints
 
-Integrations can be triggered from their HTTP POST method for the integration `path_name`. This endpoint exposes integrations to be called using all available HTTP verbs.
+Integrations can be triggered from their HTTP POST method for the integration `path_name`.  This endpoint exposes integrations to be called using all available HTTP verbs at use-defined paths.  See details at [web-service-endpoint.md](../reference/integration\_configuration/web-service-endpoint.md "mention").
