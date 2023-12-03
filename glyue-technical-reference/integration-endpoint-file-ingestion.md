@@ -18,7 +18,7 @@ By default, integration endpoints only accept POST requests.
 To allow an integration to accept requests of other methods, a Web Service Endpoint must be created.  The new Web Service Endpoint URI will differ from the default POST URI for the integration.
 {% endhint %}
 
-### Content Type Handling
+### Content-Type Handling
 
 Glyue parses integration web service HTTP(S) bodies in accordance with  the request's `Content-Type` header value as follows:
 
