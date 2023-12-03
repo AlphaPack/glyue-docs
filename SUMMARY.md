@@ -70,4 +70,4 @@
 
 ## Miscellaneous
 
-* [Arbitrary HTTP(S) Request Content Support](miscellaneous/arbitrary-http-s-request-content-support.md)
+* [Arbitrary Integration Request Content Support](miscellaneous/arbitrary-integration-request-content-support.md)
