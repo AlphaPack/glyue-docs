@@ -4,8 +4,8 @@ Now we are ready to create our first external API call. Integrations can have an
 
 In order to know how to compose a Service Request and its Field Mappings for any system, the user will need both the respective Glyue adapter documentation, as well as any documentation of the external system. The adapter reference article will lay out the Adapter Config, Service Request, and Field Mapping requirements, while the other system’s documentation should inform the user as to what endpoints are available, what each endpoint expects and returns, error troubleshooting advice, etc.
 
-{% content-ref url="../../glyue-technical-reference/adapters/" %}
-[adapters](../../glyue-technical-reference/adapters/)
+{% content-ref url="../../reference/adapters/" %}
+[adapters](../../reference/adapters/)
 {% endcontent-ref %}
 
 #### Service Request: `get_story_ids` <a href="#step4-getstoryidsfromhackernews-servicerequest-get_story_ids" id="step4-getstoryidsfromhackernews-servicerequest-get_story_ids"></a>

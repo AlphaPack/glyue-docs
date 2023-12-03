@@ -2,7 +2,7 @@
 
 **Creating the Service Request**\
 \
-_For reference:_ [_Service Request Documentation_](../../glyue-technical-reference/integration\_components/servicerequest.md)\
+_For reference:_ [_Service Request Documentation_](../../reference/integration\_components/servicerequest.md)\
 \
 Click on the "View Site" button at the top right of the page to return to the main Glyue UI. From here, you'll need to navigate back to the Build screen.\
 \
