@@ -53,7 +53,7 @@ Non-file form data will appear in `input.payload` while the files will appear in
 
 ## Single Binary / File Upload Requirements
 
-Content type for these requests will vary depending on the type of file being sent.  Some common content types that apply are `application/zip`, `application/pdf`, `image/png`, `audio/mpeg`, `video/mp4`, `application/octet-stream`.
+Content type for these requests will vary depending on the file being sent.  Some common content types that apply are `application/zip`, `application/pdf`, `image/png`, `audio/mpeg`, `video/mp4`, `application/octet-stream`.
 
 ### Content-Disposition Header
 
