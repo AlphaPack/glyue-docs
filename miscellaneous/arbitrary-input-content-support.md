@@ -1,11 +1,11 @@
 ---
 description: >-
   Glyue supports building and running integration web service APIs that receive
-  any arbitrary binary content (e.g. documents, bulk CSV data, audio/video
+  any arbitrary binary content (e.g. documents, bulk CSV data files, audio/video
   streams, archives)
 ---
 
-# Integration Endpoint File Ingestion
+# Arbitrary Input Content Support
 
 Integration execution endpoint request bodies that aren't single JSON or XML documents are converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing. &#x20;
 
