@@ -66,7 +66,4 @@
 * [Adapters](glyue-technical-reference/adapters/README.md)
   * [Generic HTTP Adapter](glyue-technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](glyue-technical-reference/adapters/email-smtp-adapter.md)
-
-***
-
-* [Integration Endpoint File Ingestion](integration-endpoint-file-ingestion.md)
+* [Integration Endpoint File Ingestion](glyue-technical-reference/integration-endpoint-file-ingestion.md)
