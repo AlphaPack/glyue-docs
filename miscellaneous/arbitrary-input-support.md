@@ -19,7 +19,7 @@ By default, integration endpoints only accept POST requests.
 To allow an integration to accept requests of other methods, a Web Service Endpoint must be created.  The new Web Service Endpoint URI will differ from the default POST URI for the integration.
 {% endhint %}
 
-### Content-Type Handling
+## Content-Type Handling
 
 Glyue parses integration web service HTTP(S) bodies in accordance with  the request's `Content-Type` header value as follows:
 
@@ -31,11 +31,11 @@ Glyue parses integration web service HTTP(S) bodies in accordance with  the requ
 It is possible to submit a single file in a `multipart/form-data` request.
 {% endhint %}
 
-### Multipart / Form-Data Content Requirements
+## Multipart / Form-Data Content Requirements
 
 Glyue assumes that the name of the field in the form data is the name of the file in that field.
 
-Non-file form data will appear in `input.payload` while the files will appear in `input.files`.
+Non-file form data will appear in `input.payload` while the files will appear in `input.files` as shown below.
 
 <table><thead><tr><th width="259"></th><th></th></tr></thead><tbody><tr><td><code>loan</code></td><td><code>FISCHER-20230531</code></td></tr><tr><td><code>note</code></td><td><code>Documents received from applicant today</code></td></tr><tr><td><code>driver_license.tiff</code></td><td>(file data)</td></tr><tr><td><code>bank_statement_01.pdf</code></td><td>(file data)</td></tr></tbody></table>
 
@@ -55,11 +55,11 @@ Non-file form data will appear in `input.payload` while the files will appear in
 }
 ```
 
-### Single Binary / File Upload Requirements
+## Single Binary / File Upload Requirements
 
 Content type for these requests will vary depending on the type of file being sent.  Some common content types that apply are `application/zip`, `application/pdf`, `image/png`, `audio/mpeg`, `video/mp4`, `application/octet-stream`.
 
-#### Content-Disposition Header
+### Content-Disposition Header
 
 In order for Glyue to be aware of the file's name, the request must include it within the `Content-Disposition` in a standards-compliant manner like the following:
 
