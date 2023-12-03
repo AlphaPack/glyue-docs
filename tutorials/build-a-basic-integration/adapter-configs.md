@@ -12,8 +12,8 @@ Before we add any **Service Requests** to the integration, we need to add **Adap
 
 There isn’t a specific Glyue adapter for this system. As such, we’re going to use Glyue’s Generic HTTP Adapter which can be used for just about any HTTP API.
 
-{% content-ref url="../../reference/adapters/generic-http-adapter.md" %}
-[generic-http-adapter.md](../../reference/adapters/generic-http-adapter.md)
+{% content-ref url="../../glyue-technical-reference/adapters/generic-http-adapter.md" %}
+[generic-http-adapter.md](../../glyue-technical-reference/adapters/generic-http-adapter.md)
 {% endcontent-ref %}
 
 1. Navigate to the Admin site and under **CONFIGURATION**, locate **Adapter Configs: HTTP** (not Email HTTP) and click **➕ Add**.
@@ -40,8 +40,8 @@ There isn’t a specific Glyue adapter for this system. As such, we’re going t
 At this point, the reader must have their SMTP credentials ready. [This Google support article](https://support.google.com/accounts/answer/185833?hl=en) provides instructions on how to create App Passwords for external applications to access a user’s Google account.
 {% endhint %}
 
-{% content-ref url="../../reference/adapters/email-smtp-adapter.md" %}
-[email-smtp-adapter.md](../../reference/adapters/email-smtp-adapter.md)
+{% content-ref url="../../glyue-technical-reference/adapters/email-smtp-adapter.md" %}
+[email-smtp-adapter.md](../../glyue-technical-reference/adapters/email-smtp-adapter.md)
 {% endcontent-ref %}
 
 1. On the Admin site, under **CONFIGURATION**, locate **Adapter Configs: Email SMTP** and click **➕ Add**.
