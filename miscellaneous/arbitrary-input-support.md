@@ -5,7 +5,7 @@ description: >-
   streams, archives)
 ---
 
-# Arbitrary Input Content Support
+# Arbitrary Input Support
 
 Integration execution endpoint request bodies that aren't single JSON or XML documents are converted into one or multiple `GlyueFileHandle` objects and then passed into Glyue's integration engine for processing. &#x20;
 
@@ -65,6 +65,8 @@ In order for Glyue to be aware of the file's name, the request must include it w
 
 <table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><code>Content-Disposition</code></td><td><code>attachment; filename=name_goes_here.docx</code></td></tr></tbody></table>
 
+The above header would result in an `input` object with the following `files` content:
+
 ```
 "payload": {},
 "files": {
@@ -72,7 +74,7 @@ In order for Glyue to be aware of the file's name, the request must include it w
 }
 ```
 
-Glyue's default filename `file` (with no extension) will be used if no name is specified in the request:
+Without the header, the default filename `file` (with no extension) would instead be used:
 
 ```
 "files": {
