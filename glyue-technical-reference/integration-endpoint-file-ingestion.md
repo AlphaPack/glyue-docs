@@ -6,7 +6,7 @@ description: >-
 
 # Integration Endpoint File Ingestion
 
-Any HTTP request received at an integration endpoint that is not composed of JSON or XML is handled by Glyue in the following fashion as described below.
+Any HTTP request received at an integration endpoint that is not composed of JSON or XML is handled by Glyue as described below.
 
 ### HTTP Methods
 
