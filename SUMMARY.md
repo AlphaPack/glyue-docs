@@ -64,6 +64,8 @@
   * [Value Mapping Set](glyue-technical-reference/integration\_components/valuemappingset.md)
   * [Value Mapping](glyue-technical-reference/integration\_components/valuemapping.md)
   * [Mask](glyue-technical-reference/integration\_components/mask.md)
+  * [Integration Config](reference/integration\_components/integration-config.md)
+  * [Integration Engine Versions](reference/integration\_components/integration-engine-versions.md)
 * [Adapters](glyue-technical-reference/adapters/README.md)
   * [Generic HTTP Adapter](glyue-technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](glyue-technical-reference/adapters/email-smtp-adapter.md)

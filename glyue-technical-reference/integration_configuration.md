@@ -9,9 +9,7 @@ The base configuration for Glyue.
 
 ### Integration Configs
 
-Provides control for emails, storing payload for use with the run history page.
-
-Email fields should be comma separated
+Configures email notifications and data retention. [integration-config.md](../reference/integration\_components/integration-config.md "mention")
 
 ### Integration Permissions
 
