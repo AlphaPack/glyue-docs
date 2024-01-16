@@ -19,7 +19,7 @@
        limitEmail: OPTIONAL | int | max number of articles to send in the email
        ```
    5. Click the **\[**💾 **Save]** button on the bottom (or use keyboard shortcut: `CTRL + S`).
-2. Navigate to the Admin site by clicking the human silhouette icon (`👤`) on the left-hand navbar.
+2. Navigate to the Admin site by clicking the human silhouette icon (`👤`) in the top-right corner, then selecting "Admin" from the dropdown.
    1. Scroll to the bottom and on the **Integration Config** row, click **\[➕ADD]**.
    2. Select `hackernews_email_digest` from the **Integration** picklist.
    3. Uncheck **Email digests**.

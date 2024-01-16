@@ -63,8 +63,8 @@ At this point, the reader must have their SMTP credentials ready. [This Google s
 
 #### Validate Configs <a href="#step3-adapterconfigs-validateconfigs" id="step3-adapterconfigs-validateconfigs"></a>
 
-1. On the main Glyue site navbar, click **Validate** (the checked-circle symbol).
-2.  Click the **\[VALIDATE CONFIGS]** button at the top and wait for results. If successful, the results should look like this:
+1. Return to the Dashboard on the on main Glyue interface.
+2.  Click the **\[VALIDATE]** button in the **Adapter Config Validation Results** section and wait for results. If successful, the results should look like this:
 
     ```
     Validation passed for these systems:
