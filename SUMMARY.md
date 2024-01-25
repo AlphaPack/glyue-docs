@@ -15,7 +15,6 @@
   * [Extra credit](tutorials/build-a-basic-integration/extra-credit/README.md)
     * [extra\_credit.json](tutorials/build-a-basic-integration/extra-credit/extra\_credit.json.md)
 * [What is Pre-Mapping?](tutorials/what-is-pre-mapping/README.md)
-  * [What is Pre-Mapping?](tutorials/what-is-pre-mapping/what-is-pre-mapping.md)
   * [Before you start](tutorials/what-is-pre-mapping/before-you-start.md)
   * [Bookmarks](tutorials/what-is-pre-mapping/bookmarks.md)
   * [Source and Targets](tutorials/what-is-pre-mapping/source-and-targets.md)
