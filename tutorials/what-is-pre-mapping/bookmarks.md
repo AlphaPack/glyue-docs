@@ -14,7 +14,7 @@ Each Integration template will have a set of **Bookmarks** for the integration a
 3.  Click on **Bookmarks** to navigate to its page which will look something like this (NOTE: the specific sections for your integration may vary). This page lists the **Bookmark Sections**; a **Section** is a specific collection of **Bookmarks** grouped by a common category:\
 
 
-    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 4.  To the left of each **Section** with the folder icon is a triangle to expand the view. To the right are buttons for editing and adding new **Bookmarks** which will be explored another time. Click on any of the **Sections** to expand its contents.\
 
 

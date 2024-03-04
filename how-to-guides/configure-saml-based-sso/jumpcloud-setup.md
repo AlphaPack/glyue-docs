@@ -8,7 +8,7 @@ Before continuing, this user should be a JumpCloud admin for the organization, a
 
 From the JumpCloud dashboard, select **SSO** from the left-hand navbar and click the **Add New Application** button.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 At the bottom of the page, click the **Custom SAML App** button.
 

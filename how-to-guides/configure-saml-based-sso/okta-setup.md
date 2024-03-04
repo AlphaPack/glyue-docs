@@ -14,7 +14,7 @@ Click the **Create App Integration** button.
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -38,7 +38,7 @@ Glyue always serves its metadata at `https://` (custom domain) `/sso/saml2/metad
 
 In the XML document, locate an element named `AssertionConsumerService` and grab the URL from its `Location` attribute (do not include the `"`).
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In most cases this will be `https://`\[domain]`/sso/saml2/acs/`
 
@@ -46,11 +46,11 @@ In most cases this will be `https://`\[domain]`/sso/saml2/acs/`
 
 In the XML document, locate the first element `EntityDescriptor` and grab the value for its `entityID` attribute. In most cases this will be the same URL of Glyue’s metadata (do not include the `"`).
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

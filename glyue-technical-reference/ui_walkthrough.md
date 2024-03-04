@@ -6,6 +6,8 @@ Buttons on the Integration Builder Toolbar enables users to add, duplicate and c
 
 <figure><img src="../.gitbook/assets/glyue_toolbar_20221024.png" alt=""><figcaption></figcaption></figure>
 
+***
+
 ## Filters
 
 ### Column
@@ -53,3 +55,50 @@ The Find and Replace toolbox offers a powerful way to quickly search for and upd
 9. When enabled, only counts whole words as matches (e.g. "banker" will not match "bank").
 10. When enabled, interprets the "find" text as a regular expression.
 11. When enabled, _Replace All_ will only replace matches within the selected cells.&#x20;
+
+
+
+***
+
+### Integration Configuration Wizard
+
+To create a new Integration, a wizard will take you through the required and optional configuration fields.
+
+#### Step 1 — Configure Integration
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>First page of the Integration Configure Wizard – "Integration Config"</p></figcaption></figure>
+
+1. Name of the integration
+2. Description for the integration
+3. Whether services outside of Glyue can trigger the integration
+4. Whether the integration should run asynchronously
+5. Send a detailed breakdown of every integration run alongside the Email Success / Failure messages (if enabled).
+6. The list of emails to receive a notification when the integration finishes successfully.
+   1. Multiple emails should be separated by a comma, e.g. `david@sandboxbanking.com, sarah@sandboxbanking.com`
+7. The list of emails to receive a notification when the integration fails.
+   1. Multiple emails should be separated by a comma
+8. Whether or not Glyue should [store the records of every run of this integration](integration\_anatomy.md#run-history), and if so, for how long.
+   1. Note storing the payloads for those runs are controlled by a separate setting (9)
+9. Whether or not Glyue should store the contents of the payloads of every run of this integration, and if so, for how long.
+   1. Payloads will not be stored if the general run history storage (8) is not enabled
+10. [Integration engine version](../reference/integration\_components/integration-engine-versions.md), to preserve compatibility with platform functions as the platform evolves.&#x20;
+    1. Integrations are developed against a specific Integration Engine version, so if unsure, consult Sandbox support before changing this setting.
+11. [Webservice endpoints](../reference/integration\_configuration/web-service-endpoints.md), which allow an Integration to be triggered by user-defined URL paths.
+
+#### Step 2 —Systems (adapters)
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Second page of the Integration Configure Wizard – "Systems"</p></figcaption></figure>
+
+1. Clears all changes on the page.&#x20;
+2. Saves changes to adapter bindings. When setting up a new Integration, any Systems added will need to be saved before you can `CONTINUE` to the next step
+3. The system Glyue will be connecting to
+4. The configuration to use for the selected system
+   1. If no configuration exists, you can create one using the _Add New Adapter_ option. This will open a popup with fields specific to the system you selected.&#x20;
+   2. At a basic level, the adapter configuration contains the credentials for Glyue to communicate with the system.
+5. Adds additional systems, if the Integration requires multiple.
+
+#### Step 3 — Permissions
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Third page of the Integration Configure Wizard – "Permissions"</p></figcaption></figure>
+
+This page is used to set Read, Write, Execute, and Debug permissions for each user on the new integration. A description of each permission can be found at [#integration-permissions](integration\_configuration.md#integration-permissions "mention").

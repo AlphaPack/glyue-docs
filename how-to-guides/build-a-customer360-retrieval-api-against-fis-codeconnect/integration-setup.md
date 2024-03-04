@@ -7,7 +7,7 @@ The first step to building a Customer360 retrieval API would be to create a new 
 \
 Navigate to the Build page and change the current component to the **Integration** option.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 Once there, press the "Add Row" button to create the integration. You'll need to provide a **Path Name** as well as a **description** in order to save the added integration using the save button on the bottom of the screen.\

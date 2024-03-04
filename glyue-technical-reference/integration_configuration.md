@@ -13,7 +13,12 @@ Configures email notifications and data retention. [integration-config.md](../re
 
 ### Integration Permissions
 
-User permissions must be set per integration. Options are `read`, `write`, `execute`, and `debug`. By default, the user who creates the integration has full integration permissions. Every other user, who is not a designated superuser, will need to have permissions explicitly granted.
+User permissions must be set per integration. Options are `read`, `write`, `execute`, and `debug`. By default, the user who creates the integration has full integration permissions.
+
+* `read` — Allows the user to see the contents of the integration, including its Service Requests, Field Mappings, Value Mapping Sets, etc.
+* `write` — Allows the user to modify any aspect of the integration
+* `execute` — Allows the user to manually trigger the integration using the _Run Integration_ feature
+* `debug` — Allows the user to see run histories from past integration runs
 
 ### Adapter Configurations
 
