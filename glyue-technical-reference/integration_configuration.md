@@ -25,4 +25,4 @@ The relationship between the integration and adapter configuration. Integrations
 
 ### Web Service Endpoints
 
-Integrations can be triggered from their HTTP POST method for the integration `path_name`.  This endpoint exposes integrations to be called using all available HTTP verbs at use-defined paths.  See details at [web-service-endpoint.md](../reference/integration\_configuration/web-service-endpoint.md "mention").
+Integrations can be triggered from their HTTP POST method for the integration `path_name`.  This endpoint exposes integrations to be called using all available HTTP verbs at use-defined paths.  See details at [web-service-endpoints.md](../reference/integration\_configuration/web-service-endpoints.md "mention").

@@ -24,6 +24,7 @@
 
 ## How-To Guides
 
+* [Run an Integration](how-to-guides/run-an-integration.md)
 * [Onboard New Users](how-to-guides/onboard-new-users.md)
 * [Single Sign On (SSO)](how-to-guides/configure-saml-based-sso/README.md)
   * [Glyue Setup](how-to-guides/configure-saml-based-sso/glyue-setup.md)
@@ -50,7 +51,7 @@
 * [Integration Builder Page](glyue-technical-reference/ui\_walkthrough.md)
 * [Integration Anatomy](glyue-technical-reference/integration\_anatomy.md)
 * [Admin Components](glyue-technical-reference/integration\_configuration.md)
-  * [Web Service Endpoint](reference/integration\_configuration/web-service-endpoint.md)
+  * [Web Service Endpoints](reference/integration\_configuration/web-service-endpoints.md)
 * [Integration Life-Cycle](glyue-technical-reference/integration-life-cycle.md)
 * [Special Functions](glyue-technical-reference/special\_functions/README.md)
   * [open\_glyuefile](glyue-technical-reference/special\_functions/open\_glyuefile.md)
