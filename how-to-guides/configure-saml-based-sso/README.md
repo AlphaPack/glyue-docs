@@ -2,12 +2,6 @@
 
 ​[Single Sign-On](https://en.wikipedia.org/wiki/Single\_sign-on) (SSO) is a demanded feature for most contemporary web applications, as it allows for centralized user access control by the business or organization. Users also do not need to worry about forgetting passwords, as they only need their SSO login details to access any of their connected applications.
 
-#### SAML vs. OIDC (OpenID) <a href="#glyuesso-explanation-samlvs.oidc-openid" id="glyuesso-explanation-samlvs.oidc-openid"></a>
-
-SSO can be implemented in different ways, the two most common being [SAML](https://en.wikipedia.org/wiki/Security\_Assertion\_Markup\_Language) and [OIDC](https://en.wikipedia.org/wiki/OpenID).
-
-Glyue uses the SAML 2.0 protocol for its Single Sign On (SSO) and does not support OIDC at this time. For a deeper explanation as to the differences between SAML and OIDC, see [this excellent article](https://jumpcloud.com/blog/saml-vs-openid) from [JumpCloud](https://jumpcloud.com/), a respected cloud-based authentication provider and IT asset management platform.
-
 #### Brief Overview of SAML and Glyue SSO <a href="#glyuesso-explanation-briefoverviewofsamlandglyuesso" id="glyuesso-explanation-briefoverviewofsamlandglyuesso"></a>
 
 In a SAML SSO configuration, Glyue acts as the **Service Provider (SP)** and a trusted identity/access platform (such as JumpCloud, Azure AD, Okta, etc.) acts as the **Identity Provider (IdP)**. Glyue SSO is designed to be IdP-agnostic and work with any provider.
@@ -35,3 +29,22 @@ Before any of that could happen, though, the service and ID providers had to est
 3. The Glyue admin adds the IdP and uploads its metadata.
 
 Once done, the IdP should appear on the Glyue login screen as an option for users.
+
+## Frequently Asked Questions / FAQ
+
+#### Does Glyue support OIDC (OpenID Connect)?
+
+> No. For a deeper explanation as to the differences between SAML and OIDC, see [this excellent article](https://jumpcloud.com/blog/saml-vs-openid) from [JumpCloud](https://jumpcloud.com/), a respected cloud-based authentication provider and IT asset management platform.
+
+#### Does a user need an account in Glyue before being able to log in via SSO?
+
+> Yes, the user must have an activated Glyue account before logging in with SSO.
+
+#### Is it possible for Glyue to create user accounts as needed if they come from a trusted IdP?
+
+> Not at this time, but if you want this feature added to Glyue please let us know!
+
+#### Can I restrict users to logging in with SSO only?
+
+> Yes. New users can be restricted to SSO by unchecking "Allow Password Login" on the invite page. If the user already exists, go to Admin > Accounts, select the account, and uncheck "Allow password auth" and save.
+
