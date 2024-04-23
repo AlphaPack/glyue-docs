@@ -1,6 +1,6 @@
 # Input Validation
 
-The reader may remember that in the integration description we provided an example input that included a required `email` field and optional `limitQuery` and `limitEmail` fields. If the requestor doesn't provide an email address in their input, how would we know where to send the digest? Or, what if the requestor provides invalid limit values (which should be positive integers)?
+You may remember that in the integration description we provided an example input that included a required `email` field and optional `limitQuery` and `limitEmail` fields. If the requestor doesn't provide an email address in their input, how would we know where to send the digest? Or, what if the requestor provides invalid limit values (which should be positive integers)?
 
 In this case we want the integration to fail gracefully and respond to the requestor with a failure status and indicate which field(s) need to be fixed. This is where **Validation Rules (VRs)** come in to play.
 
@@ -35,25 +35,14 @@ In this case we want the integration to fail gracefully and respond to the reque
    4. Click the **\[**💾 **Save]** button at the bottom.
 
 {% hint style="info" %}
-If the reader is familiar with Python, they may have an idea of what is going on here.\
+If you are familiar with Python, you may have an idea of what is going on here.\
 (`_` represents the value of the field named in the **Field** column)
 
 * In the first validation rule, we ensure that the provided email exists, is a string, and a properly formatted email using a regex expression.
 * In the second and third, we ensure that, the limits are either not provided or are positive integers
 {% endhint %}
 
-{% hint style="warning" %}
-#### Temporary Bug: Inline editing/pasting <a href="#step2-inputvalidation-temporarybug-inlineediting-pasting" id="step2-inputvalidation-temporarybug-inlineediting-pasting"></a>
 
-As of 7/20/23 there is a known bug in the builder where the formatting of the text in the cell is lost (specifically newline whitespace characters). Python code will not run properly if this happens (syntax error).
-
-This can happen when:
-
-* Double-clicking a cell that has multiple lines of text in it already (and saving changes)
-* Double-clicking a blank cell, and with the text cursor still in the cell (and not in the code editor drawer), pasting multiple lines of code
-
-This will be fixed ASAP. In the meantime, the recommended workaround is to always use the code editor drawer when making edits.
-{% endhint %}
 
 #### Testing the Validation Rules <a href="#step2-inputvalidation-testingthevalidationrules" id="step2-inputvalidation-testingthevalidationrules"></a>
 
