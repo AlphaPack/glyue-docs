@@ -15,7 +15,9 @@ To start, we will create the scaffolding for the integration by setting up its m
    2. Click the **\[➕ADD ROW]** button on the bottom.
    3. In the wizard that appears, enter the following:
       1. **Path Name:** `hackernews_email_digest`.
-      2.  **Description:**&#x20;
+      2. **Enable API Access:** Check the box to enable HTTP calls.\
+         ![](<../../.gitbook/assets/image (104).png>)
+      3.  **Description:**&#x20;
 
           ```
           Queries the Hacker News API and sends an email with links to the latest top posts.
@@ -29,8 +31,8 @@ To start, we will create the scaffolding for the integration by setting up its m
           limitQuery: OPTIONAL | int | limit to the number of articles to query
           limitEmail: OPTIONAL | int | max number of articles to send in the email
           ```
-      3. Expand the **Email Settings** section and uncheck **Email Digests**
-      4. Expand the **Run Settings** section and ensure **Store Run History** and **Store Run History Payloads** are enabled
+      4. Expand the **Email Settings** section and uncheck **Email Digests**
+      5. Expand the **Run Settings** section and ensure **Store Run History** and **Store Run History Payloads** are enabled
    4. Click the **Save** button to move to the next page of the wizard.
 2. On the **Systems step** of the wizard, we will create two **Adapter Configs,** one for accessing the Hacker News API and another for Gmail SMTP
    1. Click on **Add System** to create the Hacker News API adapter
