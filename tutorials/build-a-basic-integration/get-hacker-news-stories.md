@@ -24,12 +24,10 @@ Glyue will execute a SR once for every item in its **Call For Each**. Using pyth
 1. Right-click the `get_story_by_id` SR and select **Go To > Field Mapping**.
 2. Click **\[➕ADD ROW]** 2 times to get 2 blank rows. Enter the following values and then save:
    * First row
-     * **Sequence:** `0`
      * **Field:** `url_path`
      * **Value:** `f"/v0/item/{sritem}.json"`
      * **Value Type:** `str`
    * Second row
-     * **Sequence:** `1`
      * **Field:** `method`
      * **Value:** `"GET"`
      * **Value Type:** `str`

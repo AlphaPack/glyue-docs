@@ -14,7 +14,6 @@ In our first SR, we want to query Hacker News for the latest stories.
 
 1. From the **Build** page, with the Component set to **Integration**, right click the integration and click **Go To > Service Request**.
 2. Click the **\[➕ADD ROW]** button, and provide these values:
-   * **Sequence:** `0`
    * **System:** `HTTP` (this is how we indicate that the SR should use the HTTP adapter)
    * **Service Name:** `n/a`
    * **Formula Variable:** `get_story_ids`
@@ -29,12 +28,10 @@ Now we’re going to add a couple of simple FMs to our SR.
 1. From the **Build** page with Component set to **Service Request**, right click the SR we just created and select **Go To > Field Mapping**.
 2. Click **\[➕ADD ROW]** 2 times to add 2 new rows.
 3. In the top row add the following:
-   * **Sequence:** `0`
    * **Field:** `url_path`
    * **Value:** `"/v0/newstories.json"` (include the quotes)
    * **Value Type:** `str`
 4. For the next row, enter:
-   * **Sequence:** `0`
    * **Field:** `method`
    * **Value:** `"GET"` (include the quotes)
    * **Value Type:** `str`

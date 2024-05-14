@@ -1,4 +1,4 @@
-# The Email
+# Sending the Email
 
 Now we’re ready for the final step. We’re going to take each of those story responses and collate them into an email body and then send it off to our recipient.
 
@@ -39,22 +39,18 @@ Navigate to the **Build** page, go to the Service Requests for our integration, 
 Right-click the newly-created SR and go to Field Mappings. Add 4 rows with these values and then save.
 
 * First row
-  * **Sequence:** `0`
   * **Field:** `from_address`
   * **Value:** `"email@address.net"` (use the same email as was entered for the Email SMTP Adapter Config, and don’t forget the quotes)
   * **Value Type:** `str`
 * Second row
-  * **Sequence:** `1`
   * **Field:** `to_addresses`
   * **Value:** `[input.payload.email]`
   * **Value Type:** `list`
 * Third row
-  * **Sequence:** `3`
   * **Field:** `subject`
   * **Value:** `"Top HackerNews Stories"`
   * **Value Type:** `str`
 * Fourth row
-  * **Sequence:** `4`
   * **Field:** `body`
   * **Value:** `open_glyuefile("email_body.txt").read()`
   * **Value Type:** `str`

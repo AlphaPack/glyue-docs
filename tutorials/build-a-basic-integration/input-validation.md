@@ -9,7 +9,6 @@ In this case we want the integration to fail gracefully and respond to the reque
 1. On the **Build** page, with **Integration** selected under **Component** at the top, right-click the row with `hackernews_email_digest` and select **Go To > Validation Rule**.
 2. Click the **\[➕ADD ROW]** button 2 times to add 2 new rows. Enter the following values for each row:
    1. First row:
-      * **Sequence**: `0`
       * **Type**: `INPUT`
       * **Field**: `input.payload.email`
       *   **Rule**: (copy and paste the below Python code)
@@ -21,7 +20,6 @@ In this case we want the integration to fail gracefully and respond to the reque
           retvalue = _ and isinstance(_, str) and re.match(pattern, _)
           ```
    2. Second row:
-      * **Sequence**: `1`
       * **Type**: `INPUT`
       * **Field**: `input.payload.limitQuery`
       *   **Rule**: (copy and paste the below Python code)
@@ -30,7 +28,6 @@ In this case we want the integration to fail gracefully and respond to the reque
           not _ or (isinstance(_, int) and _ > 0)
           ```
    3. Select the second row and click the **\[DUPLICATE ROW]** button at the bottom and make the following edits to the new row:
-      * **Sequence:** `2`
       * **Field**: `input.payload.limitEmail`
    4. Click the **\[**💾 **Save]** button at the bottom.
 
