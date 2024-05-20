@@ -69,6 +69,7 @@
   * [Generic HTTP Adapter](glyue-technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](glyue-technical-reference/adapters/email-smtp-adapter.md)
 * [Integration Scheduler](reference/integration-scheduler.md)
+* [Permissions](reference/permissions.md)
 
 ## Miscellaneous
 
