@@ -6,7 +6,7 @@
 
 2. Enter the new user's email and give them a username. The invitation will be sent to this email. \
    \
-   Selecting "Staff" in the _Additional Permissions_ dropdown will give the user Staff permissions.
+   Selecting "Staff" in the _Additional Permissions_ dropdown will give the user [Staff permissions](../reference/permissions.md#user-permissions).
 
 {% hint style="info" %}
 If you're unsure what username to give, we recommend reusing the portion of their email before the @ sign.
