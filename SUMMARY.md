@@ -24,7 +24,7 @@
 ## How-To Guides
 
 * [Run an Integration](how-to-guides/run-an-integration.md)
-* [Onboard New Users](how-to-guides/onboard-new-users.md)
+* [Invite New Users](how-to-guides/invite-new-users.md)
 * [Single Sign On (SSO)](how-to-guides/configure-saml-based-sso/README.md)
   * [Glyue Setup](how-to-guides/configure-saml-based-sso/glyue-setup.md)
   * [JumpCloud Setup](how-to-guides/configure-saml-based-sso/jumpcloud-setup.md)
