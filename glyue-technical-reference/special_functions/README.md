@@ -70,7 +70,28 @@ create_file_lock('my_file')
 
 `open_vault(vault_name) -> Vault`
 
-Attempts to open a vault for a given name. See the Vault guide for more information on how to use Vaults within integrations.
+Attempts to open a vault for a given name.&#x20;
+
+**Get data from vault**
+
+```python
+with open_vault('data') as vault: 
+    # Get data from a vault entry
+    customers = vault.get('customers')
+```
+
+**Modify data in an existing vault**
+
+```python
+new_customer = {"name": "David"}
+
+with open_vault('data') as vault: 
+    customers = vault.get('customers')
+    customers.append(new_customer)
+    vault.update('customers', customers)
+```
+
+
 
 ## map\_value
 
