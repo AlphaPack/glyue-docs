@@ -71,6 +71,7 @@
   * [Email SMTP Adapter](glyue-technical-reference/adapters/email-smtp-adapter.md)
 * [Integration Scheduler](reference/integration-scheduler.md)
 * [Permissions](reference/permissions.md)
+* [Banking Core Connectivity Guide](reference/banking-core-connectivity-guide.md)
 
 ## Miscellaneous
 
