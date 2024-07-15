@@ -25,6 +25,7 @@
 
 * [Run an Integration](how-to-guides/run-an-integration.md)
 * [Invite New Users](how-to-guides/onboard-new-users.md)
+* [Build and Deploy a Frontend](how-to-guides/build-and-deploy-a-frontend.md)
 * [Set up Single Sign On (SSO)](how-to-guides/set-up-single-sign-on-sso/README.md)
   * [Glyue Setup](how-to-guides/set-up-single-sign-on-sso/glyue-setup.md)
   * [JumpCloud Setup](how-to-guides/set-up-single-sign-on-sso/jumpcloud-setup.md)
