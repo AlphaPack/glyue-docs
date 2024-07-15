@@ -70,7 +70,9 @@
   * [Generic HTTP Adapter](glyue-technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](glyue-technical-reference/adapters/email-smtp-adapter.md)
 * [Integration Scheduler](reference/integration-scheduler.md)
-* [Permissions](reference/permissions.md)
+* [Permissions](reference/permissions/README.md)
+  * [Service Accounts](reference/permissions/service-accounts.md)
+  * [Organizations](reference/permissions/organizations.md)
 * [Banking Core Connectivity Guide](reference/banking-core-connectivity-guide.md)
 
 ## Miscellaneous

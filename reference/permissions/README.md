@@ -2,9 +2,9 @@
 
 A Glyue user's permissions a governed by three concepts:
 
-* [User Type (Standard or Staff)](permissions.md#user-type)
-* [User Permissions](permissions.md#user-permissions)
-* [Group Permissions](permissions.md#group-permissions)
+* [User Type (Standard, Staff, Service Account)](./#user-type)
+* [User Permissions](./#user-permissions)
+* [Group Permissions](./#group-permissions)
 
 ### User Type
 
@@ -26,6 +26,8 @@ A **Standard Glyue** user account is appropriate for everyday users who are invo
 
 A **Staff Glyue** user is equivalent to a system administrator. These users have access to additional pages, notably the _Invite_ page, which allows them to invite additional Standard and Staff users into Glyue, and the _Admin_ page, which controls settings for the Glyue environment.
 
+A **Service Account** is an account created to manage third-party system access to integrations on Glyue. A Service Account is only meant to execute integrations, and cannot log into the Glyue UI, view or edit integrations, or invite other users. Learn more about service accounts here.
+
 ### User Permissions
 
 Both Standard and Staff users can have their abilities augmented by being granted permissions specific to a particular action. These permissions must be granted by a member of Sandbox staff — reach out to support@sandboxbanking.com for help.
@@ -34,7 +36,7 @@ Both Standard and Staff users can have their abilities augmented by being grante
 
 Each user — both Standard and Staff — must be explicitly granted permission to access integrations. This must be done for each integration. Typically this is handled by your Sandbox Solution Engineer — reach out to support@sandboxbanking.com for help.
 
-Integrations come with four separate permission types: Read, Write, Execute, and Debug. Details on these can be [found here](../glyue-technical-reference/integration\_configuration.md#integration-permissions).
+Integrations come with four separate permission types: Read, Write, Execute, and Debug. Details on these can be [found here](../../glyue-technical-reference/integration\_configuration.md#integration-permissions).
 
 ### Group Permissions
 
