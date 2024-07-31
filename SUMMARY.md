@@ -75,6 +75,7 @@
   * [Service Accounts](reference/permissions/service-accounts.md)
   * [Organizations](reference/permissions/organizations.md)
 * [Banking Core Connectivity Guide](reference/banking-core-connectivity-guide.md)
+* [Frontends](reference/frontends.md)
 
 ## Miscellaneous
 
