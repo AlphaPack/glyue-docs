@@ -32,6 +32,6 @@ To help you follow this guide, you can download the JSON export of the integrati
 
 ### Code Examples and Explanation
 
-{% content-ref url="code-examples-and-explanation.md" %}
-[code-examples-and-explanation.md](code-examples-and-explanation.md)
+{% content-ref url="vault-code-examples-and-explanation.md" %}
+[vault-code-examples-and-explanation.md](vault-code-examples-and-explanation.md)
 {% endcontent-ref %}

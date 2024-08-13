@@ -38,7 +38,7 @@
   * [Vault Setup](how-to-guides/build-a-restful-crud-web-service/vault-setup.md)
   * [Create Web Service Endpoints](how-to-guides/build-a-restful-crud-web-service/create-web-service-endpoints.md)
   * [Execute Web Service Endpoints with Vault Methods](how-to-guides/build-a-restful-crud-web-service/execute-web-service-endpoints-with-vault-methods.md)
-  * [Code Examples and Explanation](how-to-guides/build-a-restful-crud-web-service/code-examples-and-explanation.md)
+  * [Vault Code Examples and Explanation](how-to-guides/build-a-restful-crud-web-service/vault-code-examples-and-explanation.md)
 * [Build a Customer360 Retrieval API against FIS CodeConnect](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/README.md)
   * [Integration Setup](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/integration-setup.md)
   * [Service Request Setup](how-to-guides/build-a-customer360-retrieval-api-against-fis-codeconnect/service-request-setup.md)

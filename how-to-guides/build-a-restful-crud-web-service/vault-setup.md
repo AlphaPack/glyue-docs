@@ -4,7 +4,7 @@
 To perform the following steps, the user must be a Glyue administrator for the target environment.
 {% endhint %}
 
-In this step, we will make use of Glyue's vault feature as a data store for our list of customers. If you would like to learn about vault and the different methods to get, add, update and delete data in vault, you can visit this guide for more information.
+In this step, we will make use of Glyue's vault feature as a data store for our list of customers. To learn about vault and its full suite of methods, visit [this guide for more information](vault-code-examples-and-explanation.md).
 
 ### Create Vault
 
