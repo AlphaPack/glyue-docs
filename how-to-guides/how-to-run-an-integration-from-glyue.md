@@ -2,7 +2,7 @@
 description: Using the Integration Runner
 ---
 
-# Run an Integration
+# How to Run an Integration from Glyue
 
 Running an integration in Glyue involves composing a payload that matches the integration's requirements, then sending that payload to the integration. This can be used as the primary way to run an integration, or to mimic an expected call from a 3rd party service for testing purposes.
 
@@ -38,7 +38,7 @@ _Payload_ refers to information sent in the body of the request. This informatio
 
 Headers will be automatically populated based on the content of the payload and other details of the integration. When uploading multipart or binary payloads, the _Integration Runner_ will suggest appropriate headers based on the file type(s) that are uploaded.
 
-Some headers are omitted from the display and set automatically when the integration is sent. Certain headers will be ignored even if specified, for security reasons. _See the full list ignored/hidden headers in the_[ _Appendix_](run-an-integration.md#appendix)_._
+Some headers are omitted from the display and set automatically when the integration is sent. Certain headers will be ignored even if specified, for security reasons. _See the full list ignored/hidden headers in the_[ _Appendix_](how-to-run-an-integration-from-glyue.md#appendix)_._
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-20 at 1.52.15 PM.png" alt=""><figcaption><p>The Headers interface.</p></figcaption></figure>
 

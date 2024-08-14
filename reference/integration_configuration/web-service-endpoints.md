@@ -4,9 +4,9 @@ description: >-
   verbs
 ---
 
-# Web Service Endpoint
+# Web Service Endpoints
 
-Glyue supports building web services that execute integrations via user-defined URL paths and methods.  Among other use cases, these admin components allow for the construction of traditional RESTful web services as explained in the [build-a-restful-crud-web-service](../../how-to-guides/build-a-restful-crud-web-service/ "mention") guide.
+Glyue supports building web services that execute integrations via user-defined URL paths and methods.  Among other use cases, these admin components allow for the construction of traditional RESTful web services as explained in the [building-a-restful-crud-web-service](../../tutorials/building-a-restful-crud-web-service/ "mention") guide.
 
 {% hint style="warning" %}
 **IMPORTANT CAVEAT:**  Only URL paths starting with `/api/` or `/rest/` are currently possible.
