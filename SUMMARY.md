@@ -77,6 +77,7 @@
   * [Organizations](reference/permissions/organizations.md)
 * [Banking Core Connectivity Guide](reference/banking-core-connectivity-guide.md)
 * [Frontends](reference/frontends.md)
+* [Idempotency Layer](reference/idempotency-layer.md)
 
 ## Miscellaneous
 
