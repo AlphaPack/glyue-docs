@@ -5,7 +5,7 @@
 Value Mapping Sets are an efficient way to set up [deterministic transformations](#user-content-fn-1)[^1] on a field in a payload. For example, two systems may have a field `state`, but the source system sends the value as the state abbreviation, while the destination expects it as a full spelling. Other common use cases include:
 
 * Translating between internal codes and external-facing names&#x20;
-  * e.g. a produce code `400` may refer to the "High Yield Savings" product
+  * e.g. a product code `400` may refer to the "High Yield Savings" product
 * Reconciling different names, spelling, or formatting for the same concept across systems
   * e.g. `High Yield Savings` vs. `High-Yield Savings Account`
 * Performing a many-to-few transformation
@@ -23,7 +23,6 @@ A Value Mapping Set has two components:
 1. On the build page, find your integration, right-click, then select _Go To > Value Mapping Set._
 2. Click + _Add Row_ to create the new Value Mapping Set
 3. Give your Value Mapping Set a clear name and description
-4. Find your desired field mapping, and select the Value Mapping Set you created in the `Value Mapping Set` column.
 
 The default settings on the value mapping set are sufficient for most use cases, but there are some instances where you may want to adjust them.
 
@@ -53,6 +52,14 @@ value4          output2
 
 * If you don't know all possible values that may occur in the source system, it can be useful to set a default value to handle these cases, assuming such a value exists
   * If a default value is not set, any unrecognized values will be left unmodified.
+
+
+
+4. Find your desired field mapping, and select the Value Mapping Set you created in the `Value Mapping Set` column.
+
+{% hint style="info" %}
+Once a Value Mapping Set is created, it can be used on multiple field mappings if necessary.
+{% endhint %}
 
 ### Creating Value Mappings
 
