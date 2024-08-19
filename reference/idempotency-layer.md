@@ -14,7 +14,7 @@ To activate the idempotency layer, add the `glyue-idempotency-id` header to the 
 
 Glyue guarantees that integrations will not be re-run if they are called with the same idempotency id within a 24 hour period, and instead the status and response of the first run will be returned.
 
-IDs may be up to 36 characters long.
+IDs may be up to 64 characters long.
 
 {% hint style="info" %}
 It is strongly recommended that a UUID generator is used to create the idempotency ID.
