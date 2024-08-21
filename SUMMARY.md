@@ -57,6 +57,7 @@
 * [Integration Life-Cycle](glyue-technical-reference/integration-life-cycle.md)
 * [Special Functions](glyue-technical-reference/special\_functions/README.md)
   * [open\_glyuefile](glyue-technical-reference/special\_functions/open\_glyuefile.md)
+  * [Data Manipulation Utilities](reference/special\_functions/data-manipulation-utilities.md)
 * [Special Variables](glyue-technical-reference/special\_variables.md)
 * [Integration Components](glyue-technical-reference/integration\_components/README.md)
   * [Integration](glyue-technical-reference/integration\_components/integration.md)
