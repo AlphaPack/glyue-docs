@@ -1,4 +1,4 @@
-# Execute Web Service Endpoints with Vault Methods
+# 4. Execute Web Service Endpoints with Vault Methods
 
 To execute any of the web service endpoints setup in the previous step (e.g. get all customers, get customer by Id, update customer, and delete customer), we must first write code in each of the connected integrations to open, read, and/or write to the **data** vault.
 

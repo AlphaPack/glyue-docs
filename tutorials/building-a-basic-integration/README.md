@@ -1,4 +1,4 @@
-# Build a Basic Integration
+# Building an Email Integration
 
 This tutorial aims to guide a first-time Glyue user through the process of building a real integration, step by step, from start to finish. This integration will take an email address as input, then query the [Hacker News API](https://github.com/HackerNews/API) for articles, and finally email a list of article URLs to the provided address.
 

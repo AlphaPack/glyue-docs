@@ -1,4 +1,4 @@
-# Integration Setup
+# 1. Integration Setup
 
 ### Add Integration
 

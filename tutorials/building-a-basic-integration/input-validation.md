@@ -1,4 +1,4 @@
-# Input Validation
+# 2. Input Validation
 
 You may remember that in the integration description we provided an example input that included a required `email` field and optional `limitQuery` and `limitEmail` fields. If the requestor doesn't provide an email address in their input, how would we know where to send the digest? Or, what if the requestor provides invalid limit values (which should be positive integers)?
 

@@ -1,4 +1,4 @@
-# Create and configure the integration
+# 1. Create and Configure the Integration
 
 To start, we will create the scaffolding for the integration by setting up its metadata (name, description, and settings) and its **Adapter Configs.** We'll finish this step by validating that the adapters we created can successfully contact the systems we connected them to.
 

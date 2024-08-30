@@ -1,4 +1,4 @@
-# Code Examples and Explanation
+# 5. Vault Code Examples and Explanation
 
 To open the **data** vault, we use the `open_vault` function.
 

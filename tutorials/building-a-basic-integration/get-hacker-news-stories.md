@@ -1,4 +1,4 @@
-# Get Hacker News Stories
+# 4. Get Story Content
 
 We have communicated with the Hacker News API, but its response contains a list of story ids while we need the URLs for our email digest. Let’s make another request (or rather, a set of requests) to retrieve each story by its id so we can later collate their URLs into a single message.
 

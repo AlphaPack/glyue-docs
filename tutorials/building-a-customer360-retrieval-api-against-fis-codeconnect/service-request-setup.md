@@ -1,4 +1,4 @@
-# Service Request Setup
+# 2. Service Request Setup
 
 **Creating the Service Request**\
 \

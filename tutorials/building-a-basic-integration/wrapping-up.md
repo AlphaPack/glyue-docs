@@ -41,6 +41,6 @@ Try re-running the integration from the **Run History** page with various differ
 
 This concludes the tutorial. We hope that the concepts learned in this article will lay the foundation for the reader’s Glyue integration building journey.
 
-{% content-ref url="7.-extra-credit/" %}
-[7.-extra-credit](7.-extra-credit/)
+{% content-ref url="extra-credit/" %}
+[extra-credit](extra-credit/)
 {% endcontent-ref %}

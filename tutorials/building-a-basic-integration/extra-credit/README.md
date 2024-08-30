@@ -1,4 +1,4 @@
-# Extra credit
+# 7. Extra credit
 
 ### Triggering `hackernews_email_digest` from outside Glyue <a href="#wrappingup-extracredit-triggeringhackernews_email_digestfromoutsideglyue" id="wrappingup-extracredit-triggeringhackernews_email_digestfromoutsideglyue"></a>
 

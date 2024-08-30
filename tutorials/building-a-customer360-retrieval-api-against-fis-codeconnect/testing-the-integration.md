@@ -12,7 +12,7 @@ Click on the integration and to open the dropdown menu:
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-From here, click on the "Try it out" button in the top left of the menu. This allows us to change the **Input Payload** that we send through the integration. During the [Integration and Service Request Hook Setup](4.-integration-and-service-request-hook-setup.md), if you chose to set the `customerNumber` variable to something within the input payload like this:
+From here, click on the "Try it out" button in the top left of the menu. This allows us to change the **Input Payload** that we send through the integration. During the [Integration and Service Request Hook Setup](integration-and-service-request-hook-setup.md), if you chose to set the `customerNumber` variable to something within the input payload like this:
 
 ```
 customerNumber = input.payload.testNumber

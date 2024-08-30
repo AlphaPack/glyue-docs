@@ -1,4 +1,4 @@
-# Sending the Email
+# 5. Sending the Email
 
 Now we’re ready for the final step. We’re going to take each of those story responses and collate them into an email body and then send it off to our recipient.
 

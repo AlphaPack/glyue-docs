@@ -1,5 +1,7 @@
 # Start Here
 
+## Beginner Tutorials
+
 The three tutorials presented here are intentionally sequenced, and each tutorial builds on the ones before it.&#x20;
 
 By working through these tutorials, you will learn to navigate Glyue, build, run, and inspect the outputs of integrations, and connect Glyue to external systems.
@@ -14,10 +16,10 @@ These skills will provide the foundation for building larger, more complex integ
 
 
 
-**Advanced Tutorials:**
+## Advanced Tutorials
 
 Once you have completed the first three tutorials above, we encourage you to keep exploring and learning with the following, advanced tutorials:
 
-* [**Building an Email Integration**](building-an-email-integration/)
+* [**Building an Email Integration**](building-a-basic-integration/)
 * [**Building a RESTful CRUD Web Service**](building-a-restful-crud-web-service/)
-* [**Building a Retrieval API with FIS Codeconnect**](building-a-retrieval-api-against-fis-codeconnect/)
+* [**Building a Retrieval API with FIS Codeconnect**](building-a-customer360-retrieval-api-against-fis-codeconnect/)

@@ -1,4 +1,4 @@
-# Create Web Service Endpoints
+# 3. Create Web Service Endpoints
 
 We will create a custom web service endpoint for each integration that was setup in the previous step.
 

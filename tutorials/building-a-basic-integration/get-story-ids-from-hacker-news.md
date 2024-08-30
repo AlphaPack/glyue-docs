@@ -1,4 +1,4 @@
-# Get Story Ids from Hacker News
+# 3. Get Story IDs from Hacker News
 
 Now we are ready to create our first external API call. Integrations can have any number of calls. In Glyue these calls are referred to as **Service Requests (SRs)**. Each SR represents one API call, and will take a set of **Field Mappings** (more on this later) as input data for sending to the other system. When it executes, it will send the data and save the response.
 

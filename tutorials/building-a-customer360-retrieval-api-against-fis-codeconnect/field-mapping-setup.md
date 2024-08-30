@@ -1,4 +1,4 @@
-# Field Mapping Setup
+# 3. Field Mapping Setup
 
 **Setting up the Field Mapping Table**\
 \
