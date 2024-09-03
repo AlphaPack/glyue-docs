@@ -13,3 +13,5 @@ In real-world use cases, we often see a different trigger model: Activity in one
 We call these **Event-Driven Integrations**, as the integration is run in response to events that call into Glyue, rather than being manually run from within Glyue.
 
 In this tutorial, we will take the logic we built in the previous two tutorials and transform it into a **event-driven** architecture, triggering the integration from a third-party system.
+
+For this tutorial, we will use a mock CRM built using Glyue's [Frontends feature](../../how-to-guides/how-to-build-and-deploy-a-custom-frontend.md).&#x20;
