@@ -4,7 +4,9 @@ Special functions are globally available functions available throughout the life
 
 ## keep
 
-`keep()` Adds all provided arguments to the current integration namespace. Once kept, they can be accessed from throughout the life of the integration. The keyword given as a variable sets the variable on the integration.
+`keep()`&#x20;
+
+Adds all provided arguments to the current integration namespace. Once kept, they can be accessed from throughout the life of the integration. The keyword given as a variable sets the variable on the integration.
 
 ```python
 a = ["list", "items"]
@@ -19,7 +21,9 @@ keep(**x)
 
 ## debug
 
-`historize(value: any, label: str, capture_stack_trace: bool) -> None` Creates a `Run History Item` with the specified variable and optional label.
+`historize(value: any, label: str, capture_stack_trace: bool) -> None`&#x20;
+
+Creates a `Run History Item` with the specified variable and optional label.
 
 ```python
 a = ["SAMPLE"]
@@ -28,7 +32,9 @@ debug(a, label="keeping the a variable")
 
 ## callint
 
-`callint(path_name: str, payload: Any) -> Any` Used to call an integration from within the process of the currently running integration. Callint will return the integration output. Asynchronous integrations will run in a separate thread from the currently running integrations.
+`callint(path_name: str, payload: Any) -> Any`&#x20;
+
+Used to call an integration from within the process of the currently running integration. Callint will return the integration output. Asynchronous integrations will run in a separate thread from the currently running integrations.
 
 ```python
 payload = "input_str"
@@ -37,7 +43,9 @@ x = callint("test_integration", payload)
 
 ## get\_namespace
 
-`get_namespace() -> namespace` Returns the current integration namespace. Useful for debugging purposes.
+`get_namespace() -> namespace`&#x20;
+
+Returns the current integration namespace. Useful for debugging purposes.
 
 ```python
 current_int_namespace = get_namespace()
@@ -46,7 +54,9 @@ current_int_namespacepython
 
 ## end
 
-`end(payload: any, status: any, headers: dict) -> None` Immediately terminates the currently running integration, logging a failure with the provided status. Integration output is set to the provided payload, status, and headers.
+`end(payload: any, status: any, headers: dict) -> None`&#x20;
+
+Immediately terminates the currently running integration, logging a failure with the provided status. Integration output is set to the provided payload, status, and headers.
 
 ```python
 try:
@@ -95,7 +105,9 @@ with open_vault('data') as vault:
 
 ## map\_value
 
-`map_value(valuemappingset_name: str, value:Any) -> str` Applies a Value Mapping Set to a provided value. The value mapping set must be connected to the current integration.
+`map_value(valuemappingset_name: str, value:Any) -> str`&#x20;
+
+Applies a Value Mapping Set to a provided value. The value mapping set must be connected to the current integration.
 
 ```python
 # valuemappingset = 'SAMPLEVMS'
@@ -108,7 +120,9 @@ map_value('SAMPLEVMS', input.payload.test)
 
 ## calladapter
 
-`calladapter(system: str, service_name: str, label: str, payload: Any, sub_requests: Any) -> AdapterResponse` Makes a call to a configured adapter from within the current integration process.
+`calladapter(system: str, service_name: str, label: str, payload: Any, sub_requests: Any) -> AdapterResponse`&#x20;
+
+Makes a call to a configured adapter from within the current integration process.
 
 ```python
 x = calladapter("ECHO", "N/A", label="Internal adapter call", payload="x")
@@ -119,7 +133,7 @@ if x.response.success == True:
 
 ## import\_helper
 
-imports the specified helper function. Please see the Helper Functions for further information on the specific helpers. This imports the helper function to the namespace for the integration, allowing access to the helper in every subsequent hook.
+Imports the specified helper function. Please see the Helper Functions for further information on the specific helpers. This imports the helper function to the namespace for the integration, allowing access to the helper in every subsequent hook.
 
 ```python
 import_helper("ncino")
@@ -147,7 +161,7 @@ See [#open\_glyuefile](./#open\_glyuefile "mention") for more information.
 
 `list_files() -> List[str]`
 
-returns a `list` of `str` GlyueFile names for the currently running [Broken link](broken-reference "mention").&#x20;
+Returns a `list` of `str` GlyueFile names for the currently running [Broken link](broken-reference "mention").&#x20;
 
 <pre class="language-python"><code class="lang-python">filenames = list_files()
 debug(filenames, "available files")
@@ -157,3 +171,17 @@ debug(filenames, "available files")
 </strong>    with open_glyuefile(name, "a") as file:
         file.write("new line\n")
 </code></pre>
+
+## add\_run\_label
+
+`add_run_label(label)`
+
+Adds the provided text label to the integration's run history instance. Accepts free-form strings; recommended format is colon-separated, e.g. `label:value`
+
+```python
+# Saving the ID of a loan
+add_run_label(f"loan_id:{payload.loan.identifier}")
+
+# Noting a property of the integration with a static label 
+add_run_label("type:mortage")
+```

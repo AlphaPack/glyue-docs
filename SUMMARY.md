@@ -86,14 +86,16 @@
 * [Adapters](glyue-technical-reference/adapters/README.md)
   * [Generic HTTP Adapter](glyue-technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](glyue-technical-reference/adapters/email-smtp-adapter.md)
-* [Integration Scheduler](reference/integration-scheduler.md)
-* [Permissions](reference/permissions/README.md)
-  * [Service Accounts](reference/permissions/service-accounts.md)
-  * [Organizations](reference/permissions/organizations.md)
-* [Banking Core Connectivity Guide](reference/banking-core-connectivity-guide.md)
-* [Frontends](reference/frontends.md)
-* [Idempotency Layer](reference/idempotency-layer.md)
 
-## Miscellaneous
+## Glyue Platform Reference
 
-* [Arbitrary Integration Request Content Support](miscellaneous/arbitrary-integration-request-content-support.md)
+* [Banking Core Connectivity Guide](glyue-platform-reference/banking-core-connectivity-guide.md)
+* [Authentication](glyue-platform-reference/authentication.md)
+* [Permissions](glyue-platform-reference/permissions/README.md)
+  * [Service Accounts](glyue-platform-reference/permissions/service-accounts.md)
+  * [Organizations](glyue-platform-reference/permissions/organizations.md)
+* [Frontends](glyue-platform-reference/frontends.md)
+* [Idempotency Layer](glyue-platform-reference/idempotency-layer.md)
+* [Integration Scheduler](glyue-platform-reference/integration-scheduler.md)
+* [Governance Reports](glyue-platform-reference/governance-reports.md)
+* [Arbitrary Integration Request Content Support](glyue-platform-reference/arbitrary-integration-request-content-support.md)

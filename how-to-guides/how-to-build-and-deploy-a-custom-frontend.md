@@ -18,7 +18,7 @@ Frontends require a file named `index.html` to be present, which will be used as
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-07-15 at 4.51.27 PM.png" alt=""><figcaption><p>Create a Frontend by giving it a name, path, and uploading the .zip</p></figcaption></figure>
 
-For details on more advanced Frontend features and sample code snippest, see the [reference documentation](../reference/frontends.md).
+For details on more advanced Frontend features and sample code snippest, see the [reference documentation](../glyue-platform-reference/frontends.md).
 
 ## Editing a Frontend
 

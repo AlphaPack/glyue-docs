@@ -113,7 +113,7 @@ async function logout() {
 
 ### Executing an Integration
 
-To execute an integration, make a `POST` request to `/integrations/execute/{pathName}` with its JSON payload and the `X-CSRFToken` header set. You may also use the integration's [webservice endpoints](integration\_configuration/web-service-endpoints.md) if set up.
+To execute an integration, make a `POST` request to `/integrations/execute/{pathName}` with its JSON payload and the `X-CSRFToken` header set. You may also use the integration's [webservice endpoints](../reference/integration\_configuration/web-service-endpoints.md) if set up.
 
 The integration will run as the logged-in user. The logged-in must have `execute` [permissions](permissions/#integration-permissions) on the integration.
 
