@@ -42,7 +42,7 @@ Specific steps differ between applications, but they will all require the follow
 
 ## OAuth 2.0 Client Credentials
 
-OAuth 2.0 Client Credential flows are used for server-to-server communication where no user is directly involved. In contrast to the the Authorization Code flow, the external application _itself_ is authorized in Glyue, rather than being authorization _on behalf of_ a user.
+OAuth 2.0 Client Credential flows are used for server-to-server communication where no user is directly involved. In contrast to the Authorization Code flow, the external application _itself_ is authorized in Glyue, rather than being authorization _on behalf of_ a user.
 
 For audit trail purposes, Glyue requires that a service account is associated with each Client Credential configuration. The [integration permissions](permissions/#integration-permissions) on this service account will govern which integrations the external app is allowed to execute.
 
