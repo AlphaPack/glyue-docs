@@ -1,29 +1,62 @@
-# Migrate an Integration
+# How to Migrate an Integration
 
 When developing integrations, Sandbox Banking Solution Engineers utilize separate `DEV` and `PROD` environments to write code and test changes before deploying that code to a production environment.&#x20;
 
-When changes to an integration are ready to be deployed to the `PROD` environment, Glyue provides two features that facilitate the process:
+When changes to an integration are ready to be deployed to the `PROD` environment, Glyue provides two methods for performing a migration:
 
-* The _Migrate_ page
-* The _View Changes_ page
+* [Migrating a whole integration](how-to-migrate-an-integration.md#migrating-a-whole-integration)
+* [Migrating part of an integration](how-to-migrate-an-integration.md#migrating-part-of-an-integration)
 
-### Migrate
+### Migrating a Whole Integration
 
 The _Migrate_ page (pictured below) allows a user to select integrations from a source environment (often, the `DEV` environment) to be migrated into the destination system (the current logged-in environment, often `PROD`).&#x20;
 
-<figure><img src="../.gitbook/assets/image (106).png" alt=""><figcaption><p>The Migrate page in Glyue, showing multiple source environments and the integrations present in each environment</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-09 at 2.38.50 PM (1).png" alt=""><figcaption></figcaption></figure>
 
-If an integration has multiple changes ongoing, Glyue affords the option to select specific portions of that integration to migrate, rather than migrating the entire integration. This can be useful for deploying smaller fixes while a larger piece of work is still ongoing.
+To migrate an integration in its entirety:
 
-If the whole integration is to be migrated, simply select the integration and click _PERFORM MIGRATION._&#x20;
+1. Navigate to the _Migrate_ page using the navigation sidebar.
+2. Select the _Source_ environment in the left-hand pane. Often, this is the corresponding `DEV` environment.
+3. Select the integration(s) to be migrated in the right-hand pane.
+4. Verify that the _Standard Migration_ option is selected, then click _Perform Migration._
+5. Verify that the correct integration(s) were migrated by reviewing the migration summary (pictured below).
 
-### View Changes
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-09 at 2.40.51 PM (1).png" alt=""><figcaption><p>A successful migration summary</p></figcaption></figure>
 
-Portions of the integration can be selected by selecting _VIEW INCOMING CHANGES_ . This opens the _View Changes_ page, showing the differences between the incoming (new) integration and the current version of the integration.
+In the example above, we see that 1 integration, which contained 3 Service Requests, was migrated.&#x20;
 
-Using the _Migrate_ column, you can select the rows you wish to include in the migration. In the example below, four Field Mappings have been selected, while the rest will remain untouched.
+{% hint style="info" %}
+Migrating a whole integration will replace the copy of the integration that's currently in the environment.&#x20;
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption><p>The interface reviewing the specific rows selected for a migration.</p></figcaption></figure>
 
-By saving the selection of rows in to "Pull Request" using the _SAVE AS PR_ button, then returning to the _Migrate_ page, you can migrate your selection of rows, instead of the whole integration.
 
+### Migrating Part of an Integration
+
+Glyue also supports migrating selected portions of an integration, while leaving the rest of the integration as-is. The selected changes are called a c_hangeset,_ and this type of migration is called a _Changeset Migration._
+
+Changeset migrations are useful in situations such as:
+
+* There is parallel development on different parts of an integration
+* The `DEV` version of an integration contains development-specific logic that should not be migrated to a production environment
+
+To perform a changeset migration:
+
+1. Navigate to the _Migrate_ page using the navigation sidebar.
+2. Select the _Source_ environment in the left-hand pane. Often, this is the corresponding `DEV` environment.
+3. Click _View Incoming Changes._ This will open the _View Changes_ page, which resembles the _Build_ page, but includes two additional columns.\
+   \
+   _Migrate_ indicates whether a change should be included in the migration.\
+   _Change_ describes the type of change (add / edit / delete).\
+   ![](<../.gitbook/assets/image (108).png>)
+4. Using the _View Changes_ page, select the changes you wish to include in the migration changeset by setting the _Migrate_ column to `true` for the selected rows.
+5. When you're finished selecting specific changes, click _Save Change Set_ on the toolbar along the bottom right. This will show a summary of the selected changes, along with a text field to optionally name your change set. Enter a descriptive name for the changes.
+
+<figure><img src="../.gitbook/assets/image (107).png" alt="" width="510"><figcaption><p>The interface reviewing the specific rows selected for a migration.</p></figcaption></figure>
+
+6. Click _Migrate Change Set_ on the toolbar along the bottom right. This will take you back to the _Migrate_ page.
+7. On the _Migrate_ page, reselect the source system and integration. Then select the _Change Set Migration_ mode_,_ select the changeset you created in step 5, then click _Migrate Change Set._
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-10-09 at 3.55.22 PM.png" alt=""><figcaption><p>Selecting a change set to migrate</p></figcaption></figure>
+
+8. Verify that the correct changes were migrated by reviewing the migration summary.
