@@ -36,7 +36,7 @@ Both Standard and Staff users can have their abilities augmented by being grante
 
 Each user — both Standard and Staff — must be explicitly granted permission to access integrations. This must be done for each integration. Typically this is handled by your Sandbox Solution Engineer — reach out to support@sandboxbanking.com for help.
 
-Integrations come with four separate permission types: Read, Write, Execute, and Debug. Details on these can be [found here](../../glyue-technical-reference/integration\_configuration.md#integration-permissions).
+Integrations come with four separate permission types: Read, Write, Execute, and Debug. Details on these can be [found here](../../reference/integration\_configuration.md#integration-permissions).
 
 ### Group Permissions
 

@@ -66,8 +66,7 @@
 
 * [Integration Builder Page](glyue-technical-reference/ui\_walkthrough.md)
 * [Integration Anatomy](glyue-technical-reference/integration\_anatomy.md)
-* [Admin Components](glyue-technical-reference/integration\_configuration.md)
-  * [Web Service Endpoints](reference/integration\_configuration/web-service-endpoints.md)
+* [Admin Components](reference/integration\_configuration.md)
 * [Integration Life-Cycle](glyue-technical-reference/integration-life-cycle.md)
 * [Special Functions](glyue-technical-reference/special\_functions/README.md)
   * [open\_glyuefile](glyue-technical-reference/special\_functions/open\_glyuefile.md)
@@ -86,6 +85,7 @@
 * [Adapters](glyue-technical-reference/adapters/README.md)
   * [Generic HTTP Adapter](glyue-technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](glyue-technical-reference/adapters/email-smtp-adapter.md)
+* [Web Service Endpoints](reference/web-service-endpoints.md)
 
 ## Glyue Platform Reference
 

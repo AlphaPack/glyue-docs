@@ -83,7 +83,7 @@ To create a new Integration, a wizard will take you through the required and opt
    1. Payloads will not be stored if the general run history storage (8) is not enabled
 10. [Integration engine version](../reference/integration\_components/integration-engine-versions.md), to preserve compatibility with platform functions as the platform evolves.&#x20;
     1. Integrations are developed against a specific Integration Engine version, so if unsure, consult Sandbox support before changing this setting.
-11. [Webservice endpoints](../reference/integration\_configuration/web-service-endpoints.md), which allow an Integration to be triggered by user-defined URL paths.
+11. [Webservice endpoints](../reference/web-service-endpoints.md), which allow an Integration to be triggered by user-defined URL paths.
 
 #### Step 2 —Systems (adapters)
 
@@ -101,4 +101,4 @@ To create a new Integration, a wizard will take you through the required and opt
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Third page of the Integration Configure Wizard – "Permissions"</p></figcaption></figure>
 
-This page is used to set Read, Write, Execute, and Debug permissions for each user on the new integration. A description of each permission can be found at [#integration-permissions](integration\_configuration.md#integration-permissions "mention").
+This page is used to set Read, Write, Execute, and Debug permissions for each user on the new integration. A description of each permission can be found at [#integration-permissions](../reference/integration\_configuration.md#integration-permissions "mention").
