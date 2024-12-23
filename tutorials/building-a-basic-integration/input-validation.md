@@ -29,7 +29,7 @@ In this case we want the integration to fail gracefully and respond to the reque
           ```
    3. Select the second row and click the **\[DUPLICATE ROW]** button at the bottom and make the following edits to the new row:
       * **Field**: `input.payload.limitEmail`
-   4. Click the **\[**💾 **Save]** button at the bottom.
+   4. Click the **\[**&#xD83D;� **Save]** button at the bottom.
 
 {% hint style="info" %}
 If you are familiar with Python, you may have an idea of what is going on here.\

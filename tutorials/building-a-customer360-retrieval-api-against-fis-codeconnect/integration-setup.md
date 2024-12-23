@@ -15,15 +15,15 @@ Once there, press the "Add Row" button to create the integration. You'll need to
 
 **Configuring the Integration**\
 \
-_To complete this step, you'll need access to the Glyue Admin Page._\
+&#xNAN;_&#x54;o complete this step, you'll need access to the Glyue Admin Page._\
 \
 Navigate to the Admin Page using the panel on the left hand side of the screen. Scroll down until you find the configuration item labelled "Integration Configs" and click the "Add New" button next to it.\
 \
 Choose the appropriate integration name that you created earlier and choose the settings you'd like configured for this integration. We recommend checking the "Store payloads in run history" box in order to properly trace the data when building and using the integration.\
 \
-From here, scroll down the left pane until you find the configuration item labelled "Adapter Configs: CodeConnect IBS**"** and add a new item. \
+From here, scroll down the left pane until you find the configuration item labelled "Adapter Configs: CodeConnect IB&#x53;**"** and add a new item. \
 \
-_`If you are building an integration to a different CodeConnect core, choose the appropriate item; i.e. "Adapter Configs: CodeConnect Horizon" for the Horizon core.`_\
+&#xNAN;_`If you are building an integration to a different CodeConnect core, choose the appropriate item; i.e. "Adapter Configs: CodeConnect Horizon" for the Horizon core.`_\
 \
 Fill in the corresponding credentials on the configuration page. You'll need to reference your CodeConnect portal or reach out to your FIS account representative for access to some of this information.
 

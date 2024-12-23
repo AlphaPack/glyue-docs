@@ -37,7 +37,7 @@ Scroll to the **Configuration** section, locate **Integration Config** and click
 
 On the **Add** **Integration Config** page, select the integration `get_all_customers` from the Integration dropdown menu and check the box **Store payloads in run history for x days**.
 
-Click on the **Save** button below**.**
+Click on the **Save** button belo&#x77;**.**
 
 <figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 

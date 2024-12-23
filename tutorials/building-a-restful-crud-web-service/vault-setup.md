@@ -12,7 +12,7 @@ Log into Glyue and navigate to the **Vault** page.
 
 <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
-Click on the **Create Vault** button, name the vault **data**, and save by clicking on the button again or pressing enter on your keyboard**.**&#x20;
+Click on the **Create Vault** button, name the vault **data**, and save by clicking on the button again or pressing enter on your keyboar&#x64;**.**&#x20;
 
 <figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
@@ -50,7 +50,7 @@ Scroll to the **Configuration** section, locate **Vault Permissions** and click 
 
 On the **Add** **Vault Permissions** page, select **data** from the **Vault** dropdown menu, select the integration `get_all_customers` from the Integration dropdown menu, and check the boxes **Read** and **Write**.&#x20;
 
-Click on the **Save** button below**.**
+Click on the **Save** button belo&#x77;**.**
 
 <figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

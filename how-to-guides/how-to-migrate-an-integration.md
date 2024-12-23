@@ -33,7 +33,7 @@ Migrating a whole integration will replace the copy of the integration that's cu
 
 ### Migrating Part of an Integration
 
-Glyue also supports migrating selected portions of an integration, while leaving the rest of the integration as-is. The selected changes are called a c_hangeset,_ and this type of migration is called a _Changeset Migration._
+Glyue also supports migrating selected portions of an integration, while leaving the rest of the integration as-is. The selected changes are called a &#x63;_&#x68;angeset,_ and this type of migration is called a _Changeset Migration._
 
 Changeset migrations are useful in situations such as:
 
@@ -46,8 +46,8 @@ To perform a changeset migration:
 2. Select the _Source_ environment in the left-hand pane. Often, this is the corresponding `DEV` environment.
 3. Click _View Incoming Changes._ This will open the _View Changes_ page, which resembles the _Build_ page, but includes two additional columns.\
    \
-   _Migrate_ indicates whether a change should be included in the migration.\
-   _Change_ describes the type of change (add / edit / delete).\
+   &#xNAN;_&#x4D;igrate_ indicates whether a change should be included in the migration.\
+   &#xNAN;_&#x43;hange_ describes the type of change (add / edit / delete).\
    ![](<../.gitbook/assets/image (108).png>)
 4. Using the _View Changes_ page, select the changes you wish to include in the migration changeset by setting the _Migrate_ column to `true` for the selected rows.
 5. When you're finished selecting specific changes, click _Save Change Set_ on the toolbar along the bottom right. This will show a summary of the selected changes, along with a text field to optionally name your change set. Enter a descriptive name for the changes.
@@ -55,7 +55,7 @@ To perform a changeset migration:
 <figure><img src="../.gitbook/assets/image (107).png" alt="" width="510"><figcaption><p>The interface reviewing the specific rows selected for a migration.</p></figcaption></figure>
 
 6. Click _Migrate Change Set_ on the toolbar along the bottom right. This will take you back to the _Migrate_ page.
-7. On the _Migrate_ page, reselect the source system and integration. Then select the _Change Set Migration_ mode_,_ select the changeset you created in step 5, then click _Migrate Change Set._
+7. On the _Migrate_ page, reselect the source system and integration. Then select the _Change Set Migration_ mod&#x65;_,_ select the changeset you created in step 5, then click _Migrate Change Set._
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-09 at 3.55.22 PM.png" alt=""><figcaption><p>Selecting a change set to migrate</p></figcaption></figure>
 

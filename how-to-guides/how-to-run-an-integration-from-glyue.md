@@ -10,12 +10,12 @@ Running an integration in Glyue involves composing a payload that matches the in
 
 Glyue makes it easy to compose the exact request that your integration expects.&#x20;
 
-1. To start, right-click on the integration on the _Build_ page and click _Run Integration_ to bring up the _Run Integration_ modal_._
+1. To start, right-click on the integration on the _Build_ page and click _Run Integration_ to bring up the _Run Integration_ moda&#x6C;_._
 2. If the integration has webservices, use the `Method`, `Prefix`, and `Webservices` dropdowns along the top of the page to select the webservice you wish to trigger.
 3. Configure the content of the request across the _Payload, Headers, Query Parameters,_ and _Path Parameters_ (see below for further details)
 
 {% hint style="info" %}
-To learn more about [webservices, see this reference](../reference/integration\_configuration.md#web-service-endpoints).
+To learn more about [webservices, see this reference](../reference/integration_configuration.md#web-service-endpoints).
 {% endhint %}
 
 ## Request customization

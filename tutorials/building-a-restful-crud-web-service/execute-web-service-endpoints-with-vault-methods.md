@@ -4,7 +4,7 @@ To execute any of the web service endpoints setup in the previous step (e.g. get
 
 ### Get All Customers
 
-Log into Glyue, if necessary and navigate to the **Build** page. Select the `get_all_customers` integration and add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/\~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#get-all-customers) in the **Before Hook**.
+Log into Glyue, if necessary and navigate to the **Build** page. Select the `get_all_customers` integration and add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#get-all-customers) in the **Before Hook**.
 
 <figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
@@ -84,11 +84,11 @@ On the **Run History Item**, click on the `insert_customer` request and you woul
 
 <figure><img src="../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure>
 
-To add a customer in the **data** vault, navigate to the service request `insert_customer` and add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/\~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#add-a-customer) in the **After Execute Request Success Hook**.&#x20;
+To add a customer in the **data** vault, navigate to the service request `insert_customer` and add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#add-a-customer) in the **After Execute Request Success Hook**.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
-Navigate back to the **Swagger** page and execute the web service endpoint `/rest/add_customer` again. _Y_ou should receive the id of the customer in the response body.
+Navigate back to the **Swagger** page and execute the web service endpoint `/rest/add_customer` again. _&#x59;_&#x6F;u should receive the id of the customer in the response body.
 
 <figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
@@ -98,15 +98,11 @@ Insert another customer as shown in the image below and execute the web service 
 
 Afterwards, execute the web service endpoint `/rest/get_all_customers`. You should see both customers in the body of the response.
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Get Customer By Id
 
-Navigate back to the **Integration** table on the **Build** page in Glyue and select the integration `get_customer`. Add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/\~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#get-customer-by-id) in the **Before Hook**.&#x20;
+Navigate back to the **Integration** table on the **Build** page in Glyue and select the integration `get_customer`. Add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#get-customer-by-id) in the **Before Hook**.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
@@ -118,7 +114,7 @@ Navigate back to the **Swagger** page and select the web service endpoint `/rest
 
 <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
-Click on the **Execute** button. _Y_ou should receive the customer's information in the form of a JSON object in the response body.
+Click on the **Execute** button. _&#x59;_&#x6F;u should receive the customer's information in the form of a JSON object in the response body.
 
 <figure><img src="../../.gitbook/assets/image (17) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -143,7 +139,7 @@ Next, create the following field mapping rows for the service request `modify_cu
 
 In the field mapping table, we are using the **Call If** column to omit or include a field and value in `response.payload` based on the existence of the field in `input.payload`.&#x20;
 
-Navigate back to the `modify_customer` service request and add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/\~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#update-customer) in the **After Execute Request Success Hook**.&#x20;
+Navigate back to the `modify_customer` service request and add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#update-customer) in the **After Execute Request Success Hook**.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -157,7 +153,7 @@ Click on the **Execute** button. You should receive the customer's information i
 
 ### Delete Customer
 
-Navigate back to **Integration** table on the **Build** page in Glyue and select the integration `delete_customer`. Add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/\~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#delete-customer) in the **Before Hook**. &#x20;
+Navigate back to **Integration** table on the **Build** page in Glyue and select the integration `delete_customer`. Add the following [code](https://app.gitbook.com/o/hMR7ZmLUVPDLpu0EFvkY/s/1flQ2To8tQpCQWl2Ty9U/~/changes/84/build-a-restful-crud-web-service-using-vault/code-examples-and-explanation#delete-customer) in the **Before Hook**. &#x20;
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
