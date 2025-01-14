@@ -15,7 +15,7 @@ Glyue makes it easy to compose the exact request that your integration expects.&
 3. Configure the content of the request across the _Payload, Headers, Query Parameters,_ and _Path Parameters_ (see below for further details)
 
 {% hint style="info" %}
-To learn more about [webservices, see this reference](../reference/integration_configuration.md#web-service-endpoints).
+To learn more about [webservices, see this reference](../glyue-platform-reference/integration_configuration.md#web-service-endpoints).
 {% endhint %}
 
 ## Request customization

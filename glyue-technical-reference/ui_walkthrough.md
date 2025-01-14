@@ -77,11 +77,11 @@ To create a new Integration, a wizard will take you through the required and opt
    1. Multiple emails should be separated by a comma, e.g. `david@sandboxbanking.com, sarah@sandboxbanking.com`
 7. The list of emails to receive a notification when the integration fails.
    1. Multiple emails should be separated by a comma
-8. Whether or not Glyue should [store the records of every run of this integration](integration\_anatomy.md#run-history), and if so, for how long.
+8. Whether or not Glyue should [store the records of every run of this integration](integration_anatomy.md#run-history), and if so, for how long.
    1. Note storing the payloads for those runs are controlled by a separate setting (9)
 9. Whether or not Glyue should store the contents of the payloads of every run of this integration, and if so, for how long.
    1. Payloads will not be stored if the general run history storage (8) is not enabled
-10. [Integration engine version](../reference/integration\_components/integration-engine-versions.md), to preserve compatibility with platform functions as the platform evolves.&#x20;
+10. [Integration engine version](../reference/integration_components/integration-engine-versions.md), to preserve compatibility with platform functions as the platform evolves.&#x20;
     1. Integrations are developed against a specific Integration Engine version, so if unsure, consult Sandbox support before changing this setting.
 11. [Webservice endpoints](../reference/web-service-endpoints.md), which allow an Integration to be triggered by user-defined URL paths.
 
@@ -101,4 +101,4 @@ To create a new Integration, a wizard will take you through the required and opt
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Third page of the Integration Configure Wizard – "Permissions"</p></figcaption></figure>
 
-This page is used to set Read, Write, Execute, and Debug permissions for each user on the new integration. A description of each permission can be found at [#integration-permissions](../reference/integration\_configuration.md#integration-permissions "mention").
+This page is used to set Read, Write, Execute, and Debug permissions for each user on the new integration. A description of each permission can be found at [#integration-permissions](../glyue-platform-reference/integration_configuration.md#integration-permissions "mention").

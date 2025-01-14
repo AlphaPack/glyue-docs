@@ -1,6 +1,6 @@
 # Value Mapping
 
-An easy way to handle cases for transformations of field mappings from one value into another. Takes the computed field mapping value and applies then applies the transformation.
+_To learn more about when to use a Value Mapping and how to create one, see_ [_follow this how-to guide_](../../how-to-guides/how-to-create-a-value-mapping-set.md)_._
 
 ### valuemappingset
 
@@ -12,16 +12,16 @@ Value Mapping Set that the Value Mapping belongs to.
 
 <mark style="color:yellow;">`string | bool`</mark> - <mark style="color:red;">`required`</mark>
 
-A string or boolean value. Values passed as inputs to field mappings will undergo be matched against the from\_value.
+The original value of the field mapping, to identify which value mapping to use.
 
 ### to\_value
 
 <mark style="color:yellow;">`string | bool`</mark> - <mark style="color:red;">`required`</mark>
 
-An output string or boolean value. The output of the matching `from_value`. This field takes an explicit string and transforms it
+The transformed value that will replace the original field mapping value.&#x20;
 
 ### notes
 
-Documentation field
+<mark style="color:yellow;">`string`</mark> - <mark style="color:orange;">`optional`</mark>
 
-### Examples
+Documentation field

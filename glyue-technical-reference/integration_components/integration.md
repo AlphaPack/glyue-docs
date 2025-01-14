@@ -1,46 +1,72 @@
 # Integration
 
-## Parameters
+### active
+
+<mark style="color:yellow;">`boolean`</mark> - <mark style="color:red;">`required`</mark>
+
+Defines whether the integration can be run at all. If set to `false` , the integration **cannot** be run via an HTTP request (regardless of the value of `http_api`), and the integration **cannot** be run via [the `callint` function](../special_functions/#callint).&#x20;
 
 ### path\_name
 
 <mark style="color:yellow;">`string`</mark> - <mark style="color:red;">`required`</mark>
 
-the exposed endpoint for the integration. Integrations are called from `{host}/execute/{path_name}`
+The exposed endpoint for the integration. Integrations are called from `{host}/integrations/execute/{path_name}`
 
 ### description
 
 Documentation field providing an overview of the integrations functions.
 
-### run\_async
-
-<mark style="color:yellow;">`boolean`</mark> - <mark style="color:red;">`required`</mark>
-
-Boolean flag on whether to run the integration synchronously. Ideal for longer running tasks or in combintaion with `callint` to spawn additional processes.
-
-### before\_hook
-
-A block of code that executes prior to the initializaion of the integration.
-
-### finally\_hook
-
-A block of code that executes prior to the completion of an integration. This block will always run regardless of integration status.
-
-### on\_failure\_hook
-
-`code block` that runs after a failed integration but prior to the finally hook.
-
-### on\_success\_hook
-
-`code block` that runs after a successful integration but prior to the finally hook.
-
 ### http\_api
 
 <mark style="color:yellow;">`boolean`</mark> - <mark style="color:red;">`required`</mark>
 
-A Boolean flag for whether this integration should be exposed. This allows for integrations to be called from `{glyue_host}/integrations/execute/{path_name}`
+Determines whether or not an integration can be run via an HTTP request over the web.&#x20;
 
-### Swagger
+When enabled, the integration can be called from `{host}/integrations/execute/{path_name}`  or any configured [webservice endpoints](../../reference/web-service-endpoints.md).&#x20;
+
+When disabled, the integration can only be called from another Glyue integration, via the[ `callint` function](../special_functions/#callint).
+
+### run\_async
+
+<mark style="color:yellow;">`boolean`</mark> - <mark style="color:red;">`required`</mark>
+
+Controls whether to run the integration synchronously. If `true` , Glyue will immediately return a `200` response without waiting for the integration to finish executing.
+
+Useful for long-runnings tasks that may otherwise cause timeouts on clients, or in combination with `callint` to spawn additional processes.
+
+
+
+## Lifecycle Hooks
+
+For a visual explanation of the timing of these hooks, see the [Integration Lifecycle diagram](../../reference/integration-lifecycle.md#integration-lifecycle).
+
+### before\_hook
+
+<mark style="color:green;">`expression`</mark> - <mark style="color:orange;">`optional`</mark>
+
+A block of code that executes prior to the initialization of the integration.
+
+### on\_failure\_hook
+
+<mark style="color:green;">`expression`</mark> - <mark style="color:orange;">`optional`</mark>
+
+A block of code that runs only upon an integration failure, prior to the finally hook.
+
+### on\_success\_hook
+
+<mark style="color:green;">`expression`</mark> - <mark style="color:orange;">`optional`</mark>
+
+A block of code that runs only upon a successfully completed integration, prior to the finally hook.
+
+### finally\_hook
+
+<mark style="color:green;">`expression`</mark> - <mark style="color:orange;">`optional`</mark>
+
+A block of code that executes prior to the completion of an integration. This block will always run regardless of integration status.
+
+
+
+## Swagger
 
 Glyue has an integrated swagger page to allow for easy endpoint execution from within Glyue. The swagger request and response fields allow for the specification of swagger request bodies and sample responses. These must be formatted in line with the [OpenAPI Specification](https://spec.openapis.org/oas/v3.1.0). Swagger
 

@@ -1,60 +1,80 @@
 # Field Mapping
 
-## Parameters
-
 ### servicerequest
 
 <mark style="color:blue;">`relationship`</mark> - <mark style="color:red;">`required`</mark>
 
 The service request that the field mapping belongs to.
 
-### valuemappingset
-
-<mark style="color:blue;">`relationship`</mark> - <mark style="color:orange;">`optional`</mark>
-
-The valuemappingset to apply to the [#value](field-mapping.md#value "mention").
-
 ### sequence
 
 <mark style="color:yellow;">`integer`</mark> - <mark style="color:red;">`required`</mark>
 
-Order in which the field mappings associated with the service request will execute.
+Order in which the field mappings associated with the service request will execute. Note that this does not control the order of fields in the body of the external request — field ordering is arbitrary.
 
 ### field
 
 <mark style="color:yellow;">`string`</mark> - <mark style="color:red;">`required`</mark>
 
-Skeleton for the input payload you want to send as the service request. These correspond to dictionary like keys for Flex objects.
+The name of the field in the request body of the service request. Supports lazy-instantiation of intermediate fields. For example, if request body has the shape:
+
+```json
+{
+    "person": {
+        "address": {
+            "street": "123 main street",
+            "city": "Boston"
+        }
+    }
+}
+```
+
+You can specify the `street`field using `person.address.street` directly.
 
 ### value
 
-<mark style="color:yellow;">`string`</mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:green;">`expression`</mark> - <mark style="color:red;">`required`</mark>
 
-Value to applied to the given field value.
+The value to associate with a field. Can be a literal value, a reference to value defined elsewhere in the integration, or a code expression. If the expression does not evaluate to a value, the [retvalue variable](../special_variables.md#retvalue) must be used.
 
 ### value\_type
 
 <mark style="color:yellow;">`string`</mark> - <mark style="color:red;">`required`</mark>
 
-Typecast to perform on non-null values
+Typecast to perform on non-null values. If the value is an expression, the typecast is performed on the result of the expression. Options are:
+
+* `str` — String
+* `int` — Integer
+* `float` — Floating point number
+* `dict` — Dictionary (also known as "Object")
+
+Incompatible typecasting (e.g. `dict('5.0')`) will raise an error at runtime.
+
+### valuemappingset
+
+<mark style="color:blue;">`relationship`</mark> - <mark style="color:orange;">`optional`</mark>
+
+The [valuemappingset](valuemappingset.md) to apply to the [#value](field-mapping.md#value "mention").
 
 ### include\_if
 
-<mark style="color:yellow;">`boolean`</mark> - <mark style="color:orange;">`optional`</mark>
+<mark style="color:green;">`expression`</mark> - <mark style="color:orange;">`optional`</mark>
 
-Code block to return a boolean value.
+An expression to run to determine whether the field mapping should be included in the request. Must return a boolean. Defaults to `True`if left empty.
 
 ### include\_for\_each
 
 <mark style="color:yellow;">`iterable`</mark> - <mark style="color:orange;">`optional`</mark>
 
-Specifies an iterable. Service will run for each item within the iterable. Resolves before the include\_if block.
+Specifies an iterable. Will produce a new field mapping entry on the request for each entry in the iterable. Use [fitem](../special_variables.md#iterable-within-integrations-xx-item-and-xx-idx) and [fidx](../special_variables.md#iterable-within-integrations-xx-item-and-xx-idx) to refer to values in the iterable to differentiate the field mappings. &#x20;
+
+Resolves before the `include_if` block.
 
 ### nullable
 
 <mark style="color:yellow;">`boolean`</mark> - <mark style="color:red;">`required`</mark>
 
-Indicator for if the [#value](field-mapping.md#value "mention") can be set to null.
+Indicator for whether the [#value](field-mapping.md#value "mention") can be be null at runtime. If set to `false`and a null value is encountered, the integration will stop execution with an error.
 
 ### message\_substitution\_name
 
@@ -68,20 +88,4 @@ Replaces the sritem with specified string.
 * `target_field_name`
 * `source_record_type`
 * `source_field_name`
-
-## Additional Information:
-
-### value\_type:
-
-The value type field serves dual purposes:
-
-1. Validation
-2. Type casting
-
-Consider a fieldmapping where at integration runtime the value evaluates to the string “5.0”:
-
-If the `value_type` is “float” then we convert that value to a float before passing it on.\
-If the `value_type` is "dict" then we would raise an exception\
-If the `value_type` is "str" then we would pass the value along unmodified.
-
-**Note that the validation functionality is pretty limited** - if your `value_type` was “str” for example just about any value would be converted and not throw an error, even if your value was a float or a dictionary.
+* `notes`

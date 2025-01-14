@@ -9,7 +9,7 @@ The base configuration for Glyue.
 
 ### Integration Configs
 
-Configures email notifications and data retention. [integration-config.md](integration\_components/integration-config.md "mention")
+Configures email notifications and data retention. [integration-config.md](../reference/integration_components/integration-config.md "mention")
 
 ### Integration Permissions
 
@@ -30,4 +30,4 @@ The relationship between the integration and adapter configuration. Integrations
 
 ### Web Service Endpoints
 
-Integrations can be triggered from their HTTP POST method for the integration `path_name`.  This endpoint exposes integrations to be called using all available HTTP verbs at use-defined paths.  See details at [web-service-endpoints.md](web-service-endpoints.md "mention").
+Integrations can be triggered from their HTTP POST method for the integration `path_name`.  This endpoint exposes integrations to be called using all available HTTP verbs at use-defined paths.  See details at [web-service-endpoints.md](../reference/web-service-endpoints.md "mention").
