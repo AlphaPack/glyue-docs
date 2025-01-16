@@ -48,7 +48,7 @@ This expression must return a boolean. If it resolves to `True` , the service re
 
 <mark style="color:yellow;">`iterable`</mark> - <mark style="color:orange;">`optional`</mark>
 
-Specifies an iterable. The service request will run once for every entry in the iterable. Within other code blocks or field mappings of the service request, the specific entry in the iterable can be accessed using [`sritem`](../../reference/special_variables/#iterable-within-integrations-xx-item-and-xx-idx)and its index via [`srindex` ](../../reference/special_variables/#iterable-within-integrations-xx-item-and-xx-idx).
+Specifies an iterable. The service request will run once for every entry in the iterable. Within other code blocks or field mappings of the service request, the specific entry in the iterable can be accessed using [`sritem`](../special_variables.md#iterable-within-integrations-xx-item-and-xx-idx)and its index via [`srindex` ](../special_variables.md#iterable-within-integrations-xx-item-and-xx-idx).
 
 Resolves before the `call_if` block.
 

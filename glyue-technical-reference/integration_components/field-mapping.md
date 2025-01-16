@@ -35,7 +35,7 @@ You can specify the `street`field using `person.address.street` directly.
 
 <mark style="color:green;">`expression`</mark> - <mark style="color:red;">`required`</mark>
 
-The value to associate with a field. Can be a literal value, a reference to value defined elsewhere in the integration, or a code expression. If the expression does not evaluate to a value, the [retvalue variable](../../reference/special_variables/#retvalue) must be used.
+The value to associate with a field. Can be a literal value, a reference to value defined elsewhere in the integration, or a code expression. If the expression does not evaluate to a value, the [retvalue variable](../special_variables.md#retvalue) must be used.
 
 ### value\_type
 
@@ -66,7 +66,7 @@ An expression to run to determine whether the field mapping should be included i
 
 <mark style="color:yellow;">`iterable`</mark> - <mark style="color:orange;">`optional`</mark>
 
-Specifies an iterable. Will produce a new field mapping entry on the request for each entry in the iterable. Use [fitem](../../reference/special_variables/#iterable-within-integrations-xx-item-and-xx-idx) and [fidx](../../reference/special_variables/#iterable-within-integrations-xx-item-and-xx-idx) to refer to values in the iterable to differentiate the field mappings. &#x20;
+Specifies an iterable. Will produce a new field mapping entry on the request for each entry in the iterable. Use [fitem](../special_variables.md#iterable-within-integrations-xx-item-and-xx-idx) and [fidx](../special_variables.md#iterable-within-integrations-xx-item-and-xx-idx) to refer to values in the iterable to differentiate the field mappings. &#x20;
 
 Resolves before the `include_if` block.
 
