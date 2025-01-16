@@ -48,7 +48,7 @@ This expression must return a boolean. If it resolves to `True` , the service re
 
 <mark style="color:yellow;">`iterable`</mark> - <mark style="color:orange;">`optional`</mark>
 
-Specifies an iterable. The service request will run once for every entry in the iterable. Within other code blocks or field mappings of the service request, the specific entry in the iterable can be accessed using [`sritem`](../special_variables.md#iterable-within-integrations-xx-item-and-xx-idx)and its index via [`srindex` ](../special_variables.md#iterable-within-integrations-xx-item-and-xx-idx).
+Specifies an iterable. The service request will run once for every entry in the iterable. Within other code blocks or field mappings of the service request, the specific entry in the iterable can be accessed using [`sritem`](../../reference/special_variables/#iterable-within-integrations-xx-item-and-xx-idx)and its index via [`srindex` ](../../reference/special_variables/#iterable-within-integrations-xx-item-and-xx-idx).
 
 Resolves before the `call_if` block.
 
@@ -56,7 +56,7 @@ Resolves before the `call_if` block.
 
 <mark style="color:yellow;">`boolean`</mark> - <mark style="color:orange;">`optional`</mark>
 
-Determines whether the integration should quit if the call to the external system fails. By default, the integration will not quit.
+Determines whether the integration should quit if the call to the external system fails. By default, the integration will not quit (`false`). When set to `true` , the integration's `after_overall_failure_hook` will still run, as well as the service request's `after_execute_request_failure_hook`.&#x20;
 
 ### skip\_execute\_if\_no\_sub\_requests
 

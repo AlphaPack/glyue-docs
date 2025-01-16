@@ -12,13 +12,13 @@ Value Mapping Set that the Value Mapping belongs to.
 
 <mark style="color:yellow;">`string | bool`</mark> - <mark style="color:red;">`required`</mark>
 
-The original value of the field mapping, to identify which value mapping to use.
+The original value of the field mapping, to identify which value mapping to use. Only supports String and Boolean values.
 
 ### to\_value
 
-<mark style="color:yellow;">`string | bool`</mark> - <mark style="color:red;">`required`</mark>
+<mark style="color:yellow;">`string`</mark> - <mark style="color:red;">`required`</mark>
 
-The transformed value that will replace the original field mapping value.&#x20;
+The transformed value that will replace the original field mapping value. Only supports String values.
 
 ### notes
 

@@ -32,10 +32,14 @@ When `extended_payload` is `True`, the object passed to `payload`  can have the 
 * `method`
 * `fullpath`
 
+{% hint style="info" %}
+Specifics on each field can be found [here](../special_variables/input.md).
+{% endhint %}
+
 This is useful for emulating the behavior of calling an integration from a [Web Services endpoint](../web-service-endpoints.md). For example,
 
 ```
-payload = {
+payload_with_method = {
     "payload": {
         "firstName": "Sally",
         "lastName": "Smith",
@@ -43,7 +47,7 @@ payload = {
     "method": "POST"
 }
 
-x = callint("user", payload, extended_payload=True)
+x = callint("user", payload_with_method, extended_payload=True)
 ```
 
 \
