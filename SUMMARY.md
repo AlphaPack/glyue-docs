@@ -61,6 +61,7 @@
   * [Azure Setup](how-to-guides/how-to-set-up-single-sign-on-sso/azure-setup.md)
   * [Okta Setup](how-to-guides/how-to-set-up-single-sign-on-sso/okta-setup.md)
   * [Glyue SAML Config Reference](how-to-guides/how-to-set-up-single-sign-on-sso/glyue-saml-config-reference.md)
+* [Install Zoom Contact Center Integration](how-to-guides/install-zoom-contact-center-integration.md)
 
 ## Reference
 
