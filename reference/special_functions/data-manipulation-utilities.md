@@ -2,18 +2,18 @@
 
 ## List of Functions <a href="#list-of-functions" id="list-of-functions"></a>
 
-* [extract\_chars()](data-manipulation-utilities.md#extract\_chars)
-* [extract\_digits()](data-manipulation-utilities.md#extract\_digits)
-* [percent\_to\_decimal()](data-manipulation-utilities.md#percent\_to\_decimal)
-* [round\_half\_up()](data-manipulation-utilities.md#round\_half\_up)
-* [get\_current\_date\_string()](data-manipulation-utilities.md#get\_current\_date\_string)
-* [convert\_date\_string()](data-manipulation-utilities.md#convert\_date\_string)
+* [extract\_chars()](data-manipulation-utilities.md#extract_chars)
+* [extract\_digits()](data-manipulation-utilities.md#extract_digits)
+* [percent\_to\_decimal()](data-manipulation-utilities.md#percent_to_decimal)
+* [round\_half\_up()](data-manipulation-utilities.md#round_half_up)
+* [get\_current\_date\_string()](data-manipulation-utilities.md#get_current_date_string)
+* [convert\_date\_string()](data-manipulation-utilities.md#convert_date_string)
 * [IndexGenerator](data-manipulation-utilities.md#indexgenerator)
 
 ## Getting Started <a href="#getting-started" id="getting-started"></a>
 
 ```python
-import_helper(data_utils)
+import_helper("data_utils")
 ```
 
 Import the `data_utils` integration helper in the Integration _Before Hook_ to expose the helper functions to the integration’s namespace.
