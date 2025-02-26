@@ -19,14 +19,14 @@ Once there, press the "Add Row" button to create the integration. You'll need to
 \
 Navigate to the Admin Page using the panel on the left hand side of the screen. Scroll down until you find the configuration item labelled "Integration Configs" and click the "Add New" button next to it.\
 \
-Choose the appropriate integration name that you created earlier and choose the settings you'd like configured for this integration. We recommend checking the "Store payloads in run history" box in order to properly trace the data when building and using the integration.\
+Choose the appropriate integration name that you created earlier and choose the settings you'd like configured for this integration. Check the "Store payloads in run history" box to trace the data when building and using the integration.\
 \
-From here, scroll down the left pane until you find the configuration item labelled "Adapter Configs: CodeConnect IB&#x53;**"** and add a new item. \
+From here, find the configuration item labelled "Adapter Configs: FIS IBS (Code Connect)**"** in the left-hand side menu and click to add a new item. \
 \
-&#xNAN;_`If you are building an integration to a different CodeConnect core, choose the appropriate item; i.e. "Adapter Configs: CodeConnect Horizon" for the Horizon core.`_\
+&#xNAN;_`If you are building an integration to a different CodeConnect core, choose the appropriate item; i.e. "Adapter Configs: FIS Horizon (Code Connect) " for the Horizon core.`_\
 \
 Fill in the corresponding credentials on the configuration page. You'll need to reference your CodeConnect portal or reach out to your FIS account representative for access to some of this information.
 
-<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-02-25 at 4.39.10 PM.png" alt=""><figcaption></figcaption></figure>
 
 Once completed, scroll down the left pane until you find the configuration item labelled "Adapter Config Bindings" and add a new item. Choose the corresponding integration that you just created and the Adapter Config you just created and click save. This step essentially assigns the **Integration** to use the adapter configuration information we just provided when interacting with the core.

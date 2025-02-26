@@ -33,7 +33,7 @@ The web service endpoint to retrieve a specific customer requires a path paramet
 
 To create the web service endpoint to retrieve a specific customer by Id, add another integration config and fill in the fields with the following information&#x20;
 
-* **Path** - get\_customer
+* **Path** - `get_customer/{id}`
 * **Method** - Get
 * **Prefix** - api
 * **Integration** - get\_customer
