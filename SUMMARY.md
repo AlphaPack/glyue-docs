@@ -121,6 +121,7 @@
 * [Governance Reports](glyue-platform-reference/governance-reports.md)
 * [Arbitrary Integration Request Content Support](glyue-platform-reference/arbitrary-integration-request-content-support.md)
 * [Admin Components](glyue-platform-reference/integration_configuration.md)
+* [Logging](glyue-platform-reference/logging.md)
 
 ## ETL
 
