@@ -1,8 +1,11 @@
 # Glyue ETL Overview
 
-Welcome to Glyue ETL. Topics covered:
+Glyue ETL is a high performance ETL solution built specifically for banks and credit unions.
 
-* Workflows
-* Data Connectors
-* Scheduler
-* Run History
+It's built on a streaming architecture that allows it to process hundreds-of-thousands of rows of data efficiently, while making it simple to build the transformation logic that meets any business needs.&#x20;
+
+To get started, read about how to [connect 3rd-party systems to Glyue ETL](data-connectors.md) and how to [build an ETL workflow](workflows.md), or watch the video below that gives a visual walkthrough of the process.
+
+{% embed url="https://drive.google.com/file/d/1uh1YsC_KukG0Ydaf575fVelWQgHi0z6t/view?usp=sharing" %}
+ETL Demo
+{% endembed %}

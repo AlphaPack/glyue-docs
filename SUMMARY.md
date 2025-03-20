@@ -126,3 +126,7 @@
 ## ETL
 
 * [Glyue ETL Overview](etl/glyue-etl-overview.md)
+* [Data Connectors](etl/data-connectors.md)
+* [Workflows](etl/workflows.md)
+* [Run History](etl/run-history.md)
+* [Scheduler](etl/scheduler.md)
