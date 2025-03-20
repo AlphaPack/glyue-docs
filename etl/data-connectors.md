@@ -28,7 +28,7 @@ Scheduled workflows always run using production credentials.
 
 **SFTP Servers**
 
-<table><thead><tr><th width="141.2109375">Field</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>Hostname</td><td>The URL of the SFTP server</td><td>sftp.sandboxbanking.com</td></tr><tr><td>Port</td><td>The exposed port of the SFTP server. Defaults to 22</td><td>22</td></tr><tr><td>Username</td><td>The username of the account to be used to access the SFTP server</td><td>Varies</td></tr><tr><td>Authentication Method</td><td>How the account should authenticate with the SFTP server. Is either a password, or an authentication certificate.</td><td>Password or Certificate</td></tr><tr><td>Authentication Credentials</td><td>Depending on the authentication method, either the password or the certificate.</td><td>Varies</td></tr></tbody></table>
+<table><thead><tr><th width="141.2109375">Field</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>Hostname</td><td>The URL of the SFTP server</td><td>sftp.sandboxbanking.com</td></tr><tr><td>Port</td><td>The exposed port of the SFTP server. Defaults to 22</td><td>22</td></tr><tr><td>Username</td><td>The username of the account to be used to access the SFTP server</td><td>Varies</td></tr><tr><td>Authentication Method</td><td>How the account should authenticate with the SFTP server. Is either a password, or an authentication certificate.</td><td>Password or Private Key (Certificate)</td></tr><tr><td>Authentication Credentials</td><td>Depending on the authentication method, either the password or the certificate.</td><td>Varies</td></tr></tbody></table>
 
 
 
