@@ -108,6 +108,7 @@
   * [Generic HTTP Adapter](glyue-technical-reference/adapters/generic-http-adapter.md)
   * [Email SMTP Adapter](glyue-technical-reference/adapters/email-smtp-adapter.md)
 * [Web Service Endpoints](reference/web-service-endpoints.md)
+* [Vault Reference](reference/vault-reference.md)
 
 ## Glyue Platform Reference
 
