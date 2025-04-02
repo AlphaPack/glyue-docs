@@ -99,6 +99,8 @@ with open_vault('my-vault') as vault:
 debug(my_data, label="Here's what was in the vault")
 ```
 
+<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+
 If you do the above, and run your integration, you should see this in your run history
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-04-02 at 11.44.02 AM.png" alt=""><figcaption></figcaption></figure>
