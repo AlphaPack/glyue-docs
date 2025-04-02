@@ -8,15 +8,11 @@ Before continuing, this user should be an Okta admin for the organization, and a
 
 From the Okta dashboard, find **Applications** on the left-hand panel and select **Applications** under it.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click the **Create App Integration** button.
 
-<div data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Select **SAML 2.0** and click **Next**
 
@@ -24,7 +20,7 @@ Select **SAML 2.0** and click **Next**
 
 Give the app a name. We suggest something like **Glyue DEV**, **Glyue PROD** etc. Click **Next**.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Provide Glyue’s SAML info to Okta <a href="#oktasso-basicsetuphowto-provideglyuessamlinfotookta" id="oktasso-basicsetuphowto-provideglyuessamlinfotookta"></a>
 
@@ -38,7 +34,7 @@ Glyue always serves its metadata at `https://` (custom domain) `/sso/saml2/metad
 
 In the XML document, locate an element named `AssertionConsumerService` and grab the URL from its `Location` attribute (do not include the `"`).
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In most cases this will be `https://`\[domain]`/sso/saml2/acs/`
 
@@ -46,19 +42,15 @@ In most cases this will be `https://`\[domain]`/sso/saml2/acs/`
 
 In the XML document, locate the first element `EntityDescriptor` and grab the value for its `entityID` attribute. In most cases this will be the same URL of Glyue’s metadata (do not include the `"`).
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<div data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### **Attribute Statements** <a href="#oktasso-basicsetuphowto-attributestatements" id="oktasso-basicsetuphowto-attributestatements"></a>
 
 Although the Okta wizard says it is optional, it is actually necessary. Add an attribute called `email`, with `URI Reference` for its **Name format**. Select `user.email` as the **Value**.
 
-<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click **Next,** provide feedback to Okta if so inclined, and click **Finish**.
 

@@ -62,6 +62,7 @@
   * [Okta Setup](how-to-guides/how-to-set-up-single-sign-on-sso/okta-setup.md)
   * [Glyue SAML Config Reference](how-to-guides/how-to-set-up-single-sign-on-sso/glyue-saml-config-reference.md)
 * [How to Install the Glyue App for Zoom Contact Center](how-to-guides/how-to-install-the-glyue-app-for-zoom-contact-center.md)
+* [How to use the Vault](how-to-guides/how-to-use-the-vault.md)
 
 ## Reference
 

@@ -2,7 +2,7 @@
 
 Now we are looking at a **Field Mapping** in the **Build** page. The **Build** page is designed to resemble and function similarly to a spreadsheet. Much like a spreadsheet, there are several headers at the top. The columns we will focus on are under the headers `Source Record Type`, `Source Field Name`, `Target Record Type` and `Target Field Name`
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 These columns are sort of like labels for the integration template that's been installed.&#x20;
 
@@ -26,12 +26,12 @@ Through the **Pre-Mapping** and **Mapping** phases, we are going to be spending 
 
 1.  The columns in the build page are somewhat narrow by default and may be too narrow to see the full entries. Hover your mouse cursor over the boundary between columns, click and drag to the right to expand the width of the column to your liking
 
-    <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 2. You can order each column's values by numeric or alphabetical order or reverse numeric or alphabetical order. Try clicking on the header of your choosing and order the values back and forth.
 3.  At the moment, we only care about the 4 columns mentioned plus the `Comments` and `Status` columns (we'll cover these in the next sections). There are a lot of other columns and we won't need to pay attention to most of them until later in the project. We can decide which columns to show and hide by using the **Show Columns** drop-down:\
 
 
-    <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
     NOTE: The **Field Mapping** page(s) will be filtered by default when accessing them through the **Bookmarks**.
 4. Let's click on the **Show Columns** drop-down and select `Comments`, `Source Record Type`, `Source Field Name`, `Target Record Type` and `Target Field Name`, `Status` so that it looks like this:

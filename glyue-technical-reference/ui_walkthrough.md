@@ -66,7 +66,7 @@ To create a new Integration, a wizard will take you through the required and opt
 
 #### Step 1 — Configure Integration
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>First page of the Integration Configure Wizard – "Integration Config"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>First page of the Integration Configure Wizard – "Integration Config"</p></figcaption></figure>
 
 1. Name of the integration
 2. Description for the integration
@@ -87,7 +87,7 @@ To create a new Integration, a wizard will take you through the required and opt
 
 #### Step 2 —Systems (adapters)
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Second page of the Integration Configure Wizard – "Systems"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Second page of the Integration Configure Wizard – "Systems"</p></figcaption></figure>
 
 1. Clears all changes on the page.&#x20;
 2. Saves changes to adapter bindings. When setting up a new Integration, any Systems added will need to be saved before you can `CONTINUE` to the next step
@@ -99,6 +99,6 @@ To create a new Integration, a wizard will take you through the required and opt
 
 #### Step 3 — Permissions
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Third page of the Integration Configure Wizard – "Permissions"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Third page of the Integration Configure Wizard – "Permissions"</p></figcaption></figure>
 
 This page is used to set Read, Write, Execute, and Debug permissions for each user on the new integration. A description of each permission can be found at [#integration-permissions](../glyue-platform-reference/integration_configuration.md#integration-permissions "mention").

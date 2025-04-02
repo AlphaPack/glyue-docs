@@ -26,4 +26,4 @@ Ensure that the "Value Type" column for each of these rows is set to `str` which
 \
 Save the changes that you've added.
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>

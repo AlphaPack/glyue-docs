@@ -94,11 +94,11 @@ Navigate back to the **Swagger** page and execute the web service endpoint `/res
 
 Insert another customer as shown in the image below and execute the web service endpoint `/rest/add_customer`.
 
-<figure><img src="../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Afterwards, execute the web service endpoint `/rest/get_all_customers`. You should see both customers in the body of the response.
 
-<div align="center"><figure><img src="../../.gitbook/assets/image (11) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (11) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ### Get Customer By Id
 
@@ -135,7 +135,7 @@ Click on the **Save** button below.&#x20;
 
 Next, create the following field mapping rows for the service request `modify_customer`.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the field mapping table, we are using the **Call If** column to omit or include a field and value in `response.payload` based on the existence of the field in `input.payload`.&#x20;
 

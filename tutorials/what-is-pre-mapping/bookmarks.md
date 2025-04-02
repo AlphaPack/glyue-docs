@@ -14,18 +14,18 @@ Each Integration template will have a set of **Bookmarks** for the integration a
 3.  Click on **Bookmarks** to navigate to its page which will look something like this (NOTE: the specific sections for your integration may vary). This page lists the **Bookmark Sections**; a **Section** is a specific collection of **Bookmarks** grouped by a common category:\
 
 
-    <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 4.  To the left of each **Section** with the folder icon is a triangle to expand the view. To the right are buttons for editing and adding new **Bookmarks** which will be explored another time. Click on any of the **Sections** to expand its contents.\
 
 
-    <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 5.  Each **Bookmark** for the **Section** will be listed here with a title/link, description, and tabulation of total rows, comments, and rows whose comments are resolved. Click on one of the links to view its **Field Mapping(s)**.\
     \
     You'll know you've reached the **Field Mapping** portion of the **Build Page** if the **Component** dropdown in the upper left has **Field Mapping** selected.\
     \
 
 
-    <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Suppose you don't see **Field Mapping** in the **Component** menu. In that case, you can go back to Step 4 and select another **Bookmark** (The Sandbox Banking Project Manager or Solutions Engineer can assist if you have trouble identifying the correct Bookmark(s)).\
