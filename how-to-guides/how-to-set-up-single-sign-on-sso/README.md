@@ -1,6 +1,6 @@
 # How to Set Up Single Sign On (SSO)
 
-​[Single Sign-On](https://en.wikipedia.org/wiki/Single_sign-on) (SSO) is a demanded feature for most contemporary web applications, as it allows for centralized user access control by the business or organization. Users also do not need to worry about forgetting passwords, as they only need their SSO login details to access any of their connected applications.
+​[Single Sign-On](https://en.wikipedia.org/wiki/Single_sign-on) (SSO) is a demanded feature for many enterprise web applications, as it allows for centralized user access control by the business or organization. Users also do not need to remember passwords, as they only need their SSO login details to access any of their connected applications.
 
 #### Brief Overview of SAML and Glyue SSO <a href="#glyuesso-explanation-briefoverviewofsamlandglyuesso" id="glyuesso-explanation-briefoverviewofsamlandglyuesso"></a>
 
@@ -26,7 +26,7 @@ Before any of that could happen, though, the service and ID providers had to est
 
 1. A Glyue administrator configures and activates SAML SSO and then provides a metadata file to the other organization.
 2. An IdP administrator at the organization adds Glyue as an SP, uploads the metadata, and configures as necessary. They provide another metadata file back to the Glyue admin.
-3. The Glyue admin adds the IdP and uploads its metadata.
+3. The Glyue admin creates the IdP record and uploads its metadata.
 
 Once done, the IdP should appear on the Glyue login screen as an option for users.
 
@@ -38,17 +38,11 @@ Once done, the IdP should appear on the Glyue login screen as an option for user
 
 #### Does a user need an account in Glyue before being able to log in via SSO?
 
-> No.  By default users are auto-created if coming from an installed IdP.
+> No, by default users signing in via SSO will have an account created at that time automatically.  This feature can be toggled off if asked, which will enforce login only by existing users in Glyue.
 >
-> This feature can be toggled off if asked.
->
-> On the Identity Provider record on the Admin site, it can be set to automatically add users to an organization and/or mark as staff.  If the Default Staff Group or Default Non-Staff Group are set on the Global Config, new users will be added to those groups as appropriate depending on staff status.
+> On the Identity Provider record on the Glyue Admin site, it can be set to automatically add users to an organization and/or mark as staff.  If the Default Staff Group or Default Non-Staff Group are set on the Global Config, new users will be added to those groups as appropriate depending on staff status.
 >
 > This way, user onboarding can be completely automated, so new users are added to your Organization (if using Organizations) as well as added to a Group with permissions to certain integrations.
-
-#### Is it possible for Glyue to create user accounts as needed if they come from a trusted IdP?
-
-> Not at this time, but if you want this feature added to Glyue please let us know!
 
 #### Can I restrict users to logging in with SSO only?
 
