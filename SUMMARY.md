@@ -7,8 +7,7 @@
 * [Start Here](tutorials/start-here.md)
 * [Building a Single-Step Integration](tutorials/building-a-single-step-integration/README.md)
   * [1. Creating the Integration](tutorials/building-a-single-step-integration/1.-creating-the-integration.md)
-  * [2. Calling the External System](tutorials/building-a-single-step-integration/2.-calling-the-external-system/README.md)
-    * [Buildhelper](tutorials/building-a-single-step-integration/2.-calling-the-external-system/buildhelper.md)
+  * [2. Calling the External System](tutorials/building-a-single-step-integration/2.-calling-the-external-system.md)
   * [3. Running the Integration](tutorials/building-a-single-step-integration/3.-running-the-integration.md)
   * [4. Crafting the Output](tutorials/building-a-single-step-integration/4.-crafting-the-output.md)
 * [Building a Multi-System Integration](tutorials/building-a-multi-system-integration/README.md)
@@ -125,6 +124,7 @@
 * [Arbitrary Integration Request Content Support](glyue-platform-reference/arbitrary-integration-request-content-support.md)
 * [Admin Components](glyue-platform-reference/integration_configuration.md)
 * [Logging](glyue-platform-reference/logging.md)
+* [Buildhelper](glyue-platform-reference/buildhelper.md)
 
 ## ETL
 

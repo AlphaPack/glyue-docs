@@ -6,6 +6,10 @@ Buttons on the Integration Builder Toolbar enables users to add, duplicate and c
 
 <figure><img src="../.gitbook/assets/glyue_toolbar_20221024.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+A new feature, [**Buildhelper**](../glyue-platform-reference/buildhelper.md)**,** is now available to help create new Service Requests with pre-created fields for various external Systems / APIs.
+{% endhint %}
+
 ***
 
 ## Filters

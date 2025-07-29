@@ -26,7 +26,7 @@ Asynchronous integrations are a unique case and return an output immediately mar
 
 #### State
 
-Integrations have a success / failure state. The control of this state is flexible and can be triggered at will throughout the life of the integration using the special function [#end](special\_functions/#end "mention"). Both service requests and validation rules contain the ability to set the integration into a failure state.
+Integrations have a success / failure state. The control of this state is flexible and can be triggered at will throughout the life of the integration using the special function [#end](special_functions/#end "mention"). Both service requests and validation rules contain the ability to set the integration into a failure state.
 
 ## Service Requests
 
@@ -66,6 +66,10 @@ people_service[sridx] == sritem
 
 ## Field Mappings
 
+{% hint style="success" %}
+A new feature, [**Buildhelper**](../glyue-platform-reference/buildhelper.md), is now available to assist in creating new Service Requests with pre-created Field Mappings for various external Systems / APIs.
+{% endhint %}
+
 Field mappings define the structure of the service request. Adapters generally have a few required field mappings such as `service_path` and `method`.
 
 Field mappings contain the ability to be applied multiple times via an iterable provided to `include_for_each`. This exposes the following variables to be used within the field mapping code blocks.
@@ -92,7 +96,7 @@ payload: {
 
 ## Value Mapping Sets
 
-Value Mapping Sets define a collection of Value Mappings. These are tied to an integration and can be accessed anywhere within the integration via the [#map\_value](special\_functions/#map\_value "mention") special function.
+Value Mapping Sets define a collection of Value Mappings. These are tied to an integration and can be accessed anywhere within the integration via the [#map\_value](special_functions/#map_value "mention") special function.
 
 ## Value Mappings
 
