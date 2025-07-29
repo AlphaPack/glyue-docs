@@ -67,7 +67,7 @@ people_service[sridx] == sritem
 ## Field Mappings
 
 {% hint style="success" %}
-A new feature, [**Buildhelper**](../glyue-platform-reference/buildhelper.md), is now available to assist in creating new Service Requests with pre-created Field Mappings for various external Systems / APIs.
+A new feature, [**Buildhelper**](../tutorials/building-a-single-step-integration/2.-calling-the-external-system/buildhelper.md), is now available to assist in creating new Service Requests with pre-created Field Mappings for various external Systems / APIs.
 {% endhint %}
 
 Field mappings define the structure of the service request. Adapters generally have a few required field mappings such as `service_path` and `method`.

@@ -8,7 +8,7 @@ Here's a checklist of prerequisites you'll need for Pre-Mapping:
 * Access to your [Help Center (Jira Portal)](https://alphapack.atlassian.net/servicedesk/customer/portals)
 
 {% hint style="success" %}
-A new feature, [Buildhelper](../../glyue-platform-reference/buildhelper.md), is now available and can be used to import pre-created fields for various external Systems / APIs.
+A new feature, [Buildhelper](../building-a-single-step-integration/2.-calling-the-external-system/buildhelper.md), is now available and can be used to import pre-created fields for various external Systems / APIs.
 {% endhint %}
 
 {% hint style="info" %}
