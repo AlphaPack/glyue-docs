@@ -13,20 +13,14 @@
 
 ## Field Mappings <a href="#emailsmtpadapter-fieldmappings" id="emailsmtpadapter-fieldmappings"></a>
 
-| **Field**     | **Value**                                                                                                                                                                                                         | **Value Type** | **example**                                                                                                                                   |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| subject       | `required` The subject line of the email                                                                                                                                                                          | `str`          | `f"Integration {integration_name} has failed on {date_time}"`                                                                                 |
-| from\_address | `required` The address the email is coming from                                                                                                                                                                   | `str`          | `mailbot@alphapack.co`                                                                                                                        |
-| to\_addresses | `required` The address(es) that the email should be sent to                                                                                                                                                       | `list`         | `["test@email.com", "test2@email.com", "test3@email.com"]`                                                                                    |
-| body          | `required`                                                                                                                                                                                                        | `str`          |                                                                                                                                               |
-| attachments   | <p><code>optional</code> List of attachments on the email as a list of dicts</p><p>name: intended file name</p><p>type: file MIME type</p><p>payload: file content (bytes) <strong>NOT A BYTE STREAM</strong></p> | `list`         | <pre><code>[
+<table data-header-hidden><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Field</strong></td><td><strong>Value</strong></td><td><strong>Value Type</strong></td><td><strong>example</strong></td></tr><tr><td>subject</td><td><code>required</code> The subject line of the email</td><td><code>str</code></td><td><code>f"Integration {integration_name} has failed on {date_time}"</code></td></tr><tr><td>from_address</td><td><code>required</code> The address the email is coming from</td><td><code>str</code></td><td><code>mailbot@alphapack.co</code></td></tr><tr><td>to_addresses</td><td><code>required</code> The address(es) that the email should be sent to</td><td><code>list</code></td><td><code>["test@email.com", "test2@email.com", "test3@email.com"]</code></td></tr><tr><td>body</td><td><code>required</code></td><td><code>str</code></td><td></td></tr><tr><td>attachments</td><td><p><code>optional</code> List of attachments on the email as a list of dicts</p><p>name: intended file name</p><p>type: file MIME type</p><p>payload: file content (bytes) <strong>NOT A BYTE STREAM</strong></p></td><td><code>list</code></td><td><pre><code>[
 {
     "name": "Test File",
     "type": "text/html",
     "payload": &#x3C;_io.BytesIO object at 0x7g8j214f0h54>
 }
 ]
-</code></pre> |
+</code></pre></td></tr></tbody></table>
 
 ## Service Request and Field Mapping Examples <a href="#emailsmtpadapter-servicerequestandfieldmappingexamples" id="emailsmtpadapter-servicerequestandfieldmappingexamples"></a>
 
